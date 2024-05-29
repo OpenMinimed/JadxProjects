@@ -3,7 +3,43 @@
   "files": [
     "MiniMed_Mobile_220_original.apk"
   ],
-  "treeExpansions": [],
+  "treeExpansions": [
+    [
+      "com",
+      "Source code",
+      "MiniMed_Mobile_220_original.apk"
+    ],
+    [
+      "medtronic",
+      "com",
+      "Source code",
+      "MiniMed_Mobile_220_original.apk"
+    ],
+    [
+      "minimed",
+      "medtronic",
+      "com",
+      "Source code",
+      "MiniMed_Mobile_220_original.apk"
+    ],
+    [
+      "data",
+      "minimed",
+      "medtronic",
+      "com",
+      "Source code",
+      "MiniMed_Mobile_220_original.apk"
+    ],
+    [
+      "utilities",
+      "data",
+      "minimed",
+      "medtronic",
+      "com",
+      "Source code",
+      "MiniMed_Mobile_220_original.apk"
+    ]
+  ],
   "codeData": {
     "comments": [],
     "renames": [
@@ -72,6 +108,77 @@
       },
       {
         "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "z9.a"
+        },
+        "newName": "SakeError"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "a5.g",
+          "shortId": "a:Ly4/d;"
+        },
+        "newName": "IMobileApprovedConfigurationsManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "a5.g",
+          "shortId": "b:Ly5/c;"
+        },
+        "newName": "isecuritymanager"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "a5.g",
+          "shortId": "c:Ly4/a;"
+        },
+        "newName": "CurrentMobileConfiguration"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "a5.g",
+          "shortId": "d:La5/i;"
+        },
+        "newName": "securityStatusToConfigurationStatus"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "a5.g",
+          "shortId": "e:La5/a;"
+        },
+        "newName": "compatibilityStatusToConfigurationStatus"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "a5.g",
+          "shortId": "f:Ly4/d$a;"
+        },
+        "newName": "PHONE_SUPPORTED_STATE"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.a4",
+          "shortId": "b:Lcom/medtronic/teneo/models/SecureSession;"
+        },
+        "newName": "secureSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "z9.a",
+          "shortId": "l:Lz9/a;"
+        },
+        "newName": "sake_device_type_not_supported"
+      },
+      {
+        "nodeRef": {
           "refType": "METHOD",
           "declClass": "a5.g",
           "shortId": "\u003cinit\u003e(Ly4/d;Ly5/c;Ly4/a;La5/i;La5/a;)V"
@@ -137,39 +244,83 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.y3",
+          "shortId": "I0(Lcom/medtronic/minimed/ngpsdk/securesession/api/a4;)Z"
+        },
+        "newName": "isConnected"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.teneo.RequestFactory",
+          "shortId": "create(Ljava/net/URL;Lcom/medtronic/teneo/HttpMethod;Ljava/util/Map;Ljava/util/Map;Lcom/medtronic/teneo/bodybuilders/BodyBuilder;)Lcom/medtronic/teneo/Request;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "headers"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "m6.z0",
           "shortId": "o0()Z"
         },
         "newName": "getValidty"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "o9.x",
+          "shortId": "r([B)[B"
+        },
+        "newName": "sake_decrypt_something"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "y5.c",
+          "shortId": "a()Z"
+        },
+        "newName": "isCommunicationAllowed"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "y5.c",
+          "shortId": "b()Lio/reactivex/j;"
+        },
+        "newName": "something_message"
       }
     ]
   },
   "openTabs": [
     {
       "type": "class",
-      "tabPath": "com.medtronic.minimed.service.o",
+      "tabPath": "u8.o",
       "subPath": "java",
-      "caret": 15092,
+      "caret": 152,
       "view": {
         "x": 0,
-        "y": 3039
+        "y": 0
       }
     },
     {
       "type": "class",
-      "tabPath": "m6.a",
+      "tabPath": "com.medtronic.minimed.data.utilities.MobileSecurityUtil$a",
       "subPath": "java",
-      "caret": 5576,
+      "caret": 222,
       "view": {
         "x": 0,
-        "y": 1260
+        "y": 0
       }
     },
     {
       "type": "class",
       "tabPath": "com.medtronic.minimed.data.carelink.model.MobileSecurityConfigurations",
       "subPath": "java",
-      "caret": 168,
+      "caret": 170,
       "view": {
         "x": 0,
         "y": 0
@@ -179,7 +330,7 @@
       "type": "class",
       "tabPath": "y5.i",
       "subPath": "java",
-      "caret": 4397,
+      "caret": 5387,
       "view": {
         "x": 0,
         "y": 1678
@@ -189,50 +340,20 @@
       "type": "class",
       "tabPath": "y5.c",
       "subPath": "java",
-      "caret": 453,
+      "caret": 546,
       "view": {
         "x": 0,
         "y": 0
-      }
-    },
-    {
-      "type": "class",
-      "tabPath": "io.reactivex.j",
-      "subPath": "java",
-      "caret": 6241,
-      "view": {
-        "x": 0,
-        "y": 2358
       }
     },
     {
       "type": "class",
       "tabPath": "a5.g",
       "subPath": "java",
-      "caret": 6946,
+      "caret": 6674,
       "view": {
         "x": 0,
-        "y": 1880
-      }
-    },
-    {
-      "type": "class",
-      "tabPath": "a5.i",
-      "subPath": "java",
-      "caret": 353,
-      "view": {
-        "x": 0,
-        "y": 0
-      }
-    },
-    {
-      "type": "class",
-      "tabPath": "com.medtronic.minimed.bl.configmonitor.DeviceConfigurationMonitor",
-      "subPath": "java",
-      "caret": 1119,
-      "view": {
-        "x": 0,
-        "y": 0
+        "y": 1619
       }
     },
     {
@@ -247,9 +368,9 @@
     },
     {
       "type": "class",
-      "tabPath": "a5.j",
+      "tabPath": "a5.i",
       "subPath": "java",
-      "caret": 752,
+      "caret": 395,
       "view": {
         "x": 0,
         "y": 0
@@ -259,7 +380,7 @@
       "type": "class",
       "tabPath": "y4.d",
       "subPath": "java",
-      "caret": 224,
+      "caret": 737,
       "view": {
         "x": 0,
         "y": 0
@@ -267,105 +388,93 @@
     },
     {
       "type": "class",
-      "tabPath": "y4.a",
+      "tabPath": "o9.x",
       "subPath": "java",
-      "caret": 251,
+      "caret": 10751,
       "view": {
         "x": 0,
-        "y": 162
-      }
-    },
-    {
-      "type": "class",
-      "tabPath": "a5.h",
-      "subPath": "java",
-      "caret": 1090,
-      "view": {
-        "x": 315,
-        "y": 0
-      }
-    },
-    {
-      "type": "class",
-      "tabPath": "a5.a",
-      "subPath": "java",
-      "caret": 391,
-      "view": {
-        "x": 0,
-        "y": 30
+        "y": 4335
       }
     },
     {
       "type": "class",
       "tabPath": "com.medtronic.minimed.bl.notification.v0",
       "subPath": "java",
-      "caret": 4551,
+      "caret": 5281,
       "view": {
         "x": 0,
-        "y": 2242
+        "y": 2148
       }
     },
     {
       "type": "class",
-      "tabPath": "m6.z0",
+      "tabPath": "com.medtronic.minimed.bl.configmonitor.DeviceConfigurationMonitor",
       "subPath": "java",
-      "caret": 34628,
-      "view": {
-        "x": 0,
-        "y": 12866
-      }
-    },
-    {
-      "type": "class",
-      "tabPath": "b6.a",
-      "subPath": "java",
-      "caret": 5586,
-      "view": {
-        "x": 0,
-        "y": 1832
-      }
-    },
-    {
-      "type": "class",
-      "tabPath": "l4.c",
-      "subPath": "java",
-      "caret": 5240,
-      "view": {
-        "x": 0,
-        "y": 1606
-      }
-    },
-    {
-      "type": "class",
-      "tabPath": "k4.a",
-      "subPath": "java",
-      "caret": 1082,
-      "view": {
-        "x": 0,
-        "y": 206
-      }
-    },
-    {
-      "type": "class",
-      "tabPath": "com.ca.mas.core.storage.sharedstorage.MASAuthenticatorService",
-      "subPath": "java",
-      "caret": 428,
+      "caret": 893,
       "view": {
         "x": 0,
         "y": 0
       }
+    },
+    {
+      "type": "class",
+      "tabPath": "y9.b",
+      "subPath": "java",
+      "caret": 5017,
+      "view": {
+        "x": 0,
+        "y": 1894
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "z9.a",
+      "subPath": "java",
+      "caret": 3214,
+      "view": {
+        "x": 0,
+        "y": 1416
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "com.medtronic.minimed.sake.SAKE_SERVER_S",
+      "subPath": "java",
+      "caret": 972,
+      "view": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "class",
+      "tabPath": "com.medtronic.minimed.ngpsdk.connect.pump.sake.d",
+      "subPath": "java",
+      "caret": 3704,
+      "view": {
+        "x": 0,
+        "y": 1126
+      }
     }
   ],
-  "activeTab": 20,
+  "activeTab": 13,
   "cacheDir": "MiniMed_Mobile_220_original.apk.cache",
   "enableLiveReload": false,
   "searchHistory": [
+    "device_type",
+    "keys decryption failed",
+    "rooted",
+    "mobilesecurityutil",
+    "sake",
+    "attestation",
+    "websocket",
+    "import com.medtronic.teneo",
+    "diab001",
     "SakeServerImpl",
     "Sake handshake failed with error",
     "cannot retrieve the sake",
     "Cannot ret",
     "onCharacteristicRead",
-    "sake",
     "ahhgnkhesr",
     "CarelinkAnalyticsCollector",
     "Applying US logger ",

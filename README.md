@@ -4,8 +4,7 @@ This is a brief overview of Java apps reversed using [jadx](https://github.com/s
 
 This repository does not contain the actual apps, only the jadx project files. You can download the APKs either from your Android phone (if you already installed the app) or from sites such as [APKpure](https://apkpure.com/). Use the information below to get the correct version. Download the CareLink Uploader from Medtronic through their CareLink website.
 
-Before loading the projects in jadx, open the .jadx file in a text editor and fix the path in the `files` entry to point to the .apk or .jar file on your disk.
-
+After downloading, put the APKs and JARs into the same directory as the .jadx files and rename them to match the filename of the respective .jadx file (without the .jadx extension).
 
 Unless noted otherwise, the .jadx project files were created using jadx 1.5.3.
 

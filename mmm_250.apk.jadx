@@ -1,7 +1,7 @@
 {
   "projectVersion": 1,
   "files": [
-    "../../apks/com.medtronic.diabetes.minimedmobile.eu/com.medtronic.diabetes.minimedmobile.eu_2.5.0.apk"
+    "mmm_250.apk"
   ],
   "treeExpansionsV2": [
     "c:com.medtronic.minimed.data.pump.ble.profile.client.ids.converters.history.BolusEventPart1DataConverter",

@@ -1,7 +1,7 @@
 {
   "projectVersion": 2,
   "files": [
-    "../../../../../../../run/media/marci/C/Program Files/Medtronic/Carelink/Uploader/DSS/uploader.jar"
+    "uploader.jar"
   ],
   "treeExpansionsV2": [
     "p:com.medtronic.diabetes.solar.uploader.wizard.desktop",

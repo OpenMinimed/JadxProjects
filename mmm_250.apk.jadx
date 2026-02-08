@@ -19,7 +19,17 @@
     "p:e8"
   ],
   "codeData": {
-    "comments": [],
+    "comments": [
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ge.x2",
+          "shortId": "Z0(ZLjava/lang/String;)Lcom/medtronic/minimed/connect/ble/api/gap/k;"
+        },
+        "comment": "Create data for manufacturer-specific advertising data.\n.\n505 (0x01f9) is Medtronic\u0027s Bluetooth company ID.\nThe UUID changes depending on the \"forPairing\" argument. Also the first\nbyte of the actual data: 0x00 if the flag is set, 0x80 otherwise.\n.",
+        "style": "LINE"
+      }
+    ],
     "renames": [
       {
         "nodeRef": {
@@ -90,6 +100,13 @@
           "declClass": "com.medtronic.minimed.bl.configmonitor.b"
         },
         "newName": "DeviceConfigurationMonitorImpl"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gap.k$a"
+        },
+        "newName": "Factory"
       },
       {
         "nodeRef": {
@@ -440,6 +457,13 @@
           "declClass": "hj.b"
         },
         "newName": "Disposable"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "ie.a$a"
+        },
+        "newName": "EventType"
       },
       {
         "nodeRef": {
@@ -1016,6 +1040,102 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gap.k",
+          "shortId": "a:Lcom/medtronic/minimed/connect/ble/api/gap/a;"
+        },
+        "newName": "advDataType"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gap.k",
+          "shortId": "b:Ljava/util/List;"
+        },
+        "newName": "manufacturerData"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gap.k",
+          "shortId": "c:Ljava/util/List;"
+        },
+        "newName": "serviceUuids"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gap.k",
+          "shortId": "d:Ljava/util/List;"
+        },
+        "newName": "serviceData"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gap.k",
+          "shortId": "e:Z"
+        },
+        "newName": "includeDeviceName"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gap.k",
+          "shortId": "f:Z"
+        },
+        "newName": "includeTxPowerLevel"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gap.k$a",
+          "shortId": "a:Lcom/medtronic/minimed/connect/ble/api/gap/a;"
+        },
+        "newName": "advDataType"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gap.k$a",
+          "shortId": "b:Ljava/util/List;"
+        },
+        "newName": "manufacturerData"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gap.k$a",
+          "shortId": "c:Ljava/util/List;"
+        },
+        "newName": "serviceUuids"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gap.k$a",
+          "shortId": "d:Ljava/util/List;"
+        },
+        "newName": "serviceData"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gap.k$a",
+          "shortId": "e:Z"
+        },
+        "newName": "includeDeviceName"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gap.k$a",
+          "shortId": "f:Z"
+        },
+        "newName": "includeTxPowerLevel"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "com.medtronic.minimed.connect.ble.proxy.ble.server.a",
           "shortId": "a:Landroid/bluetooth/BluetoothGattServer;"
         },
@@ -1276,6 +1396,118 @@
           "shortId": "h:Ljava/util/concurrent/atomic/AtomicReference;"
         },
         "newName": "f26894"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ge.x2",
+          "shortId": "e:Lme/h;"
+        },
+        "newName": "sakeHandshakeManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ge.x2",
+          "shortId": "g:Lgd/a;"
+        },
+        "newName": "deviceInfoService"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ge.x2",
+          "shortId": "h:Lje/c;"
+        },
+        "newName": "pumpCompatChecker"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ge.x2",
+          "shortId": "j:Ltd/s;"
+        },
+        "newName": "nosManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ge.x2",
+          "shortId": "k:Lmd/a;"
+        },
+        "newName": "pubKeyExchangeApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ge.x2",
+          "shortId": "m:Lio/reactivex/b0;"
+        },
+        "newName": "scheduler"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ge.x2",
+          "shortId": "n:Lqe/a;"
+        },
+        "newName": "analyticsTracker"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ge.x2",
+          "shortId": "o:Lwl/c;"
+        },
+        "newName": "logger"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "he.a",
+          "shortId": "a:J"
+        },
+        "newName": "passkey"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "he.a",
+          "shortId": "b:[B"
+        },
+        "newName": "publicKey"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ie.a",
+          "shortId": "a:Lie/a$a;"
+        },
+        "newName": "type"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ie.a",
+          "shortId": "b:Ljava/lang/String;"
+        },
+        "newName": "pumpAddress"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ie.a",
+          "shortId": "c:Lcom/medtronic/minimed/ngpsdk/connect/pump/client/deviceinfo/model/DeviceInfo;"
+        },
+        "newName": "deviceInfo"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ie.a",
+          "shortId": "d:Ljava/lang/Long;"
+        },
+        "newName": "passkey"
       },
       {
         "nodeRef": {
@@ -2132,6 +2364,138 @@
           "shortId": "a()Z"
         },
         "newName": "securitycheck"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gap.k",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gap/a;Ljava/util/List;Ljava/util/List;Ljava/util/List;ZZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "manufacturerData"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gap.k",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gap/a;Ljava/util/List;Ljava/util/List;Ljava/util/List;ZZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "serviceUuids"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gap.k",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gap/a;Ljava/util/List;Ljava/util/List;Ljava/util/List;ZZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "serviceData"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gap.k",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gap/a;Ljava/util/List;Ljava/util/List;Ljava/util/List;ZZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "includeDeviceName"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gap.k",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gap/a;Ljava/util/List;Ljava/util/List;Ljava/util/List;ZZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "includeTxPowerLevel"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gap.k",
+          "shortId": "a()Ljava/util/List;"
+        },
+        "newName": "manufacturerData"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gap.k",
+          "shortId": "b()Ljava/util/List;"
+        },
+        "newName": "serviceData"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gap.k",
+          "shortId": "c()Ljava/util/List;"
+        },
+        "newName": "serviceUuids"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gap.k",
+          "shortId": "d()Z"
+        },
+        "newName": "includeDeviceName"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gap.k",
+          "shortId": "e()Z"
+        },
+        "newName": "includeTxPowerLevel"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gap.k$a",
+          "shortId": "a(Lcom/medtronic/minimed/connect/ble/api/gap/c;)Lcom/medtronic/minimed/connect/ble/api/gap/k$a;"
+        },
+        "newName": "addManufacturerData"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gap.k$a",
+          "shortId": "b(Ljava/util/UUID;)Lcom/medtronic/minimed/connect/ble/api/gap/k$a;"
+        },
+        "newName": "addServiceUuid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gap.k$a",
+          "shortId": "c()Lcom/medtronic/minimed/connect/ble/api/gap/k;"
+        },
+        "newName": "createInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gap.k$a",
+          "shortId": "d(Z)Lcom/medtronic/minimed/connect/ble/api/gap/k$a;"
+        },
+        "newName": "setIncludeTxPowerLevel"
       },
       {
         "nodeRef": {
@@ -3480,6 +3844,150 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "gd.a",
+          "shortId": "a()Lio/reactivex/c0;"
+        },
+        "newName": "receiveDeviceInfo"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ge.x2",
+          "shortId": "Z0(ZLjava/lang/String;)Lcom/medtronic/minimed/connect/ble/api/gap/k;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "forPairing"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ge.x2",
+          "shortId": "Z0(ZLjava/lang/String;)Lcom/medtronic/minimed/connect/ble/api/gap/k;"
+        },
+        "newName": "getAdvertisingData"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ge.x2",
+          "shortId": "a1()Lie/a;"
+        },
+        "newName": "makeAdvStartedEvent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ge.x2",
+          "shortId": "b1(Ljava/lang/String;)Lie/a;"
+        },
+        "newName": "makeDeviceJoinedEvent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ge.x2",
+          "shortId": "b1(Ljava/lang/String;)Lie/a;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "pumpAddress"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ge.x2",
+          "shortId": "c1(Ljava/lang/String;J)Lie/a;"
+        },
+        "newName": "makePasskeyAcceptedEvent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ge.x2",
+          "shortId": "c1(Ljava/lang/String;J)Lie/a;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "pumpAddress"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ge.x2",
+          "shortId": "c1(Ljava/lang/String;J)Lie/a;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "passkey"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ge.x2",
+          "shortId": "d1(Ljava/lang/String;)Lie/a;"
+        },
+        "newName": "makePasskeyEnteredEvent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ge.x2",
+          "shortId": "e1(Ljava/lang/String;)Lie/a;"
+        },
+        "newName": "makeWaitingForPasskeyEvent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ge.x2",
+          "shortId": "e1(Ljava/lang/String;)Lie/a;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "pumpAddress"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ge.x2",
+          "shortId": "f1(Ljava/lang/String;Lcom/medtronic/minimed/ngpsdk/connect/pump/client/deviceinfo/model/DeviceInfo;)Lie/a;"
+        },
+        "newName": "makePumpConnectedEvent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ge.x2",
+          "shortId": "f1(Ljava/lang/String;Lcom/medtronic/minimed/ngpsdk/connect/pump/client/deviceinfo/model/DeviceInfo;)Lie/a;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "pumpAddress"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ge.x2",
+          "shortId": "g1(BLjava/lang/String;)[B"
+        },
+        "newName": "stringToByteArray"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "ge.x2",
           "shortId": "k3(J)Lio/reactivex/c;"
         },
@@ -3493,11 +4001,107 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "ge.x2",
+          "shortId": "o2(Ljava/lang/Throwable;)Lio/reactivex/g;"
+        },
+        "newName": "raiseHandshakeError"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ge.x2",
+          "shortId": "o3(Ljava/lang/String;Ljava/lang/Long;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "deviceAddress"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ge.x2",
           "shortId": "o3(Ljava/lang/String;Ljava/lang/Long;)Lio/reactivex/c;"
         },
         "codeRef": {
           "attachType": "VAR",
           "index": 393216
+        },
+        "newName": "passkey"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "he.a",
+          "shortId": "\u003cinit\u003e(J[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "passkey"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "he.a",
+          "shortId": "\u003cinit\u003e(J[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "publicKey"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "he.a",
+          "shortId": "a()J"
+        },
+        "newName": "getPasskey"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "he.a",
+          "shortId": "b()[B"
+        },
+        "newName": "getPublicKey"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ie.a",
+          "shortId": "\u003cinit\u003e(Lie/a$a;Ljava/lang/String;Lcom/medtronic/minimed/ngpsdk/connect/pump/client/deviceinfo/model/DeviceInfo;Ljava/lang/Long;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "type"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ie.a",
+          "shortId": "\u003cinit\u003e(Lie/a$a;Ljava/lang/String;Lcom/medtronic/minimed/ngpsdk/connect/pump/client/deviceinfo/model/DeviceInfo;Ljava/lang/Long;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "pumpAddress"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ie.a",
+          "shortId": "\u003cinit\u003e(Lie/a$a;Ljava/lang/String;Lcom/medtronic/minimed/ngpsdk/connect/pump/client/deviceinfo/model/DeviceInfo;Ljava/lang/Long;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
         },
         "newName": "passkey"
       },
@@ -3516,6 +4120,14 @@
           "shortId": "A(Lkj/g;)Lio/reactivex/c;"
         },
         "newName": "doOnSubscribe"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "C(Ljava/lang/Throwable;)Lio/reactivex/c;"
+        },
+        "newName": "error"
       },
       {
         "nodeRef": {

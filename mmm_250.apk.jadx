@@ -32,6 +32,15 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.sake.d",
+          "shortId": "e([B)[B"
+        },
+        "comment": "generate response to handshake input\n.",
+        "style": "LINE"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "ge.x2",
           "shortId": "Z0(ZLjava/lang/String;)Lcom/medtronic/minimed/connect/ble/api/gap/k;"
         },
@@ -1348,7 +1357,7 @@
           "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.sake.d",
           "shortId": "c:Lme/a;"
         },
-        "newName": "sake_server_status"
+        "newName": "serverStatus"
       },
       {
         "nodeRef": {
@@ -1364,7 +1373,7 @@
           "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.sake.d",
           "shortId": "e:Lcom/medtronic/minimed/sake/p_uint8_t;"
         },
-        "newName": "key_len"
+        "newName": "keys_s"
       },
       {
         "nodeRef": {
@@ -1380,7 +1389,7 @@
           "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.sake.d",
           "shortId": "g:Lwl/c;"
         },
-        "newName": "sake_logger"
+        "newName": "logger"
       },
       {
         "nodeRef": {
@@ -1828,7 +1837,7 @@
           "declClass": "jf.b",
           "shortId": "d:Ljf/b;"
         },
-        "newName": "HandshakeFaile"
+        "newName": "HandshakeFailed"
       },
       {
         "nodeRef": {
@@ -1853,6 +1862,86 @@
           "shortId": "g:I"
         },
         "newName": "nextId"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "jf.c",
+          "shortId": "a:J"
+        },
+        "newName": "MinSecureMessageByteCount"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "jf.c",
+          "shortId": "b:J"
+        },
+        "newName": "MaxSecureMessageByteCount"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "jf.c",
+          "shortId": "c:J"
+        },
+        "newName": "MaxUserMessageByteCount"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "jf.c",
+          "shortId": "d:J"
+        },
+        "newName": "KeyDatabaseCrcByteCount"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "jf.c",
+          "shortId": "e:J"
+        },
+        "newName": "KeyDatabaseDeviceTypeByteCount"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "jf.c",
+          "shortId": "f:J"
+        },
+        "newName": "KeyDatabaseRemoteDeviceCountByteCount"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "jf.c",
+          "shortId": "g:J"
+        },
+        "newName": "KeyDatabaseHeaderByteCount"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "jf.c",
+          "shortId": "h:J"
+        },
+        "newName": "KeyDatabaseRemotedeviceKeyCount"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "jf.c",
+          "shortId": "i:J"
+        },
+        "newName": "PasskeyByteCapacity"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "jf.c",
+          "shortId": "j:J"
+        },
+        "newName": "PermitProprietaryByteCount"
       },
       {
         "nodeRef": {
@@ -3338,6 +3427,26 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.sake.d",
+          "shortId": "a(Lme/a;)V"
+        },
+        "newName": "handleServerStatusChanged"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.sake.d",
+          "shortId": "a(Lme/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "newStatus"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.sake.d",
           "shortId": "b()V"
         },
         "newName": "checkInitialized"
@@ -3349,6 +3458,78 @@
           "shortId": "c()V"
         },
         "newName": "destroy"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.sake.d",
+          "shortId": "e([B)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65537
+        },
+        "newName": "status"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.sake.d",
+          "shortId": "e([B)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65548
+        },
+        "newName": "msgLen"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.sake.d",
+          "shortId": "e([B)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "input_s"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.sake.d",
+          "shortId": "e([B)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196613
+        },
+        "newName": "msgPtr"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.sake.d",
+          "shortId": "e([B)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "input"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.sake.d",
+          "shortId": "e([B)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393217
+        },
+        "newName": "response_s"
       },
       {
         "nodeRef": {
@@ -3436,7 +3617,7 @@
           "attachType": "VAR",
           "index": 131074
         },
-        "newName": "key_length"
+        "newName": "keys_s"
       },
       {
         "nodeRef": {
@@ -3456,6 +3637,18 @@
           "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.sake.d",
           "shortId": "k(Ljf/b;)Lme/a;"
         },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "status"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.sake.d",
+          "shortId": "k(Ljf/b;)Lme/a;"
+        },
         "newName": "translateStatus"
       },
       {
@@ -3464,7 +3657,71 @@
           "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.sake.d",
           "shortId": "l(Ljf/a;)Lme/g;"
         },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "error"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.sake.d",
+          "shortId": "l(Ljf/a;)Lme/g;"
+        },
         "newName": "translateError"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.sake.SAKE_SECURE_MESSAGE_S",
+          "shortId": "a()V"
+        },
+        "newName": "delete"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.sake.SAKE_SECURE_MESSAGE_S",
+          "shortId": "b()J"
+        },
+        "newName": "getByteCount"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.sake.SAKE_SECURE_MESSAGE_S",
+          "shortId": "c(Lcom/medtronic/minimed/sake/SAKE_SECURE_MESSAGE_S;)J"
+        },
+        "newName": "getPtr"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.sake.SAKE_SECURE_MESSAGE_S",
+          "shortId": "c(Lcom/medtronic/minimed/sake/SAKE_SECURE_MESSAGE_S;)J"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "msg"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.sake.SAKE_SECURE_MESSAGE_S",
+          "shortId": "d()Lcom/medtronic/minimed/sake/a;"
+        },
+        "newName": "getMessage"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.sake.SAKE_SECURE_MESSAGE_S",
+          "shortId": "e(J)V"
+        },
+        "newName": "setByteCount"
       },
       {
         "nodeRef": {
@@ -3848,6 +4105,18 @@
           "declClass": "com.medtronic.minimed.sake.c",
           "shortId": "k(Lcom/medtronic/minimed/sake/b;[B)V"
         },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "dest"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.sake.c",
+          "shortId": "k(Lcom/medtronic/minimed/sake/b;[B)V"
+        },
         "newName": "memmove"
       },
       {
@@ -3858,9 +4127,9 @@
         },
         "codeRef": {
           "attachType": "VAR",
-          "index": 131072
+          "index": 196608
         },
-        "newName": "ptr"
+        "newName": "src"
       },
       {
         "nodeRef": {

@@ -23,6 +23,15 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.connectionmanager.implementation.a",
+          "shortId": "b(Ljava/lang/String;)Z"
+        },
+        "comment": "check if BD_ADDR is 00:23:f7:xx:xx:xx (a private OUI)\n.",
+        "style": "LINE"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "ge.x2",
           "shortId": "Z0(ZLjava/lang/String;)Lcom/medtronic/minimed/connect/ble/api/gap/k;"
         },
@@ -1192,6 +1201,30 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.connectionmanager.implementation.a",
+          "shortId": "a:Ljava/util/Collection;"
+        },
+        "newName": "compatibleVersions"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.connectionmanager.implementation.a",
+          "shortId": "b:Ljava/util/Collection;"
+        },
+        "newName": "sake2CompatibleVersions"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.connectionmanager.implementation.a",
+          "shortId": "d:Lwl/c;"
+        },
+        "newName": "logger"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.connectionmanager.implementation.i3",
           "shortId": "n:Lne/j;"
         },
@@ -1259,7 +1292,7 @@
           "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.sake.a",
           "shortId": "h:Ljava/util/concurrent/atomic/AtomicBoolean;"
         },
-        "newName": "someBool"
+        "newName": "pumpIncompatible"
       },
       {
         "nodeRef": {
@@ -1820,6 +1853,30 @@
           "shortId": "g:I"
         },
         "newName": "nextId"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ld.a",
+          "shortId": "a:I"
+        },
+        "newName": "major"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ld.a",
+          "shortId": "b:I"
+        },
+        "newName": "minor"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ld.a",
+          "shortId": "c:I"
+        },
+        "newName": "subMinor"
       },
       {
         "nodeRef": {
@@ -2656,6 +2713,50 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.connectionmanager.implementation.a",
+          "shortId": "\u003cinit\u003e(Ljava/util/Collection;Ljava/util/Collection;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "compatibleVersions"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.connectionmanager.implementation.a",
+          "shortId": "\u003cinit\u003e(Ljava/util/Collection;Ljava/util/Collection;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "sake2CompatibleVersions"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.connectionmanager.implementation.a",
+          "shortId": "d(Lld/a;)Z"
+        },
+        "newName": "isVersionCompatible"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.connectionmanager.implementation.a",
+          "shortId": "d(Lld/a;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "version"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.connectionmanager.implementation.i3",
           "shortId": "Z1()V"
         },
@@ -2783,7 +2884,19 @@
           "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.sake.a",
           "shortId": "b0(Z)V"
         },
-        "newName": "setSomeBool"
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "bool"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.sake.a",
+          "shortId": "b0(Z)V"
+        },
+        "newName": "setPumpIncompatible"
       },
       {
         "nodeRef": {
@@ -2792,6 +2905,18 @@
           "shortId": "c(Z)Lio/reactivex/c;"
         },
         "newName": "performHandshake"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.sake.a",
+          "shortId": "c(Z)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "pumpIncompatible"
       },
       {
         "nodeRef": {
@@ -2996,6 +3121,14 @@
           "shortId": "s0()V"
         },
         "newName": "startHandshake"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.sake.a",
+          "shortId": "t0(Ljava/lang/Object;)Lio/reactivex/g;"
+        },
+        "newName": "_startHandshake"
       },
       {
         "nodeRef": {
@@ -3989,6 +4122,14 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "ge.x2",
+          "shortId": "h1(Lcom/medtronic/minimed/ngpsdk/connect/pump/client/deviceinfo/model/DeviceInfo;)Lio/reactivex/c;"
+        },
+        "newName": "doSakeHandshake"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ge.x2",
           "shortId": "k3(J)Lio/reactivex/c;"
         },
         "codeRef": {
@@ -3996,6 +4137,86 @@
           "index": 262144
         },
         "newName": "passkey"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ge.x2",
+          "shortId": "l2(Lhj/b;)V"
+        },
+        "newName": "debugLog_startingSakeHandshake"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ge.x2",
+          "shortId": "m1(Lcom/medtronic/minimed/ngpsdk/connect/pump/client/deviceinfo/model/DeviceInfo;)Ljava/lang/Boolean;"
+        },
+        "newName": "isCompatibleDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ge.x2",
+          "shortId": "m2()V"
+        },
+        "newName": "debugLog_completedSakeHandshake"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ge.x2",
+          "shortId": "m3(Z)Lio/reactivex/c;"
+        },
+        "newName": "__doSakeHandshake"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ge.x2",
+          "shortId": "m3(Z)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "pumpIncompatible"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ge.x2",
+          "shortId": "n1(Ljava/lang/Boolean;)V"
+        },
+        "newName": "debugLog_pumpIsCompatible"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ge.x2",
+          "shortId": "n2(Ljava/lang/Throwable;)V"
+        },
+        "newName": "debugLog_errorDuringSakeHandshake"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ge.x2",
+          "shortId": "o1(Ljava/lang/Boolean;)Lio/reactivex/g;"
+        },
+        "newName": "_doHandshake"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ge.x2",
+          "shortId": "o1(Ljava/lang/Boolean;)Lio/reactivex/g;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "pumpIsCompatible"
       },
       {
         "nodeRef": {
@@ -4332,6 +4553,30 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "io.reactivex.c0",
+          "shortId": "E(Ljava/util/concurrent/Callable;)Lio/reactivex/c0;"
+        },
+        "newName": "fromCallable"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c0",
+          "shortId": "u(Lkj/g;)Lio/reactivex/c0;"
+        },
+        "newName": "doOnSuccess"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c0",
+          "shortId": "z(Lkj/o;)Lio/reactivex/c;"
+        },
+        "newName": "flatMapCompletable"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "io.reactivex.l",
           "shortId": "a(Lkj/f;)V"
         },
@@ -4452,6 +4697,22 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "je.c",
+          "shortId": "a(Lcom/medtronic/minimed/ngpsdk/connect/pump/client/deviceinfo/model/DeviceInfo;)Z"
+        },
+        "newName": "isCompatible"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "je.c",
+          "shortId": "b(Ljava/lang/String;)Z"
+        },
+        "newName": "isCorrectManufacturer"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "jf.a",
           "shortId": "\u003cclinit\u003e()V"
         },
@@ -4524,6 +4785,70 @@
           "index": 196608
         },
         "newName": "id"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ld.a",
+          "shortId": "a(Lld/a;Lld/a;)Z"
+        },
+        "newName": "equals"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ld.a",
+          "shortId": "b(I)Lld/a;"
+        },
+        "newName": "fromRaw"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ld.a",
+          "shortId": "c()Z"
+        },
+        "newName": "isValid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ld.a$a",
+          "shortId": "a(Lld/a;Lld/a;)Z"
+        },
+        "newName": "equals"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ld.a$a",
+          "shortId": "a(Lld/a;Lld/a;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "first"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ld.a$a",
+          "shortId": "a(Lld/a;Lld/a;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "second"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ld.a$a",
+          "shortId": "b(I)Lld/a;"
+        },
+        "newName": "fromRaw"
       },
       {
         "nodeRef": {
@@ -4780,6 +5105,14 @@
           "shortId": "a()Ljavax/crypto/Cipher;"
         },
         "newName": "getInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "xk.n",
+          "shortId": "f(Ljava/lang/Object;Ljava/lang/String;)V"
+        },
+        "newName": "checkNotNullParameter"
       },
       {
         "nodeRef": {

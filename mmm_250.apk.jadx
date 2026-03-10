@@ -2791,6 +2791,390 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.converters.CgmSocpResponseConverter",
+          "shortId": "unpack(Lb8/e;)Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CgmSocpResponse;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 2
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.converters.CgmSocpResponseConverter",
+          "shortId": "unpack(Lb8/e;)Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CgmSocpResponse;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 3
+        },
+        "newName": "offset2"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.converters.CgmSocpResponseConverter",
+          "shortId": "unpack(Lb8/e;)Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CgmSocpResponse;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131078
+        },
+        "newName": "calibrationContext"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.converters.CgmSocpResponseConverter",
+          "shortId": "unpack(Lb8/e;)Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CgmSocpResponse;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131080
+        },
+        "newName": "sessionStartTime"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.converters.CgmSocpResponseConverter",
+          "shortId": "unpack(Lb8/e;)Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CgmSocpResponse;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131084
+        },
+        "newName": "sensorDetails"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.converters.CgmSocpResponseConverter",
+          "shortId": "unpack(Lb8/e;)Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CgmSocpResponse;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131086
+        },
+        "newName": "response"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.converters.CgmSocpResponseConverter",
+          "shortId": "unpack(Lb8/e;)Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CgmSocpResponse;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327681
+        },
+        "newName": "calibrationDataRecord"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.converters.CgmSocpResponseConverter",
+          "shortId": "unpack(Lb8/e;)Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CgmSocpResponse;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327685
+        },
+        "newName": "time"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.converters.CgmSocpResponseConverter",
+          "shortId": "unpack(Lb8/e;)Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CgmSocpResponse;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327688
+        },
+        "newName": "sessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.converters.CgmSocpResponseConverter",
+          "shortId": "unpack(Lb8/e;)Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CgmSocpResponse;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327696
+        },
+        "newName": "opCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.converters.CgmSocpResponseConverter",
+          "shortId": "unpack(Lb8/e;)Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CgmSocpResponse;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "responseCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.converters.CgmSocpResponseConverter",
+          "shortId": "unpack(Lb8/e;)Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CgmSocpResponse;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 655360
+        },
+        "newName": "mdtSessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.converters.CgmSocpResponseConverter",
+          "shortId": "unpackCalibrationContext(Lb8/e;I)Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmSocpResponseConverter$ResultWithSize;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "status"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.converters.CgmSocpResponseConverter",
+          "shortId": "unpackMdtSessionStartTime(Lb8/e;I)Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmSocpResponseConverter$ResultWithSize;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 2
+        },
+        "newName": "offset2"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.converters.CgmSocpResponseConverter",
+          "shortId": "unpackMdtSessionStartTime(Lb8/e;I)Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmSocpResponseConverter$ResultWithSize;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 4
+        },
+        "newName": "dateTime"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.converters.CgmSocpResponseConverter",
+          "shortId": "unpackMdtSessionStartTime(Lb8/e;I)Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmSocpResponseConverter$ResultWithSize;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "sessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.converters.CgmSocpResponseConverter",
+          "shortId": "unpackMdtSessionStartTime(Lb8/e;I)Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmSocpResponseConverter$ResultWithSize;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262145
+        },
+        "newName": "timeZoneOffset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.converters.CgmSocpResponseConverter",
+          "shortId": "unpackMdtSessionStartTime(Lb8/e;I)Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmSocpResponseConverter$ResultWithSize;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.converters.CgmSocpResponseConverter",
+          "shortId": "unpackSensorDetails(Lb8/e;I)Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmSocpResponseConverter$ResultWithSize;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1
+        },
+        "newName": "warmUpPeriod"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.converters.CgmSocpResponseConverter",
+          "shortId": "unpackSensorDetails(Lb8/e;I)Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmSocpResponseConverter$ResultWithSize;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65537
+        },
+        "newName": "offset2"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.converters.CgmSocpResponseConverter",
+          "shortId": "unpackSensorDetails(Lb8/e;I)Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmSocpResponseConverter$ResultWithSize;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "flags"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.converters.CgmSocpResponseConverter",
+          "shortId": "unpackSensorDetails(Lb8/e;I)Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmSocpResponseConverter$ResultWithSize;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196609
+        },
+        "newName": "flagsAsSet"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.converters.CgmSocpResponseConverter",
+          "shortId": "unpackSensorDetails(Lb8/e;I)Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmSocpResponseConverter$ResultWithSize;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262146
+        },
+        "newName": "annunciation"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.converters.CgmSocpResponseConverter",
+          "shortId": "unpackSensorDetails(Lb8/e;I)Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmSocpResponseConverter$ResultWithSize;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458754
+        },
+        "newName": "maxCalInterval"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.converters.CgmSocpResponseConverter",
+          "shortId": "unpackSensorDetails(Lb8/e;I)Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmSocpResponseConverter$ResultWithSize;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524290
+        },
+        "newName": "maxSensorLife"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.converters.CgmSocpResponseConverter",
+          "shortId": "unpackSensorDetails(Lb8/e;I)Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmSocpResponseConverter$ResultWithSize;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589826
+        },
+        "newName": "sensorFlexPackageVersion"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.converters.CgmSocpResponseConverter",
+          "shortId": "unpackSensorDetails(Lb8/e;I)Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmSocpResponseConverter$ResultWithSize;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 851969
+        },
+        "newName": "readEnd"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.converters.CgmSocpResponseConverter",
+          "shortId": "unpackSensorDetails(Lb8/e;I)Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmSocpResponseConverter$ResultWithSize;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 917504
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.model.CgmSocpResponse",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CgmSocpOpCode;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CgmSocpOpCode;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CgmSocpResponseCode;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CalibrationDataRecord;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CalibrationContext;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/MdtSessionStartTime;Ljava/lang/Integer;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/SensorDetails;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "opCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.model.CgmSocpResponse",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CgmSocpOpCode;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CgmSocpOpCode;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CgmSocpResponseCode;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CalibrationDataRecord;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CalibrationContext;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/MdtSessionStartTime;Ljava/lang/Integer;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/SensorDetails;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "requestOpCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.model.CgmSocpResponse",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CgmSocpOpCode;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CgmSocpOpCode;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CgmSocpResponseCode;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CalibrationDataRecord;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CalibrationContext;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/MdtSessionStartTime;Ljava/lang/Integer;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/SensorDetails;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "responseCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.model.CgmSocpResponse",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CgmSocpOpCode;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CgmSocpOpCode;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CgmSocpResponseCode;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CalibrationDataRecord;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/CalibrationContext;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/MdtSessionStartTime;Ljava/lang/Integer;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/model/SensorDetails;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "mdtSessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.ids.model.BolusActivationType",
           "shortId": "\u003cclinit\u003e()V"
         },

@@ -915,9 +915,23 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "vd.a$a"
+        },
+        "newName": "Lookup"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "vd.c"
         },
         "newName": "NosPortResponseConverter"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "vd.c$a"
+        },
+        "newName": "Lookup"
       },
       {
         "nodeRef": {
@@ -2541,6 +2555,22 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "lk.k",
+          "shortId": "d:Ljava/lang/Object;"
+        },
+        "newName": "value0"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "lk.k",
+          "shortId": "e:Ljava/lang/Object;"
+        },
+        "newName": "value1"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "m8.c",
           "shortId": "a:Landroid/bluetooth/BluetoothDevice;"
         },
@@ -2701,6 +2731,22 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "vd.a$a",
+          "shortId": "a:[I"
+        },
+        "newName": "map"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "vd.c$a",
+          "shortId": "a:[I"
+        },
+        "newName": "map"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "we.e",
           "shortId": "a:Lwe/d;"
         },
@@ -2741,6 +2787,46 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "xd.b",
+          "shortId": "a:Lxd/a;"
+        },
+        "newName": "opCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "xd.b",
+          "shortId": "b:Lyd/b;"
+        },
+        "newName": "connectionParams"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "xd.c",
+          "shortId": "a:Lxd/a;"
+        },
+        "newName": "opCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "xd.c",
+          "shortId": "b:Lyd/b;"
+        },
+        "newName": "connectionParams"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "xd.c",
+          "shortId": "c:Ljava/lang/Integer;"
+        },
+        "newName": "effectiveMtu"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "xj.k",
           "shortId": "d:Ljava/lang/String;"
         },
@@ -2753,6 +2839,46 @@
           "shortId": "f:Lcom/medtronic/minimed/bl/configmonitor/DeviceConfigurationMonitor;"
         },
         "newName": "deviceconfigmonitor"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "yd.b",
+          "shortId": "a:I"
+        },
+        "newName": "minConnectionInterval"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "yd.b",
+          "shortId": "b:I"
+        },
+        "newName": "maxConnectionInterval"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "yd.b",
+          "shortId": "c:I"
+        },
+        "newName": "slaveLatency"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "yd.b",
+          "shortId": "d:I"
+        },
+        "newName": "supervisionTimeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "yd.b",
+          "shortId": "e:Lyd/b;"
+        },
+        "newName": "Default"
       },
       {
         "nodeRef": {
@@ -8500,6 +8626,18 @@
           "declClass": "j8.e",
           "shortId": "e(Lh8/d;IILj8/c;)V"
         },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "descriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "e(Lh8/d;IILj8/c;)V"
+        },
         "newName": "onDescriptorReadRequest"
       },
       {
@@ -8861,6 +8999,38 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "lk.k",
+          "shortId": "a()Ljava/lang/Object;"
+        },
+        "newName": "getValue0"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "lk.k",
+          "shortId": "b()Ljava/lang/Object;"
+        },
+        "newName": "getValue1"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "lk.k",
+          "shortId": "c()Ljava/lang/Object;"
+        },
+        "newName": "first"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "lk.k",
+          "shortId": "d()Ljava/lang/Object;"
+        },
+        "newName": "second"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "m8.c",
           "shortId": "a()Ljava/lang/String;"
         },
@@ -9117,6 +9287,322 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "vd.a",
+          "shortId": "a(Lxd/b;)Lb8/e;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196610
+        },
+        "newName": "opCodeIndex"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "vd.a",
+          "shortId": "a(Lxd/b;)Lb8/e;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "request"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "vd.a",
+          "shortId": "b(Lb8/e$a;Lyd/b;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "vd.a",
+          "shortId": "b(Lb8/e$a;Lyd/b;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262145
+        },
+        "newName": "offset2"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "vd.a",
+          "shortId": "b(Lb8/e$a;Lyd/b;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262146
+        },
+        "newName": "offset3"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "vd.a",
+          "shortId": "b(Lb8/e$a;Lyd/b;I)V"
+        },
+        "newName": "packConnectionParams"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "vd.c",
+          "shortId": "a(Lb8/e;)Lxd/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 2
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "vd.c",
+          "shortId": "a(Lb8/e;)Lxd/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 5
+        },
+        "newName": "pair"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "vd.c",
+          "shortId": "a(Lb8/e;)Lxd/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 8
+        },
+        "newName": "endRead"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "vd.c",
+          "shortId": "a(Lb8/e;)Lxd/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "opCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "vd.c",
+          "shortId": "a(Lb8/e;)Lxd/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131074
+        },
+        "newName": "opCodeIndex"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "vd.c",
+          "shortId": "a(Lb8/e;)Lxd/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131076
+        },
+        "newName": "params"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "vd.c",
+          "shortId": "a(Lb8/e;)Lxd/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131077
+        },
+        "newName": "effectiveMtu"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "vd.c",
+          "shortId": "b(Lb8/e;I)Llk/k;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "minConnectionInterval"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "vd.c",
+          "shortId": "b(Lb8/e;I)Llk/k;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131073
+        },
+        "newName": "maxConnectionInterval"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "vd.c",
+          "shortId": "b(Lb8/e;I)Llk/k;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196609
+        },
+        "newName": "slaveLatency"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "vd.c",
+          "shortId": "b(Lb8/e;I)Llk/k;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "buf"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "vd.c",
+          "shortId": "b(Lb8/e;I)Llk/k;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "vd.c",
+          "shortId": "b(Lb8/e;I)Llk/k;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458753
+        },
+        "newName": "offset2"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "vd.c",
+          "shortId": "b(Lb8/e;I)Llk/k;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458754
+        },
+        "newName": "offset3"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "vd.c",
+          "shortId": "b(Lb8/e;I)Llk/k;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458755
+        },
+        "newName": "offset4"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "vd.c",
+          "shortId": "b(Lb8/e;I)Llk/k;"
+        },
+        "newName": "unpackConnectionParams"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "vd.c",
+          "shortId": "c(Lb8/e;I)Llk/k;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "buf"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "vd.c",
+          "shortId": "c(Lb8/e;I)Llk/k;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "vd.c",
+          "shortId": "c(Lb8/e;I)Llk/k;"
+        },
+        "newName": "unpackEffectiveMtu"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "xd.b",
+          "shortId": "a()Lyd/b;"
+        },
+        "newName": "getConnectionParams"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "xd.b",
+          "shortId": "b()Lxd/a;"
+        },
+        "newName": "getOpCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "xd.c",
+          "shortId": "\u003cinit\u003e(Lxd/a;Lyd/b;Ljava/lang/Integer;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "effectiveMtu"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "xk.n",
           "shortId": "f(Ljava/lang/Object;Ljava/lang/String;)V"
         },
@@ -9141,6 +9627,54 @@
           "index": 0
         },
         "newName": "communicationŰ_allowed"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "yd.b",
+          "shortId": "\u003cinit\u003e(IIII)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "minConnectionInterval"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "yd.b",
+          "shortId": "\u003cinit\u003e(IIII)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "maxConnectionInterval"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "yd.b",
+          "shortId": "\u003cinit\u003e(IIII)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "slaveLatency"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "yd.b",
+          "shortId": "\u003cinit\u003e(IIII)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "supervisionTimeout"
       },
       {
         "nodeRef": {

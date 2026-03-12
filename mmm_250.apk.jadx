@@ -23,6 +23,14 @@
     "comments": [
       {
         "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "j8.e"
+        },
+        "comment": "see https://developer.android.com/reference/android/bluetooth/BluetoothGattServerCallback\n.",
+        "style": "LINE"
+      },
+      {
+        "nodeRef": {
           "refType": "METHOD",
           "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.connectionmanager.implementation.a",
           "shortId": "b(Ljava/lang/String;)Z"
@@ -102,6 +110,20 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "c8.d$b"
+        },
+        "newName": "NestedInterface"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "c8.z$a"
+        },
+        "newName": "InternalClass"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "ce.a"
         },
         "newName": "CurrentTimeConverter"
@@ -151,6 +173,13 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.a$a"
+        },
+        "newName": "ServerCallback"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.a0$a"
         },
         "newName": "Listener"
@@ -160,7 +189,14 @@
           "refType": "CLASS",
           "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b"
         },
-        "newName": "BleGattServerCharacteristic"
+        "newName": "BleGattServerChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$b"
+        },
+        "newName": "ICallbacks"
       },
       {
         "nodeRef": {
@@ -182,6 +218,76 @@
           "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.s"
         },
         "newName": "DefaultBluetoothGattServerCallbackProxy"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$a"
+        },
+        "newName": "AnonymousClass1"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b"
+        },
+        "newName": "AnonymousClass2"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$a"
+        },
+        "newName": "CharReadRequest"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$b"
+        },
+        "newName": "CharWriteRequest"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$c"
+        },
+        "newName": "DescriptorReadRequest"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$d"
+        },
+        "newName": "DescriptorWriteRequest"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$e"
+        },
+        "newName": "WriteRequest"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$e"
+        },
+        "newName": "IRequest"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$f"
+        },
+        "newName": "IRequestAdder"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$h"
+        },
+        "newName": "Request"
       },
       {
         "nodeRef": {
@@ -1043,6 +1149,30 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "c8.d",
+          "shortId": "b:Ljava/util/UUID;"
+        },
+        "newName": "serviceUuid"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "c8.d",
+          "shortId": "c:Ljava/util/UUID;"
+        },
+        "newName": "charUuid"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "c8.z",
+          "shortId": "e:Lf8/b;"
+        },
+        "newName": "encryptionProvider"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "com.medtronic.minimed.bl.configmonitor.b",
           "shortId": "b:Lj7/c;"
         },
@@ -1151,6 +1281,446 @@
           "shortId": "f:Z"
         },
         "newName": "includeTxPowerLevel"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.a",
+          "shortId": "a:Landroid/content/Context;"
+        },
+        "newName": "context"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.a",
+          "shortId": "b:Lh8/f;"
+        },
+        "newName": "bleManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.a",
+          "shortId": "c:Ljava/util/Set;"
+        },
+        "newName": "characteristics"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.a",
+          "shortId": "d:Lcom/medtronic/minimed/connect/ble/api/gatt/server/v;"
+        },
+        "newName": "server"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.a",
+          "shortId": "e:Lcom/medtronic/minimed/connect/ble/api/gatt/server/x;"
+        },
+        "newName": "serverFactory"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.a",
+          "shortId": "f:Ljava/util/List;"
+        },
+        "newName": "services"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.a",
+          "shortId": "g:Ljava/util/List;"
+        },
+        "newName": "callbacks"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.a",
+          "shortId": "h:Lj8/e;"
+        },
+        "newName": "gattServerCallback"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
+          "shortId": "a:Ljava/util/Map;"
+        },
+        "newName": "map"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
+          "shortId": "c:Lcom/medtronic/minimed/connect/ble/api/gatt/server/c;"
+        },
+        "newName": "serverInternals"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
+          "shortId": "d:Ljava/util/UUID;"
+        },
+        "newName": "charUuid"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
+          "shortId": "e:Ljava/util/UUID;"
+        },
+        "newName": "serviceUuid"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
+          "shortId": "f:I"
+        },
+        "newName": "properties"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
+          "shortId": "g:I"
+        },
+        "newName": "permissions"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
+          "shortId": "h:I"
+        },
+        "newName": "totalPendingNotificationsCount"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
+          "shortId": "j:[B"
+        },
+        "newName": "preparedWriteBuffer"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
+          "shortId": "k:Lcom/medtronic/minimed/connect/ble/api/gatt/server/b$b;"
+        },
+        "newName": "callbacks"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
+          "shortId": "l:Lwl/c;"
+        },
+        "newName": "logger"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v",
+          "shortId": "a:Lk8/a;"
+        },
+        "newName": "gattServer"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v",
+          "shortId": "b:Lj8/e;"
+        },
+        "newName": "gattServerCallback"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v",
+          "shortId": "c:Lcom/medtronic/minimed/connect/ble/api/gatt/server/v$f;"
+        },
+        "newName": "requestAdder"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v",
+          "shortId": "d:Ljava/util/concurrent/locks/Lock;"
+        },
+        "newName": "lock"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v",
+          "shortId": "e:Ljava/util/concurrent/locks/Condition;"
+        },
+        "newName": "lockCondition"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v",
+          "shortId": "f:Ljava/lang/Thread;"
+        },
+        "newName": "executorThread"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v",
+          "shortId": "g:Lj8/e;"
+        },
+        "newName": "callback"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v",
+          "shortId": "h:Lwl/c;"
+        },
+        "newName": "logger"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v",
+          "shortId": "i:Ljava/util/concurrent/BlockingQueue;"
+        },
+        "newName": "queue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$a",
+          "shortId": "a:Lh8/d;"
+        },
+        "newName": "bleDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$a",
+          "shortId": "b:I"
+        },
+        "newName": "requestId"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$a",
+          "shortId": "c:I"
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$a",
+          "shortId": "d:Lj8/a;"
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$b",
+          "shortId": "a:Lh8/d;"
+        },
+        "newName": "bleDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$b",
+          "shortId": "b:I"
+        },
+        "newName": "requestId"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$b",
+          "shortId": "c:Lj8/a;"
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$b",
+          "shortId": "d:Z"
+        },
+        "newName": "preparedWrite"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$b",
+          "shortId": "e:Z"
+        },
+        "newName": "responseNeeded"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$b",
+          "shortId": "f:I"
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$b",
+          "shortId": "g:[B"
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$c",
+          "shortId": "a:Lh8/d;"
+        },
+        "newName": "bleDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$c",
+          "shortId": "b:I"
+        },
+        "newName": "requestId"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$c",
+          "shortId": "c:I"
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$c",
+          "shortId": "d:Lj8/c;"
+        },
+        "newName": "descriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$d",
+          "shortId": "a:Lh8/d;"
+        },
+        "newName": "bleDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$d",
+          "shortId": "b:I"
+        },
+        "newName": "requestId"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$d",
+          "shortId": "c:Lj8/c;"
+        },
+        "newName": "descriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$d",
+          "shortId": "d:Z"
+        },
+        "newName": "preparedWrite"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$d",
+          "shortId": "e:Z"
+        },
+        "newName": "responseNeeded"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$d",
+          "shortId": "f:I"
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$d",
+          "shortId": "g:[B"
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$e",
+          "shortId": "a:Lh8/d;"
+        },
+        "newName": "bleDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$e",
+          "shortId": "b:I"
+        },
+        "newName": "requestId"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$e",
+          "shortId": "c:Z"
+        },
+        "newName": "execute"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$c",
+          "shortId": "a:Lh8/d;"
+        },
+        "newName": "device"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$c",
+          "shortId": "b:Lj8/a;"
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$d",
+          "shortId": "a:Lj8/f;"
+        },
+        "newName": "service"
       },
       {
         "nodeRef": {
@@ -2291,6 +2861,138 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "b8.d",
+          "shortId": "a(Lc8/e;Ljava/util/UUID;Ljava/util/UUID;)Lc8/d;"
+        },
+        "newName": "createClientCharacteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.d",
+          "shortId": "a(Lc8/e;Ljava/util/UUID;Ljava/util/UUID;)Lc8/d;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "serviceUuid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.d",
+          "shortId": "a(Lc8/e;Ljava/util/UUID;Ljava/util/UUID;)Lc8/d;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "charUuid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.d",
+          "shortId": "b(Lc8/e;Ljava/util/UUID;Ljava/util/UUID;Lf8/b;)Lc8/d;"
+        },
+        "newName": "createEncryptedClientCharacteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.d",
+          "shortId": "b(Lc8/e;Ljava/util/UUID;Ljava/util/UUID;Lf8/b;)Lc8/d;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "serviceUuid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.d",
+          "shortId": "b(Lc8/e;Ljava/util/UUID;Ljava/util/UUID;Lf8/b;)Lc8/d;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "charUuid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.d",
+          "shortId": "b(Lc8/e;Ljava/util/UUID;Ljava/util/UUID;Lf8/b;)Lc8/d;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "encryptionProvider"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.d",
+          "shortId": "c(Lcom/medtronic/minimed/connect/ble/api/gatt/server/c;Ljava/util/UUID;Ljava/util/UUID;II)Lcom/medtronic/minimed/connect/ble/api/gatt/server/b;"
+        },
+        "newName": "createServerCharacteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.d",
+          "shortId": "c(Lcom/medtronic/minimed/connect/ble/api/gatt/server/c;Ljava/util/UUID;Ljava/util/UUID;II)Lcom/medtronic/minimed/connect/ble/api/gatt/server/b;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 655360
+        },
+        "newName": "serviceUuid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.d",
+          "shortId": "c(Lcom/medtronic/minimed/connect/ble/api/gatt/server/c;Ljava/util/UUID;Ljava/util/UUID;II)Lcom/medtronic/minimed/connect/ble/api/gatt/server/b;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 720896
+        },
+        "newName": "charUuid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.d",
+          "shortId": "c(Lcom/medtronic/minimed/connect/ble/api/gatt/server/c;Ljava/util/UUID;Ljava/util/UUID;II)Lcom/medtronic/minimed/connect/ble/api/gatt/server/b;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 786432
+        },
+        "newName": "properties"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.d",
+          "shortId": "c(Lcom/medtronic/minimed/connect/ble/api/gatt/server/c;Ljava/util/UUID;Ljava/util/UUID;II)Lcom/medtronic/minimed/connect/ble/api/gatt/server/b;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 851968
+        },
+        "newName": "permissions"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "b8.e",
           "shortId": "b(BB)F"
         },
@@ -2499,6 +3201,62 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "c8.d",
+          "shortId": "\u003cinit\u003e(Lc8/e;Ljava/util/UUID;Ljava/util/UUID;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "serviceUuid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.d",
+          "shortId": "\u003cinit\u003e(Lc8/e;Ljava/util/UUID;Ljava/util/UUID;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "charUuid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.z",
+          "shortId": "\u003cinit\u003e(Lc8/e;Ljava/util/UUID;Ljava/util/UUID;Lf8/b;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "serviceUuid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.z",
+          "shortId": "\u003cinit\u003e(Lc8/e;Ljava/util/UUID;Ljava/util/UUID;Lf8/b;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "charUuid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.z",
+          "shortId": "n(Lb8/e;Lb8/f;)V"
+        },
+        "newName": "write"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "com.medtronic.minimed.bl.appsetup.k",
           "shortId": "s()Z"
         },
@@ -2655,6 +3413,218 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.a",
+          "shortId": "a(Lh8/d;Lj8/a;Z)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "server"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.a",
+          "shortId": "a(Lh8/d;Lj8/a;Z)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "device"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.a",
+          "shortId": "a(Lh8/d;Lj8/a;Z)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.a",
+          "shortId": "o()V"
+        },
+        "newName": "closeGattServer"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.a",
+          "shortId": "p()Z"
+        },
+        "newName": "createGattServer"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.a",
+          "shortId": "s()Lwl/c;"
+        },
+        "newName": "logger"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.a$a",
+          "shortId": "f(Lh8/d;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "bleDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.a$a",
+          "shortId": "f(Lh8/d;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "status"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.a$a",
+          "shortId": "g(ILj8/f;)V"
+        },
+        "newName": "onServiceAdded"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.a$a",
+          "shortId": "g(ILj8/f;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "status"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.a$a",
+          "shortId": "g(ILj8/f;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "service"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.a$a",
+          "shortId": "h(Lh8/d;II)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "bleDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.a$a",
+          "shortId": "h(Lh8/d;II)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "status"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.a$a",
+          "shortId": "h(Lh8/d;II)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "newState"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.a$a",
+          "shortId": "i(Lh8/d;IILj8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "sendResponse"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.a$a",
+          "shortId": "i(Lh8/d;IILj8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "bleDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.a$a",
+          "shortId": "i(Lh8/d;IILj8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "requestId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.a$a",
+          "shortId": "i(Lh8/d;IILj8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 655360
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.a$a",
+          "shortId": "i(Lh8/d;IILj8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 720896
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.a0",
           "shortId": "a(Lcom/medtronic/minimed/connect/ble/api/gatt/server/a0$a;)V"
         },
@@ -2759,18 +3729,1750 @@
       {
         "nodeRef": {
           "refType": "METHOD",
-          "declClass": "com.medtronic.minimed.connect.ble.proxy.ble.server.a",
-          "shortId": "d(Lj8/f;)Z"
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gatt/server/c;Ljava/util/UUID;Ljava/util/UUID;IILjava/util/Map;)V"
         },
-        "newName": "addService"
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "serviceUuid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gatt/server/c;Ljava/util/UUID;Ljava/util/UUID;IILjava/util/Map;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "charUuid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gatt/server/c;Ljava/util/UUID;Ljava/util/UUID;IILjava/util/Map;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "properties"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gatt/server/c;Ljava/util/UUID;Ljava/util/UUID;IILjava/util/Map;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "permissions"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
+          "shortId": "p()Lj8/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "cccd"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
+          "shortId": "p()Lj8/c;"
+        },
+        "newName": "cccd"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
+          "shortId": "q(Ljava/lang/String;)Ljava/lang/String;"
+        },
+        "newName": "logPrefix"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
+          "shortId": "r()Lj8/a;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "gattChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
+          "shortId": "r()Lj8/a;"
+        },
+        "newName": "get"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
+          "shortId": "s(Ljava/lang/String;)Lb8/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "address"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
+          "shortId": "s(Ljava/lang/String;)Lb8/c;"
+        },
+        "newName": "getClientConfiguration"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
+          "shortId": "u(Ljava/lang/String;[Ljava/lang/Object;)V"
+        },
+        "newName": "logDebug"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
+          "shortId": "v(Ljava/lang/String;[Ljava/lang/Object;)V"
+        },
+        "newName": "logTrace"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
+          "shortId": "w(Ljava/lang/String;[Ljava/lang/Object;)V"
+        },
+        "newName": "logWarn"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
+          "shortId": "x(Lb8/e;Z[Ljava/lang/String;)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1
+        },
+        "newName": "pendingNotificationsCount"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
+          "shortId": "x(Lb8/e;Z[Ljava/lang/String;)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65540
+        },
+        "newName": "client"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
+          "shortId": "x(Lb8/e;Z[Ljava/lang/String;)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 655360
+        },
+        "newName": "shallConfirm"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
+          "shortId": "x(Lb8/e;Z[Ljava/lang/String;)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 720896
+        },
+        "newName": "clients"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
+          "shortId": "x(Lb8/e;Z[Ljava/lang/String;)I"
+        },
+        "newName": "sendNotification"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$a",
+          "shortId": "a(Lh8/d;IILj8/a;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 786432
+        },
+        "newName": "device"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$a",
+          "shortId": "a(Lh8/d;IILj8/a;)Z"
+        },
+        "newName": "handleCharacteristicReadRequest"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$a",
+          "shortId": "a(Lh8/d;IILj8/a;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 851968
+        },
+        "newName": "requestId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$a",
+          "shortId": "a(Lh8/d;IILj8/a;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 917504
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$a",
+          "shortId": "a(Lh8/d;IILj8/a;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 983040
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$a",
+          "shortId": "b()V"
+        },
+        "newName": "not_implemented"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$a",
+          "shortId": "c(Lh8/d;IZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 720896
+        },
+        "newName": "device"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$a",
+          "shortId": "c(Lh8/d;IZ)V"
+        },
+        "newName": "handleExecuteWrite"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$a",
+          "shortId": "c(Lh8/d;IZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 786432
+        },
+        "newName": "requestId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$a",
+          "shortId": "c(Lh8/d;IZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 851968
+        },
+        "newName": "execute"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$a",
+          "shortId": "d(Lh8/d;ILj8/c;ZZI[B)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 786432
+        },
+        "newName": "device"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$a",
+          "shortId": "d(Lh8/d;ILj8/c;ZZI[B)Z"
+        },
+        "newName": "handleDescriptorWrite"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$a",
+          "shortId": "d(Lh8/d;ILj8/c;ZZI[B)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 851968
+        },
+        "newName": "requestId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$a",
+          "shortId": "d(Lh8/d;ILj8/c;ZZI[B)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 917504
+        },
+        "newName": "descriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$a",
+          "shortId": "d(Lh8/d;ILj8/c;ZZI[B)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 983040
+        },
+        "newName": "preparedWrite"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$a",
+          "shortId": "d(Lh8/d;ILj8/c;ZZI[B)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1048576
+        },
+        "newName": "responseNeeded"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$a",
+          "shortId": "d(Lh8/d;ILj8/c;ZZI[B)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1114112
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$a",
+          "shortId": "d(Lh8/d;ILj8/c;ZZI[B)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1179648
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$a",
+          "shortId": "e(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "address"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$a",
+          "shortId": "f()V"
+        },
+        "newName": "clearClientConfigurations"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$a",
+          "shortId": "g(Lh8/d;IILj8/c;)Z"
+        },
+        "newName": "handleDescriptorRead"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$a",
+          "shortId": "h(Lh8/d;I)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "bleDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$a",
+          "shortId": "h(Lh8/d;I)Z"
+        },
+        "newName": "handleNotificationSent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$a",
+          "shortId": "h(Lh8/d;I)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "status"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$a",
+          "shortId": "i(Lh8/d;ILj8/a;ZZI[B)Z"
+        },
+        "newName": "handleCharacteristicWriteRequest"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$a",
+          "shortId": "o(Ljava/lang/String;Lb8/e;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "deviceAddress"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$a",
+          "shortId": "p(Ljava/lang/String;Lb8/c;)V"
+        },
+        "newName": "addClientConfiguration"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$b",
+          "shortId": "a(Ljava/lang/String;Z)V"
+        },
+        "newName": "handleCharNotificationSent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$b",
+          "shortId": "b(Ljava/lang/String;Lb8/c;)V"
+        },
+        "newName": "handleCharConfigChanged"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$b",
+          "shortId": "c(Ljava/lang/String;)Lb8/e;"
+        },
+        "newName": "handleReadRequest"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$b",
+          "shortId": "d(Lcom/medtronic/minimed/connect/ble/api/gatt/GattException;Ljava/lang/String;Lb8/e;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "deviceAddress"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b$b",
+          "shortId": "d(Lcom/medtronic/minimed/connect/ble/api/gatt/GattException;Ljava/lang/String;Lb8/e;)V"
+        },
+        "newName": "handleCharWriteRequest"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v",
+          "shortId": "\u003cinit\u003e(Landroid/content/Context;Lj8/e;Lcom/medtronic/minimed/connect/ble/api/gatt/server/v$f;Lh8/f;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "serverCallback"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v",
+          "shortId": "\u003cinit\u003e(Landroid/content/Context;Lj8/e;Lcom/medtronic/minimed/connect/ble/api/gatt/server/v$f;Lh8/f;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "requestAdder"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v",
+          "shortId": "\u003cinit\u003e(Landroid/content/Context;Lj8/e;Lcom/medtronic/minimed/connect/ble/api/gatt/server/v$f;Lh8/f;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "bleManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v",
+          "shortId": "i()V"
+        },
+        "newName": "clearGattServices"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v",
+          "shortId": "j()V"
+        },
+        "newName": "close"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v",
+          "shortId": "m(Lh8/d;Lj8/a;Z)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "device"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v",
+          "shortId": "m(Lh8/d;Lj8/a;Z)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v",
+          "shortId": "n(Lh8/d;III[B)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 655361
+        },
+        "newName": "isSuccess"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v",
+          "shortId": "n(Lh8/d;III[B)Z"
+        },
+        "newName": "sendResponse"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$a",
+          "shortId": "run()V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 6
+        },
+        "newName": "queueItem"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "a(Lh8/d;IZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "device"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "a(Lh8/d;IZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "requestId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "a(Lh8/d;IZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "execute"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "b(Lh8/d;ILj8/a;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 851968
+        },
+        "newName": "device"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "b(Lh8/d;ILj8/a;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 917504
+        },
+        "newName": "requestId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "b(Lh8/d;ILj8/a;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 983040
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "b(Lh8/d;ILj8/a;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1048576
+        },
+        "newName": "preparedWrite"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "b(Lh8/d;ILj8/a;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1114112
+        },
+        "newName": "responseNeeded"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "b(Lh8/d;ILj8/a;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1179648
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "b(Lh8/d;ILj8/a;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1245184
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "c(Lh8/d;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "device"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "c(Lh8/d;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "mtu"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "d(Lh8/d;ILj8/c;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 851968
+        },
+        "newName": "device"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "d(Lh8/d;ILj8/c;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 917504
+        },
+        "newName": "requestId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "d(Lh8/d;ILj8/c;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 983040
+        },
+        "newName": "descriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "d(Lh8/d;ILj8/c;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1048576
+        },
+        "newName": "preparedWrite"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "d(Lh8/d;ILj8/c;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1114112
+        },
+        "newName": "responseNeeded"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "d(Lh8/d;ILj8/c;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1179648
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "d(Lh8/d;ILj8/c;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1245184
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "e(Lh8/d;IILj8/c;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "device"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "e(Lh8/d;IILj8/c;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 655360
+        },
+        "newName": "requestId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "e(Lh8/d;IILj8/c;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 720896
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "e(Lh8/d;IILj8/c;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 786432
+        },
+        "newName": "descriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "f(Lh8/d;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "device"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "f(Lh8/d;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "status"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "g(ILj8/f;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "status"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "g(ILj8/f;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "service"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "h(Lh8/d;II)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "device"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "h(Lh8/d;II)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "status"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "h(Lh8/d;II)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "newState"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "i(Lh8/d;IILj8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "device"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "i(Lh8/d;IILj8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 655360
+        },
+        "newName": "requestId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "i(Lh8/d;IILj8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 720896
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "i(Lh8/d;IILj8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 786432
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b",
+          "shortId": "j()V"
+        },
+        "newName": "signal"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$a",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gatt/server/v$b;Lh8/d;IILj8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "bleDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$a",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gatt/server/v$b;Lh8/d;IILj8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "requestId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$a",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gatt/server/v$b;Lh8/d;IILj8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$a",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gatt/server/v$b;Lh8/d;IILj8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$b",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gatt/server/v$b;Lh8/d;ILj8/a;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "bleDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$b",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gatt/server/v$b;Lh8/d;ILj8/a;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "requestId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$b",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gatt/server/v$b;Lh8/d;ILj8/a;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$b",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gatt/server/v$b;Lh8/d;ILj8/a;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "preparedWrite"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$b",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gatt/server/v$b;Lh8/d;ILj8/a;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "responseNeeded"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$b",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gatt/server/v$b;Lh8/d;ILj8/a;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$b",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gatt/server/v$b;Lh8/d;ILj8/a;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$c",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gatt/server/v$b;Lh8/d;IILj8/c;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "bleDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$c",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gatt/server/v$b;Lh8/d;IILj8/c;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "requestId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$c",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gatt/server/v$b;Lh8/d;IILj8/c;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$c",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gatt/server/v$b;Lh8/d;IILj8/c;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "descriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$d",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gatt/server/v$b;Lh8/d;ILj8/c;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "bleDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$d",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gatt/server/v$b;Lh8/d;ILj8/c;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "requestId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$d",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gatt/server/v$b;Lh8/d;ILj8/c;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "descriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$d",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gatt/server/v$b;Lh8/d;ILj8/c;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "preparedWrite"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$d",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gatt/server/v$b;Lh8/d;ILj8/c;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "responseNeeded"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$d",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gatt/server/v$b;Lh8/d;ILj8/c;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$d",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gatt/server/v$b;Lh8/d;ILj8/c;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$e",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gatt/server/v$b;Lh8/d;IZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "bleDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$e",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gatt/server/v$b;Lh8/d;IZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "requestId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$b$e",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gatt/server/v$b;Lh8/d;IZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "execute"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$c",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gatt/server/v;Lh8/d;Lj8/a;Z)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "device"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$c",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gatt/server/v;Lh8/d;Lj8/a;Z)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$e",
+          "shortId": "a()I"
+        },
+        "newName": "timeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$e",
+          "shortId": "b()V"
+        },
+        "newName": "onAddServiceRequestTimeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$f",
+          "shortId": "a(Lcom/medtronic/minimed/connect/ble/api/gatt/server/v$e;)V"
+        },
+        "newName": "addRequestToQueue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$f",
+          "shortId": "a(Lcom/medtronic/minimed/connect/ble/api/gatt/server/v$e;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "request"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.v$h",
+          "shortId": "execute()Z"
+        },
+        "newName": "onAddServiceRequestProcessed"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.z",
+          "shortId": "a(Lh8/d;IILj8/a;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "bleDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.z",
+          "shortId": "a(Lh8/d;IILj8/a;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "requestId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.z",
+          "shortId": "a(Lh8/d;IILj8/a;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.z",
+          "shortId": "a(Lh8/d;IILj8/a;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "gattChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.z",
+          "shortId": "c(Lh8/d;IZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "bleDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.z",
+          "shortId": "c(Lh8/d;IZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "requestId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.z",
+          "shortId": "c(Lh8/d;IZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "execute"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.z",
+          "shortId": "d(Lh8/d;ILj8/c;ZZI[B)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "bleDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.z",
+          "shortId": "d(Lh8/d;ILj8/c;ZZI[B)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "requestId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.z",
+          "shortId": "d(Lh8/d;ILj8/c;ZZI[B)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "descriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.z",
+          "shortId": "d(Lh8/d;ILj8/c;ZZI[B)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "preparedWrite"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.z",
+          "shortId": "d(Lh8/d;ILj8/c;ZZI[B)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "responseNeeded"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.z",
+          "shortId": "d(Lh8/d;ILj8/c;ZZI[B)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.z",
+          "shortId": "e(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "address"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.z",
+          "shortId": "e(Ljava/lang/String;)V"
+        },
+        "newName": "removeClientConfiguration"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.z",
+          "shortId": "g(Lh8/d;IILj8/c;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "bleDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.z",
+          "shortId": "g(Lh8/d;IILj8/c;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "requestId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.z",
+          "shortId": "g(Lh8/d;IILj8/c;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.z",
+          "shortId": "g(Lh8/d;IILj8/c;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "descriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.z",
+          "shortId": "h(Lh8/d;I)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "bleDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.z",
+          "shortId": "h(Lh8/d;I)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "status"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.z",
+          "shortId": "i(Lh8/d;ILj8/a;ZZI[B)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "bleDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.z",
+          "shortId": "i(Lh8/d;ILj8/a;ZZI[B)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "requestId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.z",
+          "shortId": "i(Lh8/d;ILj8/a;ZZI[B)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "gattChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.z",
+          "shortId": "i(Lh8/d;ILj8/a;ZZI[B)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "preparedWrite"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.z",
+          "shortId": "i(Lh8/d;ILj8/a;ZZI[B)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "responseNeeded"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.z",
+          "shortId": "i(Lh8/d;ILj8/a;ZZI[B)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "offset"
       },
       {
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "com.medtronic.minimed.connect.ble.proxy.ble.server.a",
-          "shortId": "e(Lh8/d;III[B)Z"
+          "shortId": "d(Lj8/f;)Z"
         },
-        "newName": "sendResp"
+        "newName": "addService"
       },
       {
         "nodeRef": {
@@ -4987,6 +7689,14 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "h8.f",
+          "shortId": "b(Landroid/content/Context;Lj8/e;)Lk8/a;"
+        },
+        "newName": "gattServer"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "he.a",
           "shortId": "\u003cinit\u003e(J[B)V"
         },
@@ -5399,10 +8109,174 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "j8.a",
+          "shortId": "a()Ljava/util/UUID;"
+        },
+        "newName": "uuid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.a",
+          "shortId": "c([B)V"
+        },
+        "newName": "setValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.a",
+          "shortId": "d(I)V"
+        },
+        "newName": "setWriteType"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.a",
+          "shortId": "e()Ljava/util/List;"
+        },
+        "newName": "descriptors"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.a",
+          "shortId": "f(Lj8/c;)V"
+        },
+        "newName": "addDescriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.a",
+          "shortId": "f(Lj8/c;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "descriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.a",
+          "shortId": "g()I"
+        },
+        "newName": "properties"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.a",
+          "shortId": "h()I"
+        },
+        "newName": "writeType"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.a",
+          "shortId": "i()Lj8/f;"
+        },
+        "newName": "service"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.a",
+          "shortId": "j(Ljava/util/UUID;)Lj8/c;"
+        },
+        "newName": "descriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.c",
+          "shortId": "a()Ljava/util/UUID;"
+        },
+        "newName": "uuid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.c",
+          "shortId": "b()I"
+        },
+        "newName": "permissions"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.c",
+          "shortId": "c([B)V"
+        },
+        "newName": "setValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.c",
+          "shortId": "d()Lj8/a;"
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "j8.e",
           "shortId": "a(Lh8/d;IZ)V"
         },
-        "newName": "onExecWrite"
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "device"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "a(Lh8/d;IZ)V"
+        },
+        "newName": "onExecuteWrite"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "a(Lh8/d;IZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "requestId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "a(Lh8/d;IZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "execute"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "b(Lh8/d;ILj8/a;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "device"
       },
       {
         "nodeRef": {
@@ -5416,9 +8290,105 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "j8.e",
+          "shortId": "b(Lh8/d;ILj8/a;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "requestId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "b(Lh8/d;ILj8/a;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "b(Lh8/d;ILj8/a;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "preparedWrite"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "b(Lh8/d;ILj8/a;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "responseNeeded"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "b(Lh8/d;ILj8/a;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "b(Lh8/d;ILj8/a;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
           "shortId": "c(Lh8/d;I)V"
         },
-        "newName": "onMtuChange"
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "device"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "c(Lh8/d;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "mtu"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "c(Lh8/d;I)V"
+        },
+        "newName": "onMtuChanged"
       },
       {
         "nodeRef": {
@@ -5426,7 +8396,91 @@
           "declClass": "j8.e",
           "shortId": "d(Lh8/d;ILj8/c;ZZI[B)V"
         },
-        "newName": "onDescriptorWrite"
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "device"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "d(Lh8/d;ILj8/c;ZZI[B)V"
+        },
+        "newName": "onDescriptorWriteRequest"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "d(Lh8/d;ILj8/c;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "requestId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "d(Lh8/d;ILj8/c;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "descriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "d(Lh8/d;ILj8/c;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "preparedWrite"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "d(Lh8/d;ILj8/c;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "responseNeeded"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "d(Lh8/d;ILj8/c;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "d(Lh8/d;ILj8/c;ZZI[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "value"
       },
       {
         "nodeRef": {
@@ -5434,7 +8488,55 @@
           "declClass": "j8.e",
           "shortId": "e(Lh8/d;IILj8/c;)V"
         },
-        "newName": "onDescriptorRead"
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "device"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "e(Lh8/d;IILj8/c;)V"
+        },
+        "newName": "onDescriptorReadRequest"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "e(Lh8/d;IILj8/c;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "requestId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "e(Lh8/d;IILj8/c;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "e(Lh8/d;IILj8/c;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "descriptor"
       },
       {
         "nodeRef": {
@@ -5442,7 +8544,31 @@
           "declClass": "j8.e",
           "shortId": "f(Lh8/d;I)V"
         },
-        "newName": "onNotiSent"
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "device"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "f(Lh8/d;I)V"
+        },
+        "newName": "onNotificationSent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "f(Lh8/d;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "status"
       },
       {
         "nodeRef": {
@@ -5450,7 +8576,47 @@
           "declClass": "j8.e",
           "shortId": "g(ILj8/f;)V"
         },
-        "newName": "onServiceAdd"
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "status"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "g(ILj8/f;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "service"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "h(Lh8/d;II)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "device"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "h(Lh8/d;II)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "newState"
       },
       {
         "nodeRef": {
@@ -5464,9 +8630,69 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "j8.e",
+          "shortId": "h(Lh8/d;II)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "status"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "i(Lh8/d;IILj8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "device"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
           "shortId": "i(Lh8/d;IILj8/a;)V"
         },
         "newName": "onCharacteristicReadRequest"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "i(Lh8/d;IILj8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "requestId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "i(Lh8/d;IILj8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "i(Lh8/d;IILj8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "characteristic"
       },
       {
         "nodeRef": {
@@ -5559,6 +8785,14 @@
           "index": 196608
         },
         "newName": "id"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "k8.a",
+          "shortId": "e(Lh8/d;III[B)Z"
+        },
+        "newName": "sendResponse"
       },
       {
         "nodeRef": {
@@ -5907,6 +9141,14 @@
           "index": 0
         },
         "newName": "communicationŰ_allowed"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "z7.b",
+          "shortId": "l([B)Ljava/lang/String;"
+        },
+        "newName": "format"
       }
     ]
   },

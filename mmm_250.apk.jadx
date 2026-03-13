@@ -31,6 +31,14 @@
       },
       {
         "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "p8.a"
+        },
+        "comment": "Conversion between Android Bluetooth GATT data structures and app\u0027s own ones\n.",
+        "style": "LINE"
+      },
+      {
+        "nodeRef": {
           "refType": "METHOD",
           "declClass": "com.medtronic.minimed.ngpsdk.connect.pump.connectionmanager.implementation.a",
           "shortId": "b(Ljava/lang/String;)Z"
@@ -110,9 +118,51 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "c8.b$a"
+        },
+        "newName": "GattCallback"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "c8.b0$f"
+        },
+        "newName": "GattCallback"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "c8.b0$g"
+        },
+        "newName": "IGattTransaction"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "c8.b0$h"
+        },
+        "newName": "IQueueHelper"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "c8.b0$i"
+        },
+        "newName": "QueueHelper"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "c8.b0$k"
+        },
+        "newName": "Executor"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "c8.d$b"
         },
-        "newName": "NestedInterface"
+        "newName": "IThing"
       },
       {
         "nodeRef": {
@@ -726,6 +776,13 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "n8.h$a"
+        },
+        "newName": "GattCallback"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "n9.a"
         },
         "newName": "Constants"
@@ -1147,6 +1204,22 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "b8.b",
+          "shortId": "a:Ljava/util/Set;"
+        },
+        "newName": "predicates"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "b8.b",
+          "shortId": "b:Lwl/c;"
+        },
+        "newName": "logger"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "b8.c",
           "shortId": "a:Z"
         },
@@ -1163,6 +1236,150 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "c8.b",
+          "shortId": "a:Landroid/content/Context;"
+        },
+        "newName": "context"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "c8.b",
+          "shortId": "b:Ljava/util/concurrent/locks/ReentrantLock;"
+        },
+        "newName": "lock"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "c8.b",
+          "shortId": "d:Li8/a;"
+        },
+        "newName": "gattCallback"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "c8.b",
+          "shortId": "e:Lc8/e0;"
+        },
+        "newName": "serializedGattFactory"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "c8.b",
+          "shortId": "f:Lh8/a;"
+        },
+        "newName": "adapter"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "c8.b",
+          "shortId": "g:Lc8/b0;"
+        },
+        "newName": "serializedGatt"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "c8.b",
+          "shortId": "h:Ljava/util/List;"
+        },
+        "newName": "callbacks"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "c8.b0",
+          "shortId": "a:Ljava/lang/Thread;"
+        },
+        "newName": "executorThread"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "c8.b0",
+          "shortId": "b:Ljava/util/concurrent/locks/Lock;"
+        },
+        "newName": "lock"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "c8.b0",
+          "shortId": "c:Ljava/util/concurrent/locks/Condition;"
+        },
+        "newName": "condition"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "c8.b0",
+          "shortId": "d:Li8/a;"
+        },
+        "newName": "gattCallback"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "c8.b0",
+          "shortId": "e:Lc8/b0$h;"
+        },
+        "newName": "queueHelper"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "c8.b0",
+          "shortId": "f:Lb8/a;"
+        },
+        "newName": "gattLogger"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "c8.b0",
+          "shortId": "g:Li8/b;"
+        },
+        "newName": "gatt"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "c8.b0",
+          "shortId": "h:Lwl/c;"
+        },
+        "newName": "logger"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "c8.b0",
+          "shortId": "i:Ljava/util/concurrent/BlockingQueue;"
+        },
+        "newName": "transactionQueue"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "c8.b0$a",
+          "shortId": "a:Lj8/a;"
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "c8.d",
+          "shortId": "a:Lc8/e;"
+        },
+        "newName": "gatt"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "c8.d",
           "shortId": "b:Ljava/util/UUID;"
         },
@@ -1175,6 +1392,14 @@
           "shortId": "c:Ljava/util/UUID;"
         },
         "newName": "charUuid"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "c8.d",
+          "shortId": "d:Lc8/d$b;"
+        },
+        "newName": "thing"
       },
       {
         "nodeRef": {
@@ -2603,6 +2828,30 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "n8.h",
+          "shortId": "a:Landroid/bluetooth/BluetoothGatt;"
+        },
+        "newName": "gatt"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "n8.h",
+          "shortId": "b:Li8/a;"
+        },
+        "newName": "callbackProxy"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "n8.h",
+          "shortId": "c:Landroid/os/Handler;"
+        },
+        "newName": "handler"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "ne.e",
           "shortId": "a:Lt7/b;"
         },
@@ -2903,6 +3152,370 @@
           "index": 458756
         },
         "newName": "app_Secret"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.a",
+          "shortId": "a(Lj8/c;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "charDescriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.a",
+          "shortId": "b(Lj8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.a",
+          "shortId": "c(Lj8/c;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "charDescriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.a",
+          "shortId": "d(Lj8/a;ZZ)V"
+        },
+        "newName": "charNotify"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.a",
+          "shortId": "d(Lj8/a;ZZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.a",
+          "shortId": "d(Lj8/a;ZZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "notifyOn"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.a",
+          "shortId": "e(Lj8/c;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "charDescriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.a",
+          "shortId": "f(Lj8/a;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.a",
+          "shortId": "g(Lj8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.a",
+          "shortId": "h(Lj8/c;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "charDescriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.a",
+          "shortId": "i(Lj8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.a",
+          "shortId": "j(Ljava/util/function/Predicate;)V"
+        },
+        "newName": "addPredicate"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.a",
+          "shortId": "k(Lj8/a;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.b",
+          "shortId": "a(Lj8/c;)V"
+        },
+        "newName": "descReadReq"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.b",
+          "shortId": "b(Lj8/a;)V"
+        },
+        "newName": "charReadReq"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.b",
+          "shortId": "c(Lj8/c;)V"
+        },
+        "newName": "descWriteReq"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.b",
+          "shortId": "c(Lj8/c;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "descriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.b",
+          "shortId": "d(Lj8/a;ZZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.b",
+          "shortId": "d(Lj8/a;ZZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "notifyOn"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.b",
+          "shortId": "e(Lj8/c;I)V"
+        },
+        "newName": "descWriteResp"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.b",
+          "shortId": "e(Lj8/c;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "descriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.b",
+          "shortId": "f(Lj8/a;I)V"
+        },
+        "newName": "charReadResp"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.b",
+          "shortId": "f(Lj8/a;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.b",
+          "shortId": "g(Lj8/a;)V"
+        },
+        "newName": "charWriteReq"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.b",
+          "shortId": "g(Lj8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.b",
+          "shortId": "h(Lj8/c;I)V"
+        },
+        "newName": "descReadResp"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.b",
+          "shortId": "h(Lj8/c;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "descriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.b",
+          "shortId": "i(Lj8/a;)V"
+        },
+        "newName": "charNotif"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.b",
+          "shortId": "i(Lj8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.b",
+          "shortId": "k(Lj8/a;I)V"
+        },
+        "newName": "charWriteResp"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.b",
+          "shortId": "k(Lj8/a;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.b",
+          "shortId": "l()Z"
+        },
+        "newName": "returnFalse"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.b",
+          "shortId": "m(Lj8/a;Ljava/lang/String;[Ljava/lang/Object;)V"
+        },
+        "newName": "log"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.b",
+          "shortId": "n(Lj8/a;)Z"
+        },
+        "newName": "atLeastOnePredicateTrue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "b8.b",
+          "shortId": "n(Lj8/a;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "characteristic"
       },
       {
         "nodeRef": {
@@ -3327,6 +3940,434 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "c8.b",
+          "shortId": "i(Lj8/a;Z)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b",
+          "shortId": "i(Lj8/a;Z)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "enable"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b",
+          "shortId": "i(Lj8/a;Z)V"
+        },
+        "newName": "setCharacteristicNotification"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b",
+          "shortId": "j(Ljava/util/UUID;Ljava/util/UUID;)Lj8/a;"
+        },
+        "newName": "getCharacteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b",
+          "shortId": "j(Ljava/util/UUID;Ljava/util/UUID;)Lj8/a;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "serviceUuid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b",
+          "shortId": "j(Ljava/util/UUID;Ljava/util/UUID;)Lj8/a;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "charUuid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b",
+          "shortId": "p()Z"
+        },
+        "newName": "disconnect"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b",
+          "shortId": "q(Ljava/util/UUID;)Lj8/f;"
+        },
+        "newName": "getService"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b",
+          "shortId": "q(Ljava/util/UUID;)Lj8/f;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 2
+        },
+        "newName": "service"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b",
+          "shortId": "r()Lwl/c;"
+        },
+        "newName": "logger"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b",
+          "shortId": "s()Lc8/b0;"
+        },
+        "newName": "getSerializedGatt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b",
+          "shortId": "t()Lc8/b0;"
+        },
+        "newName": "getSerializedGatt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0",
+          "shortId": "\u003cinit\u003e(Landroid/content/Context;Lh8/d;Li8/a;Lc8/b0$h;Lb8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "device"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0",
+          "shortId": "\u003cinit\u003e(Landroid/content/Context;Lh8/d;Li8/a;Lc8/b0$h;Lb8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "callback"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0",
+          "shortId": "\u003cinit\u003e(Landroid/content/Context;Lh8/d;Li8/a;Lc8/b0$h;Lb8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "gattLogger"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0",
+          "shortId": "j(Landroid/content/Context;Lh8/d;Li8/a;)Li8/b;"
+        },
+        "newName": "connectGatt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0",
+          "shortId": "k()V"
+        },
+        "newName": "close"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0",
+          "shortId": "l()V"
+        },
+        "newName": "disconnect"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0",
+          "shortId": "m()Z"
+        },
+        "newName": "discoverServices"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0",
+          "shortId": "n()Li8/b;"
+        },
+        "newName": "getGatt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0",
+          "shortId": "s(Lj8/a;Z)Z"
+        },
+        "newName": "setNotification"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0",
+          "shortId": "s(Lj8/a;Z)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1
+        },
+        "newName": "success"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0",
+          "shortId": "s(Lj8/a;Z)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0",
+          "shortId": "s(Lj8/a;Z)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "enable"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0$f",
+          "shortId": "b(Li8/b;II)V"
+        },
+        "newName": "onConnectionStateChange"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0$f",
+          "shortId": "b(Li8/b;II)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "status"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0$f",
+          "shortId": "b(Li8/b;II)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "newState"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0$f",
+          "shortId": "c(Li8/b;Lj8/c;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "gatt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0$f",
+          "shortId": "c(Li8/b;Lj8/c;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "descriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0$f",
+          "shortId": "d(Li8/b;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "gatt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0$f",
+          "shortId": "d(Li8/b;I)V"
+        },
+        "newName": "onReliableWriteCompleted"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0$f",
+          "shortId": "d(Li8/b;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "status"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0$f",
+          "shortId": "e(Li8/b;Lj8/c;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "gatt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0$f",
+          "shortId": "e(Li8/b;Lj8/c;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "descriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0$f",
+          "shortId": "e(Li8/b;Lj8/c;I)V"
+        },
+        "newName": "onDescriptorRead"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0$f",
+          "shortId": "f(Li8/b;Lj8/a;I)V"
+        },
+        "newName": "onCharacteristicRead"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0$f",
+          "shortId": "g(Li8/b;II)V"
+        },
+        "newName": "onMtuChanged"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0$f",
+          "shortId": "h(Li8/b;Lj8/a;I)V"
+        },
+        "newName": "onCharacteristicWrite"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0$f",
+          "shortId": "i(Li8/b;II)V"
+        },
+        "newName": "onReadRemoteRssi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0$f",
+          "shortId": "j(Li8/b;I)V"
+        },
+        "newName": "onServiceDiscovered"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0$f",
+          "shortId": "k()V"
+        },
+        "newName": "signalCondition"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0$g",
+          "shortId": "b(I)V"
+        },
+        "newName": "response"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0$h",
+          "shortId": "a(Lc8/b0$g;)V"
+        },
+        "newName": "enqueue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0$j",
+          "shortId": "a()I"
+        },
+        "newName": "timeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "c8.d",
           "shortId": "\u003cinit\u003e(Lc8/e;Ljava/util/UUID;Ljava/util/UUID;)V"
         },
@@ -3347,6 +4388,302 @@
           "index": 327680
         },
         "newName": "charUuid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.d",
+          "shortId": "d(Z)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "enable"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.d",
+          "shortId": "d(Z)V"
+        },
+        "newName": "enableNotification"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.d",
+          "shortId": "e()Lj8/a;"
+        },
+        "newName": "getCharacteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.d",
+          "shortId": "f(Lj8/a;)Lj8/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.d",
+          "shortId": "f(Lj8/a;)Lj8/c;"
+        },
+        "newName": "getDescriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.d",
+          "shortId": "g(Lj8/a;Lb8/c;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.d",
+          "shortId": "h(Lj8/a;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.d",
+          "shortId": "h(Lj8/a;)Z"
+        },
+        "newName": "isReadable"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.d",
+          "shortId": "i(Lj8/a;Lb8/f;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.d",
+          "shortId": "i(Lj8/a;Lb8/f;)Z"
+        },
+        "newName": "isWritable"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.d",
+          "shortId": "l(Lc8/d$b;)V"
+        },
+        "newName": "setThing"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.d$a",
+          "shortId": "b(Lj8/a;I)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.d$a",
+          "shortId": "e(Lj8/a;I)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.d$a",
+          "shortId": "h(Lj8/a;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.d$a",
+          "shortId": "j(Lj8/a;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "service"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.d$a",
+          "shortId": "j(Lj8/a;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.d$a",
+          "shortId": "k(Lj8/c;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "descriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.d$a",
+          "shortId": "k(Lj8/c;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65537
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.d$a",
+          "shortId": "l(Lj8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.d$a",
+          "shortId": "p(ILj8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.e",
+          "shortId": "a(Lj8/c;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "descriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.e",
+          "shortId": "d(Lj8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.e",
+          "shortId": "g(Lj8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.e",
+          "shortId": "h(Lj8/c;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "descriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.e",
+          "shortId": "i(Lj8/a;Z)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.e",
+          "shortId": "i(Lj8/a;Z)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "enable"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.f0",
+          "shortId": "a(Landroid/content/Context;Lh8/d;Li8/a;)Lc8/b0;"
+        },
+        "newName": "create"
       },
       {
         "nodeRef": {
@@ -3906,10 +5243,6 @@
           "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
           "shortId": "p()Lj8/c;"
         },
-        "codeRef": {
-          "attachType": "VAR",
-          "index": 0
-        },
         "newName": "cccd"
       },
       {
@@ -3917,6 +5250,10 @@
           "refType": "METHOD",
           "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
           "shortId": "p()Lj8/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
         },
         "newName": "cccd"
       },
@@ -4022,6 +5359,14 @@
           "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
           "shortId": "x(Lb8/e;Z[Ljava/lang/String;)I"
         },
+        "newName": "sendNotification"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
+          "shortId": "x(Lb8/e;Z[Ljava/lang/String;)I"
+        },
         "codeRef": {
           "attachType": "VAR",
           "index": 655360
@@ -4039,14 +5384,6 @@
           "index": 720896
         },
         "newName": "clients"
-      },
-      {
-        "nodeRef": {
-          "refType": "METHOD",
-          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.server.b",
-          "shortId": "x(Lb8/e;Z[Ljava/lang/String;)I"
-        },
-        "newName": "sendNotification"
       },
       {
         "nodeRef": {
@@ -5615,6 +6952,18 @@
           "shortId": "component3()Z"
         },
         "newName": "isRetrieveRealSakeKeys"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.battery.BatteryServiceModule$provideBatteryLevelChar$1",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/data/pump/ble/profile/client/battery/converters/BatteryLevelConverter;Ld8/e;Lc8/d;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "clientChar"
       },
       {
         "nodeRef": {
@@ -7863,6 +9212,314 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "i8.a",
+          "shortId": "a(Li8/b;Lj8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "gatt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "i8.a",
+          "shortId": "a(Li8/b;Lj8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "i8.a",
+          "shortId": "a(Li8/b;Lj8/a;)V"
+        },
+        "newName": "onCharacterisicChanged"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "i8.a",
+          "shortId": "b(Li8/b;II)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "gatt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "i8.a",
+          "shortId": "b(Li8/b;II)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "status"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "i8.a",
+          "shortId": "b(Li8/b;II)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "newState"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "i8.a",
+          "shortId": "c(Li8/b;Lj8/c;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "gatt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "i8.a",
+          "shortId": "c(Li8/b;Lj8/c;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "descriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "i8.a",
+          "shortId": "c(Li8/b;Lj8/c;I)V"
+        },
+        "newName": "onDescriptorWrite"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "i8.a",
+          "shortId": "d(Li8/b;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "gatt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "i8.a",
+          "shortId": "e(Li8/b;Lj8/c;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "gatt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "i8.a",
+          "shortId": "e(Li8/b;Lj8/c;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "descriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "i8.a",
+          "shortId": "f(Li8/b;Lj8/a;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "gatt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "i8.a",
+          "shortId": "f(Li8/b;Lj8/a;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "i8.a",
+          "shortId": "g(Li8/b;II)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "gatt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "i8.a",
+          "shortId": "h(Li8/b;Lj8/a;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "gatt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "i8.a",
+          "shortId": "h(Li8/b;Lj8/a;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "i8.a",
+          "shortId": "i(Li8/b;II)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "gatt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "i8.a",
+          "shortId": "j(Li8/b;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "gatt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "i8.b",
+          "shortId": "a(Lj8/c;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "descriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "i8.b",
+          "shortId": "d(Lj8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "i8.b",
+          "shortId": "g(Lj8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "i8.b",
+          "shortId": "h(Lj8/c;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "descriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "i8.b",
+          "shortId": "i(Lj8/a;Z)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "i8.b",
+          "shortId": "i(Lj8/a;Z)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "enable"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "i8.b",
+          "shortId": "i(Lj8/a;Z)Z"
+        },
+        "newName": "setCharacteristicNotification"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "i8.b",
+          "shortId": "k()V"
+        },
+        "newName": "readRemoteRssi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "ie.a",
           "shortId": "\u003cinit\u003e(Lie/a$a;Ljava/lang/String;Lcom/medtronic/minimed/ngpsdk/connect/pump/client/deviceinfo/model/DeviceInfo;Ljava/lang/Long;)V"
         },
@@ -8626,18 +10283,6 @@
           "declClass": "j8.e",
           "shortId": "e(Lh8/d;IILj8/c;)V"
         },
-        "codeRef": {
-          "attachType": "VAR",
-          "index": 262144
-        },
-        "newName": "descriptor"
-      },
-      {
-        "nodeRef": {
-          "refType": "METHOD",
-          "declClass": "j8.e",
-          "shortId": "e(Lh8/d;IILj8/c;)V"
-        },
         "newName": "onDescriptorReadRequest"
       },
       {
@@ -8750,18 +10395,6 @@
           "declClass": "j8.e",
           "shortId": "h(Lh8/d;II)V"
         },
-        "codeRef": {
-          "attachType": "VAR",
-          "index": 196608
-        },
-        "newName": "newState"
-      },
-      {
-        "nodeRef": {
-          "refType": "METHOD",
-          "declClass": "j8.e",
-          "shortId": "h(Lh8/d;II)V"
-        },
         "newName": "onConnectionStateChanged"
       },
       {
@@ -8775,6 +10408,18 @@
           "index": 131072
         },
         "newName": "status"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "h(Lh8/d;II)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "newState"
       },
       {
         "nodeRef": {
@@ -8829,6 +10474,78 @@
         "codeRef": {
           "attachType": "VAR",
           "index": 262144
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.f",
+          "shortId": "a()Ljava/util/UUID;"
+        },
+        "newName": "uuid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.f",
+          "shortId": "d(Lj8/f;)Z"
+        },
+        "newName": "addService"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.f",
+          "shortId": "d(Lj8/f;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "service"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.f",
+          "shortId": "e()Ljava/util/List;"
+        },
+        "newName": "characteristics"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.f",
+          "shortId": "f()Ljava/util/List;"
+        },
+        "newName": "services"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.f",
+          "shortId": "g(Ljava/util/UUID;)Lj8/a;"
+        },
+        "newName": "getCharacteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.f",
+          "shortId": "h(Lj8/a;)V"
+        },
+        "newName": "addCharacteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.f",
+          "shortId": "h(Lj8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
         },
         "newName": "characteristic"
       },
@@ -9279,6 +10996,322 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "p8.a",
+          "shortId": "a(Landroid/bluetooth/BluetoothGatt;Lj8/a;Z)Landroid/bluetooth/BluetoothGattCharacteristic;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p8.a",
+          "shortId": "a(Landroid/bluetooth/BluetoothGatt;Lj8/a;Z)Landroid/bluetooth/BluetoothGattCharacteristic;"
+        },
+        "newName": "toAndroid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p8.a",
+          "shortId": "b(Lj8/a;)Landroid/bluetooth/BluetoothGattCharacteristic;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p8.a",
+          "shortId": "b(Lj8/a;)Landroid/bluetooth/BluetoothGattCharacteristic;"
+        },
+        "newName": "toAndroid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p8.a",
+          "shortId": "c(Landroid/bluetooth/BluetoothGattCharacteristic;)Landroid/bluetooth/BluetoothGattCharacteristic;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p8.a",
+          "shortId": "d(Landroid/bluetooth/BluetoothGatt;Lj8/c;)Landroid/bluetooth/BluetoothGattDescriptor;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "descriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p8.a",
+          "shortId": "d(Landroid/bluetooth/BluetoothGatt;Lj8/c;)Landroid/bluetooth/BluetoothGattDescriptor;"
+        },
+        "newName": "toAndroid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p8.a",
+          "shortId": "e(Lj8/c;)Landroid/bluetooth/BluetoothGattDescriptor;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "descriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p8.a",
+          "shortId": "e(Lj8/c;)Landroid/bluetooth/BluetoothGattDescriptor;"
+        },
+        "newName": "toAndroid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p8.a",
+          "shortId": "f(Landroid/bluetooth/BluetoothManager;Lh8/d;)Landroid/bluetooth/BluetoothDevice;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "manager"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p8.a",
+          "shortId": "f(Landroid/bluetooth/BluetoothManager;Lh8/d;)Landroid/bluetooth/BluetoothDevice;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "device"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p8.a",
+          "shortId": "f(Landroid/bluetooth/BluetoothManager;Lh8/d;)Landroid/bluetooth/BluetoothDevice;"
+        },
+        "newName": "toAndroid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p8.a",
+          "shortId": "g(Landroid/bluetooth/BluetoothGattCharacteristic;)Lj8/a;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "charProxy"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p8.a",
+          "shortId": "g(Landroid/bluetooth/BluetoothGattCharacteristic;)Lj8/a;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p8.a",
+          "shortId": "g(Landroid/bluetooth/BluetoothGattCharacteristic;)Lj8/a;"
+        },
+        "newName": "fromAndroid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p8.a",
+          "shortId": "h(Landroid/bluetooth/BluetoothGattCharacteristic;)Lj8/a;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "characteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p8.a",
+          "shortId": "h(Landroid/bluetooth/BluetoothGattCharacteristic;)Lj8/a;"
+        },
+        "newName": "fromAndroid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p8.a",
+          "shortId": "i(Landroid/bluetooth/BluetoothGattDescriptor;)Lj8/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "descrProxy"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p8.a",
+          "shortId": "i(Landroid/bluetooth/BluetoothGattDescriptor;)Lj8/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "descriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p8.a",
+          "shortId": "i(Landroid/bluetooth/BluetoothGattDescriptor;)Lj8/c;"
+        },
+        "newName": "fromAndroid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p8.a",
+          "shortId": "j(Landroid/bluetooth/BluetoothGattDescriptor;)Lj8/c;"
+        },
+        "newName": "convertShallow"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p8.a",
+          "shortId": "j(Landroid/bluetooth/BluetoothGattDescriptor;)Lj8/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "descrProxy"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p8.a",
+          "shortId": "j(Landroid/bluetooth/BluetoothGattDescriptor;)Lj8/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "descriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p8.a",
+          "shortId": "k(Landroid/bluetooth/BluetoothGattService;)Lj8/f;"
+        },
+        "newName": "fromAndroid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p8.a",
+          "shortId": "k(Landroid/bluetooth/BluetoothGattService;)Lj8/f;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1
+        },
+        "newName": "srvProxy"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p8.a",
+          "shortId": "k(Landroid/bluetooth/BluetoothGattService;)Lj8/f;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "service"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p8.a",
+          "shortId": "l(Landroid/bluetooth/BluetoothGattServer;Lj8/f;)Landroid/bluetooth/BluetoothGattService;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1
+        },
+        "newName": "srv"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p8.a",
+          "shortId": "l(Landroid/bluetooth/BluetoothGattServer;Lj8/f;)Landroid/bluetooth/BluetoothGattService;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "server"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p8.a",
+          "shortId": "l(Landroid/bluetooth/BluetoothGattServer;Lj8/f;)Landroid/bluetooth/BluetoothGattService;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "service"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "p8.a",
+          "shortId": "l(Landroid/bluetooth/BluetoothGattServer;Lj8/f;)Landroid/bluetooth/BluetoothGattService;"
+        },
+        "newName": "toAndroid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "t7.b",
           "shortId": "a()Ljavax/crypto/Cipher;"
         },
@@ -9675,6 +11708,22 @@
           "index": 262144
         },
         "newName": "supervisionTimeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "z7.b",
+          "shortId": "b(Lj8/a;Z)Ljava/lang/String;"
+        },
+        "newName": "format"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "z7.b",
+          "shortId": "c(Lj8/c;)Ljava/lang/String;"
+        },
+        "newName": "format"
       },
       {
         "nodeRef": {

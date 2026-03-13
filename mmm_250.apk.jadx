@@ -356,6 +356,83 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideCgmFeatureChar$1"
+        },
+        "newName": "CgmFeatureChar__"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideCgmMeasurementChar$1"
+        },
+        "newName": "CgmMeasurementChar__"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideCgmRecordAccessControlPoint$1"
+        },
+        "newName": "CgmRacp__"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideCgmSessionRunTimeChar$1"
+        },
+        "newName": "CgmSessionRunTimeChar__"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideCgmSessionStartTimeChar$1"
+        },
+        "newName": "CgmSessionStartTimeChar__"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideCgmSpecificOperationControlPoint$1"
+        },
+        "newName": "CgmSocp__"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideCgmStatusChar$1"
+        },
+        "newName": "CgmStatusChar__"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideCgmTimeOfNextCalibrationRecommendedChar$1"
+        },
+        "newName": "CgmTimeOfNextCalibrationRecommendedChar__"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideCgmTimeOfSensorExpirationChar$1"
+        },
+        "newName": "CgmTimeOfSensorExpirationChar__"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideRacpChar$1"
+        },
+        "newName": "RacpChar__"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideSocpChar$1"
+        },
+        "newName": "SocpChar__"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "com.medtronic.minimed.data.repository.f"
         },
         "newName": "SeriesRepository"
@@ -4688,6 +4765,54 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "c8.v0",
+          "shortId": "\u003cinit\u003e(Lc8/d;Lcom/medtronic/minimed/connect/ble/api/gatt/converter/b;Lcom/medtronic/minimed/connect/ble/api/gatt/converter/b;Lcom/medtronic/minimed/connect/ble/api/gatt/converter/b;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "clientChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.v0",
+          "shortId": "\u003cinit\u003e(Lc8/d;Lcom/medtronic/minimed/connect/ble/api/gatt/converter/b;Lcom/medtronic/minimed/connect/ble/api/gatt/converter/b;Lcom/medtronic/minimed/connect/ble/api/gatt/converter/b;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "readConverter"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.v0",
+          "shortId": "\u003cinit\u003e(Lc8/d;Lcom/medtronic/minimed/connect/ble/api/gatt/converter/b;Lcom/medtronic/minimed/connect/ble/api/gatt/converter/b;Lcom/medtronic/minimed/connect/ble/api/gatt/converter/b;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "writeConverter"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.v0",
+          "shortId": "\u003cinit\u003e(Lc8/d;Lcom/medtronic/minimed/connect/ble/api/gatt/converter/b;Lcom/medtronic/minimed/connect/ble/api/gatt/converter/b;Lcom/medtronic/minimed/connect/ble/api/gatt/converter/b;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "updateConverter"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "c8.z",
           "shortId": "\u003cinit\u003e(Lc8/e;Ljava/util/UUID;Ljava/util/UUID;Lf8/b;)V"
         },
@@ -6962,6 +7087,258 @@
         "codeRef": {
           "attachType": "VAR",
           "index": 196608
+        },
+        "newName": "clientChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideCgmFeatureChar$1",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmFeatureConverter;Ld8/e;Lc8/d;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "readConverter"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideCgmFeatureChar$1",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmFeatureConverter;Ld8/e;Lc8/d;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "clientChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideCgmMeasurementChar$1",
+          "shortId": "\u003cinit\u003e(Ld8/e;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmMeasurementsConverter;Lc8/d;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "updateConverter"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideCgmMeasurementChar$1",
+          "shortId": "\u003cinit\u003e(Ld8/e;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmMeasurementsConverter;Lc8/d;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "clientChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideCgmRecordAccessControlPoint$1",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/CgmRacpChar;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/CgmMeasurementChar;Lcom/medtronic/minimed/data/pump/ble/exchange/cgm/CgmRecordAccessControlPointResponseTransformer;Lio/reactivex/b0;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "responseTransformer"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideCgmSessionRunTimeChar$1",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmSessionRunTimeConverter;Ld8/e;Lc8/d;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "readConverter"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideCgmSessionRunTimeChar$1",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmSessionRunTimeConverter;Ld8/e;Lc8/d;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "clientChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideCgmSessionStartTimeChar$1",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmSessionStartTimeConverter;Ld8/e;Lc8/d;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "readConverter"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideCgmSessionStartTimeChar$1",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmSessionStartTimeConverter;Ld8/e;Lc8/d;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "clientChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideCgmStatusChar$1",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmStatusConverter;Ld8/e;Lc8/d;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "readConverter"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideCgmStatusChar$1",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmStatusConverter;Ld8/e;Lc8/d;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "clientChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideCgmTimeOfNextCalibrationRecommendedChar$1",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmTimeOfNextCalibrationRecommendedConverter;Ld8/e;Lc8/d;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "readConverter"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideCgmTimeOfNextCalibrationRecommendedChar$1",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmTimeOfNextCalibrationRecommendedConverter;Ld8/e;Lc8/d;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "clientChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideCgmTimeOfSensorExpirationChar$1",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmTimeOfSensorExpirationConverter;Ld8/e;Lc8/d;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "readConverter"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideCgmTimeOfSensorExpirationChar$1",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmTimeOfSensorExpirationConverter;Ld8/e;Lc8/d;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "clientChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideRacpChar$1",
+          "shortId": "\u003cinit\u003e(Ld8/e;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmRacpRequestConverter;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmRacpResponseConverter;Lc8/d;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "writeConverter"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideRacpChar$1",
+          "shortId": "\u003cinit\u003e(Ld8/e;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmRacpRequestConverter;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmRacpResponseConverter;Lc8/d;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "updateConverter"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideRacpChar$1",
+          "shortId": "\u003cinit\u003e(Ld8/e;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmRacpRequestConverter;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmRacpResponseConverter;Lc8/d;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "clientChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideSocpChar$1",
+          "shortId": "\u003cinit\u003e(Ld8/e;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmSocpRequestConverter;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmSocpResponseConverter;Lc8/d;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "writeConverter"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideSocpChar$1",
+          "shortId": "\u003cinit\u003e(Ld8/e;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmSocpRequestConverter;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmSocpResponseConverter;Lc8/d;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "updateConverter"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.cgm.ContinuousGlucoseMonitoringServiceModule$provideSocpChar$1",
+          "shortId": "\u003cinit\u003e(Ld8/e;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmSocpRequestConverter;Lcom/medtronic/minimed/data/pump/ble/profile/client/cgm/converters/CgmSocpResponseConverter;Lc8/d;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
         },
         "newName": "clientChar"
       },

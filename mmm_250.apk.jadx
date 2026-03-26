@@ -63,6 +63,19 @@
         },
         "comment": "Create data for manufacturer-specific advertising data.\n.\n505 (0x01f9) is Medtronic\u0027s Bluetooth company ID.\nThe UUID changes depending on the \"forPairing\" argument. Also the first\nbyte of the actual data: 0x00 if the flag is set, 0x80 otherwise.\n.",
         "style": "LINE"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "me.c",
+          "shortId": "l(I)Z"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 4
+        },
+        "comment": "We haven\u0027t started the sequence yet, so definitely no gap.",
+        "style": "LINE"
       }
     ],
     "renames": [
@@ -835,6 +848,20 @@
           "declClass": "ma.x"
         },
         "newName": "ResourcesProvider"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "me.c$a"
+        },
+        "newName": "Decrypter"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "me.c$b"
+        },
+        "newName": "PostponedDecryption"
       },
       {
         "nodeRef": {
@@ -2889,6 +2916,62 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "me.c",
+          "shortId": "b:Ljava/lang/Runnable;"
+        },
+        "newName": "postponedDecryption"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "me.c",
+          "shortId": "c:Landroid/os/Handler;"
+        },
+        "newName": "handler"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "me.c",
+          "shortId": "d:I"
+        },
+        "newName": "seqNumber"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "me.c",
+          "shortId": "e:Lme/c$a;"
+        },
+        "newName": "decrypter"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "me.c",
+          "shortId": "f:Lwl/c;"
+        },
+        "newName": "logger"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "me.c$a",
+          "shortId": "a:[B"
+        },
+        "newName": "ciphertext"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "me.c$a",
+          "shortId": "b:Lf8/a;"
+        },
+        "newName": "decryptionCallback"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "me.f",
           "shortId": "a:Lcom/medtronic/minimed/ngpsdk/connect/pump/sake/c;"
         },
@@ -4256,14 +4339,6 @@
           "declClass": "c8.b0$f",
           "shortId": "b(Li8/b;II)V"
         },
-        "newName": "onConnectionStateChange"
-      },
-      {
-        "nodeRef": {
-          "refType": "METHOD",
-          "declClass": "c8.b0$f",
-          "shortId": "b(Li8/b;II)V"
-        },
         "codeRef": {
           "attachType": "VAR",
           "index": 393216
@@ -4281,6 +4356,14 @@
           "index": 458752
         },
         "newName": "newState"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0$f",
+          "shortId": "b(Li8/b;II)V"
+        },
+        "newName": "onConnectionStateChange"
       },
       {
         "nodeRef": {
@@ -11137,6 +11220,298 @@
           "shortId": "b()I"
         },
         "newName": "getBondState"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "me.c",
+          "shortId": "i(Lme/c$a;)V"
+        },
+        "newName": "decrypt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "me.c",
+          "shortId": "j()V"
+        },
+        "newName": "unschedulePostponedDecryption"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "me.c",
+          "shortId": "k()Lme/c$a;"
+        },
+        "newName": "getDecrypter"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "me.c",
+          "shortId": "l(I)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "curSeq"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "me.c",
+          "shortId": "l(I)Z"
+        },
+        "newName": "hasSequenceGap"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "me.c",
+          "shortId": "l(I)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1
+        },
+        "newName": "next"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "me.c",
+          "shortId": "l(I)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "newSeq"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "me.c",
+          "shortId": "m(I)Z"
+        },
+        "newName": "isPreviousSeqNumber"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "me.c",
+          "shortId": "m(I)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "seq"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "me.c",
+          "shortId": "n([B)Z"
+        },
+        "newName": "hasValidLength"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "me.c",
+          "shortId": "o([BLf8/a;)V"
+        },
+        "newName": "decrypt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "me.c",
+          "shortId": "p(I)I"
+        },
+        "newName": "nextSeqNumber"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "me.c",
+          "shortId": "p(I)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "seq"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "me.c",
+          "shortId": "q(Lme/c$a;)V"
+        },
+        "newName": "schedulePostponedDecryption"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "me.c",
+          "shortId": "r(I)I"
+        },
+        "newName": "prevSeqNumber"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "me.c",
+          "shortId": "r(I)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "seq"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "me.c",
+          "shortId": "s([BLf8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "ciphertext"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "me.c$a",
+          "shortId": "\u003cinit\u003e(Lme/c;[BLf8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "ciphertext"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "me.c$a",
+          "shortId": "a()V"
+        },
+        "newName": "decrypt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "me.c$a",
+          "shortId": "b()I"
+        },
+        "newName": "seqNumber"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "me.c$b",
+          "shortId": "run()V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1
+        },
+        "newName": "cipher"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "me.f",
+          "shortId": "b([B)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "ciphertext"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "me.f",
+          "shortId": "b([B)[B"
+        },
+        "newName": "decrypt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "me.f",
+          "shortId": "b([B)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131073
+        },
+        "newName": "plaintext"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "me.f",
+          "shortId": "c([BLf8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "ciphertext"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "me.f",
+          "shortId": "c([BLf8/a;)V"
+        },
+        "newName": "decrypt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "me.f",
+          "shortId": "c([BLf8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196610
+        },
+        "newName": "plaintext"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "me.f",
+          "shortId": "encrypt([B)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "plaintext"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "me.f",
+          "shortId": "encrypt([B)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131073
+        },
+        "newName": "ciphertext"
       },
       {
         "nodeRef": {

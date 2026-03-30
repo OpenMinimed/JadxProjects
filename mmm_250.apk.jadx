@@ -2092,6 +2092,22 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.converters.RtmcpCommandConverter$1",
+          "shortId": "$SwitchMap$com$medtronic$minimed$data$pump$ble$profile$client$historytrace$model$ParameterType:[I"
+        },
+        "newName": "parameterTypeMap"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.converters.RtmcpCommandConverter$1",
+          "shortId": "$SwitchMap$com$medtronic$minimed$data$pump$ble$profile$client$historytrace$model$RtmcpOpCode:[I"
+        },
+        "newName": "rtmcpOpCodeMap"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.ids.model.BolusActivationType",
           "shortId": "$ENTRIES:Lqk/a;"
         },
@@ -4363,6 +4379,18 @@
           "declClass": "c8.b0$f",
           "shortId": "b(Li8/b;II)V"
         },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "newState"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0$f",
+          "shortId": "b(Li8/b;II)V"
+        },
         "newName": "onConnectionStateChange"
       },
       {
@@ -4376,18 +4404,6 @@
           "index": 393216
         },
         "newName": "status"
-      },
-      {
-        "nodeRef": {
-          "refType": "METHOD",
-          "declClass": "c8.b0$f",
-          "shortId": "b(Li8/b;II)V"
-        },
-        "codeRef": {
-          "attachType": "VAR",
-          "index": 458752
-        },
-        "newName": "newState"
       },
       {
         "nodeRef": {
@@ -7832,6 +7848,210 @@
           "index": 524288
         },
         "newName": "mdtSessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.converters.RmcpSecureRepositoryRequestConverter",
+          "shortId": "pack(Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpSecureRepositoryRequest;)Lb8/e;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "request"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.converters.RtmcpCommandConverter",
+          "shortId": "pack(Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpCommand;)Lb8/e;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "command"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.converters.RtmcpCommandConverter",
+          "shortId": "packRepositoryRequestOperand(Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RepositoryRequestOperand;Lb8/e$a;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "operand"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.converters.RtmcpCommandConverter",
+          "shortId": "packTransferBlockParamsOperand(Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/TransferBlockGenerationParams;Lb8/e$a;I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 5
+        },
+        "newName": "blockParam"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.converters.RtmcpResponseConverter",
+          "shortId": "unpack(Lb8/e;)Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpResponse;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131075
+        },
+        "newName": "opcode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.converters.RtmcpResponseConverter",
+          "shortId": "unpack(Lb8/e;)Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpResponse;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458754
+        },
+        "newName": "operand"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.converters.RtmcpResponseConverter",
+          "shortId": "unpackGenericResponseOperand(Lb8/e;I)Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpResponseOperand;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131075
+        },
+        "newName": "opcode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.converters.RtmcpResponseConverter",
+          "shortId": "unpackGenericResponseOperand(Lb8/e;I)Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpResponseOperand;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458756
+        },
+        "newName": "responseCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.converters.RtmcpResponseConverter",
+          "shortId": "unpackRepositoryRequestStatusOperand(Lb8/e;I)Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpResponseOperand;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "flags"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.converters.RtmcpResponseConverter",
+          "shortId": "unpackRepositoryRequestStatusOperand(Lb8/e;I)Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpResponseOperand;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458754
+        },
+        "newName": "seq"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.converters.RtmcpResponseConverter",
+          "shortId": "unpackRepositoryRequestStatusOperand(Lb8/e;I)Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpResponseOperand;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "sessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.converters.RtmcpResponseConverter",
+          "shortId": "unpackRepositoryRequestStatusOperand(Lb8/e;I)Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpResponseOperand;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589826
+        },
+        "newName": "transferBlocks"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.converters.RtmcpResponseConverter",
+          "shortId": "unpackSessionMetricsOperand(Lb8/e;I)Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpResponseOperand;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131073
+        },
+        "newName": "compressionTime"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.converters.RtmcpResponseConverter",
+          "shortId": "unpackSessionMetricsOperand(Lb8/e;I)Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpResponseOperand;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "ct"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.converters.RtmcpResponseConverter",
+          "shortId": "unpackSessionMetricsOperand(Lb8/e;I)Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpResponseOperand;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589825
+        },
+        "newName": "encryptionTime"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.converters.RtmcpResponseConverter",
+          "shortId": "unpackSliceTransportParamsOperand(Lb8/e;I)Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpResponseOperand;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196609
+        },
+        "newName": "sliceSize"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.model.RtmcpSecureRepositoryRequest",
+          "shortId": "\u003cinit\u003e([BZ)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "forceReCache"
       },
       {
         "nodeRef": {

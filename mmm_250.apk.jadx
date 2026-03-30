@@ -2916,6 +2916,22 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "ma.p",
+          "shortId": "a:Ljava/lang/Object;"
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ma.p",
+          "shortId": "b:Lma/p;"
+        },
+        "newName": "EMPTY"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "me.c",
           "shortId": "b:Ljava/lang/Runnable;"
         },
@@ -12348,6 +12364,198 @@
           "shortId": "b()I"
         },
         "newName": "getBondState"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ma.p",
+          "shortId": "\u003cinit\u003e(Ljava/lang/Object;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ma.p",
+          "shortId": "a()Lma/p;"
+        },
+        "newName": "empty"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ma.p",
+          "shortId": "b()Ljava/lang/Object;"
+        },
+        "newName": "get"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ma.p",
+          "shortId": "b()Ljava/lang/Object;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ma.p",
+          "shortId": "d(Loa/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "consumer"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ma.p",
+          "shortId": "d(Loa/a;)V"
+        },
+        "newName": "ifPresent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ma.p",
+          "shortId": "e()Z"
+        },
+        "newName": "isPresent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ma.p",
+          "shortId": "f(Loa/b;)Lma/p;"
+        },
+        "newName": "map"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ma.p",
+          "shortId": "f(Loa/b;)Lma/p;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "mapper"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ma.p",
+          "shortId": "g(Ljava/lang/Object;)Lma/p;"
+        },
+        "newName": "of"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ma.p",
+          "shortId": "g(Ljava/lang/Object;)Lma/p;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ma.p",
+          "shortId": "h(Ljava/lang/Object;)Lma/p;"
+        },
+        "newName": "ofNullable"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ma.p",
+          "shortId": "h(Ljava/lang/Object;)Lma/p;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ma.p",
+          "shortId": "i(Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        "newName": "orElse"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ma.p",
+          "shortId": "i(Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "val"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ma.p",
+          "shortId": "i(Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "other"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ma.p",
+          "shortId": "j(Loa/d;)Ljava/lang/Object;"
+        },
+        "newName": "orElseGet"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ma.p",
+          "shortId": "j(Loa/d;)Ljava/lang/Object;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "val"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ma.p",
+          "shortId": "toString()Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "val"
       },
       {
         "nodeRef": {

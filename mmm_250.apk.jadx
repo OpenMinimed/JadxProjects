@@ -747,6 +747,13 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "io.reactivex.a0"
+        },
+        "newName": "Observer"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "io.reactivex.l"
         },
         "newName": "FlowableEmitter"
@@ -831,9 +838,23 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "kj.a"
+        },
+        "newName": "Action"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "kj.f"
         },
         "newName": "Cancellable"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "kj.g"
+        },
+        "newName": "Consumer"
       },
       {
         "nodeRef": {

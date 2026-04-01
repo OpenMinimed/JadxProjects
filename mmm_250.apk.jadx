@@ -1300,6 +1300,46 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "ak.o",
+          "shortId": "a:F"
+        },
+        "newName": "loadFacotor"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ak.o",
+          "shortId": "b:I"
+        },
+        "newName": "mask"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ak.o",
+          "shortId": "c:I"
+        },
+        "newName": "size"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ak.o",
+          "shortId": "d:I"
+        },
+        "newName": "maxSize"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ak.o",
+          "shortId": "e:[Ljava/lang/Object;"
+        },
+        "newName": "keys"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "b7.g",
           "shortId": "f:Lma/x;"
         },
@@ -3328,6 +3368,150 @@
           "shortId": "e:Lyd/b;"
         },
         "newName": "Default"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ak.o",
+          "shortId": "\u003cinit\u003e(I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "capacity"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ak.o",
+          "shortId": "\u003cinit\u003e(IF)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "capacity"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ak.o",
+          "shortId": "\u003cinit\u003e(IF)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "loadFactor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ak.o",
+          "shortId": "a(Ljava/lang/Object;)Z"
+        },
+        "newName": "add"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ak.o",
+          "shortId": "a(Ljava/lang/Object;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ak.o",
+          "shortId": "b()[Ljava/lang/Object;"
+        },
+        "newName": "keys"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ak.o",
+          "shortId": "d()V"
+        },
+        "newName": "rehash"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ak.o",
+          "shortId": "e(Ljava/lang/Object;)Z"
+        },
+        "newName": "remove"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ak.o",
+          "shortId": "e(Ljava/lang/Object;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ak.o",
+          "shortId": "f(I[Ljava/lang/Object;I)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "pos"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ak.o",
+          "shortId": "f(I[Ljava/lang/Object;I)Z"
+        },
+        "newName": "removeEntry"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ak.o",
+          "shortId": "f(I[Ljava/lang/Object;I)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "tArr"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ak.o",
+          "shortId": "f(I[Ljava/lang/Object;I)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "m"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ak.o",
+          "shortId": "g()I"
+        },
+        "newName": "size"
       },
       {
         "nodeRef": {
@@ -15108,6 +15292,14 @@
           "shortId": "l([B)Ljava/lang/String;"
         },
         "newName": "format"
+      },
+      {
+        "nodeRef": {
+          "refType": "PKG",
+          "declClass": "ak",
+          "shortId": ""
+        },
+        "newName": "utils"
       }
     ]
   },

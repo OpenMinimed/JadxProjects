@@ -82,6 +82,13 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "ak.k$a"
+        },
+        "newName": "Termination"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "b8.a"
         },
         "newName": "BluetoothGattLogger"
@@ -1296,6 +1303,14 @@
           "declClass": "yk.a"
         },
         "newName": "KMarkers"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ak.k",
+          "shortId": "a:Ljava/lang/Throwable;"
+        },
+        "newName": "TERMINATED"
       },
       {
         "nodeRef": {
@@ -3384,6 +3399,82 @@
           "shortId": "e:Lyd/b;"
         },
         "newName": "Default"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ak.k",
+          "shortId": "a(Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/Throwable;)Z"
+        },
+        "newName": "adThrowable"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ak.k",
+          "shortId": "a(Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/Throwable;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "field"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ak.k",
+          "shortId": "a(Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/Throwable;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "exception"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ak.k",
+          "shortId": "b(Ljava/util/concurrent/atomic/AtomicReference;)Ljava/lang/Throwable;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "field"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ak.k",
+          "shortId": "b(Ljava/util/concurrent/atomic/AtomicReference;)Ljava/lang/Throwable;"
+        },
+        "newName": "terminate"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ak.k",
+          "shortId": "c(Ljava/lang/Throwable;)Ljava/lang/Exception;"
+        },
+        "newName": "throwIfThrowable"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ak.k",
+          "shortId": "d(JLjava/util/concurrent/TimeUnit;)Ljava/lang/String;"
+        },
+        "newName": "timeoutMessage"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ak.k",
+          "shortId": "e(Ljava/lang/Throwable;)Ljava/lang/RuntimeException;"
+        },
+        "newName": "wrapOrThrow"
       },
       {
         "nodeRef": {

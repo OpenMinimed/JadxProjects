@@ -1594,6 +1594,30 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.bl.pump.hat.p4",
+          "shortId": "c:Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloader;"
+        },
+        "newName": "hatDownloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.bl.pump.hat.p4",
+          "shortId": "d:Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;"
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.bl.pump.hat.p4",
+          "shortId": "n:Lwl/c;"
+        },
+        "newName": "logger"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "com.medtronic.minimed.connect.ble.api.gap.k",
           "shortId": "a:Lcom/medtronic/minimed/connect/ble/api/gap/a;"
         },
@@ -2150,6 +2174,46 @@
           "shortId": "c:Landroid/bluetooth/BluetoothManager;"
         },
         "newName": "btManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl$1",
+          "shortId": "$SwitchMap$com$medtronic$minimed$data$pump$ble$profile$client$historytrace$model$RtmcpOpCode:[I"
+        },
+        "newName": "rtmcpOpCodeMap"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl$1",
+          "shortId": "$SwitchMap$com$medtronic$minimed$data$pump$ble$profile$client$historytrace$model$RtmcpResponseCode:[I"
+        },
+        "newName": "rtmcpResponseCodeMap"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl$1",
+          "shortId": "$SwitchMap$com$medtronic$minimed$data$pump$ble$profile$client$historytrace$model$SliceRacpOpCode:[I"
+        },
+        "newName": "sliceRacpOpCodeMap"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl$1",
+          "shortId": "$SwitchMap$com$medtronic$minimed$data$pump$ble$profile$client$historytrace$model$SliceRacpResponseCode:[I"
+        },
+        "newName": "sliceRacpResponseCodeMap"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl$1",
+          "shortId": "$SwitchMap$com$medtronic$minimed$data$pump$ble$profile$client$historytrace$model$RepositoryRequestStatus:[I"
+        },
+        "newName": "requestStatusMap"
       },
       {
         "nodeRef": {
@@ -5282,6 +5346,42 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.bl.pump.hat.p4",
+          "shortId": "c5(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/c;"
+        },
+        "newName": "resumeTransferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.bl.pump.hat.p4",
+          "shortId": "c5(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.bl.pump.hat.p4",
+          "shortId": "e5()Lio/reactivex/c0;"
+        },
+        "newName": "getTransferBlockDataFromCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.bl.pump.hat.p4",
+          "shortId": "i4(Ljava/util/List;)V"
+        },
+        "newName": "log_blockDownloaded"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "com.medtronic.minimed.connect.ble.api.gap.k",
           "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/connect/ble/api/gap/a;Ljava/util/List;Ljava/util/List;Ljava/util/List;ZZ)V"
         },
@@ -7502,6 +7602,2590 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperator",
+          "shortId": "downloadTransferBlockData(JIIILcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transferSessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperator",
+          "shortId": "downloadTransferBlockData(JIIILcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "blockSequence"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperator",
+          "shortId": "downloadTransferBlockData(JIIILcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "minSliceIndex"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperator",
+          "shortId": "downloadTransferBlockData(JIIILcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "maxSliceIndex"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperator",
+          "shortId": "endTransferSession(J)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transferSessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperator",
+          "shortId": "getNumberOfRecords(JI)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transferSessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperator",
+          "shortId": "getNumberOfRecords(JI)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "blockNumber"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperator",
+          "shortId": "nextBlockRequest(JI)Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transferSessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperator",
+          "shortId": "nextBlockRequest(JI)Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "blockNumber"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperator",
+          "shortId": "repositoryRequest([BZ)Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "secureRepoToken"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperator",
+          "shortId": "repositoryRequest([BZ)Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "isRecache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperator",
+          "shortId": "rmcpSeCharCommunication(Z)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "enableNotifications"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperator",
+          "shortId": "rtmcpCharCommunication(Z)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "enableNotifications"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperator",
+          "shortId": "sliceRacpCharCommunication(Z)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "enableNotifications"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperator",
+          "shortId": "sliceRecordCharCommunication(Z)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "enableNotifications"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/RepositoryAndTransferManagementControlPointChar;Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/RepositoryManagementControlPointSeChar;Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/SliceRecordAccessControlPointChar;Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/SliceRecordChar;Lcom/medtronic/minimed/data/repository/b;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "rtmcpChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/RepositoryAndTransferManagementControlPointChar;Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/RepositoryManagementControlPointSeChar;Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/SliceRecordAccessControlPointChar;Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/SliceRecordChar;Lcom/medtronic/minimed/data/repository/b;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "rmcpSeChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/RepositoryAndTransferManagementControlPointChar;Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/RepositoryManagementControlPointSeChar;Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/SliceRecordAccessControlPointChar;Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/SliceRecordChar;Lcom/medtronic/minimed/data/repository/b;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "sliceRacpChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "B(Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpSecureRepositoryRequest;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "request"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "downloadTransferBlockData(JIIILcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65541
+        },
+        "newName": "transactionLogger"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "downloadTransferBlockData(JIIILcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 655360
+        },
+        "newName": "transferSessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "downloadTransferBlockData(JIIILcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 786432
+        },
+        "newName": "blockSequence"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "downloadTransferBlockData(JIIILcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 851968
+        },
+        "newName": "minSliceIndex"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "downloadTransferBlockData(JIIILcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 917504
+        },
+        "newName": "maxSliceIndex"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "endTransferSession(J)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "transferSessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "executeRtmcpCommand(Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpCommand;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "command"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "executeRtmcpCommand(Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpCommand;Lkj/q;Z)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "command"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "executeRtmcpCommand(Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpCommand;Lkj/q;Z)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "matchOpCodeInResponse"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "executeRtmcpSeRequest(Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpSecureRepositoryRequest;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "request"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "executeSliceRacpCommand(Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/SliceRacpCommand;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "command"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "getNumberOfRecords(JI)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "sessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "getNumberOfRecords(JI)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "blockNumber"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "isFirstOfDoubleResponse(Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpOpCode;Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpResponseCode;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "opCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "isFirstOfDoubleResponse(Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpOpCode;Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpResponseCode;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "responseCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "lambda$executeRtmcpCommand$22(ZLcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpCommand;Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpResponse;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "match"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "lambda$rmcpSeCharCommunication$2(Z)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "enable"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "lambda$rtmcpCharCommunication$0(Z)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "enable"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "lambda$sliceRacpCharCommunication$4(Z)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "enable"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "lambda$sliceRecordCharCommunication$6(Z)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "enable"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "listenRepositoryRequestStatus()Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "timeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "mapToDevDiagnosticCode(Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpResponseCode;)Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DevDiagnosticCode;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "responseCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "mapToDevDiagnosticCode(Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/SliceRacpGenericResponseOperand;)Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DevDiagnosticCode;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "responseCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "mapToDevDiagnosticCode(Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/SliceRacpResponseCode;)Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DevDiagnosticCode;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "responseCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "matchRtmcpResponse(Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpOpCode;Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpResponse;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "opCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "matchRtmcpResponse(Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpOpCode;Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpResponse;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "response"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "nextBlockRequest(JI)Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65537
+        },
+        "newName": "timeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "nextBlockRequest(JI)Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "transferSessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "nextBlockRequest(JI)Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "blockNumber"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "p0(Ljava/lang/Throwable;)Lio/reactivex/g0;"
+        },
+        "newName": "nextTransferBlockRequest"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "r(Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpResponse;)V"
+        },
+        "newName": "nextTransferBlockResponse"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "repositoryRequest([BZ)Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65540
+        },
+        "newName": "timeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "repositoryRequest([BZ)Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "secureRepoToken"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "repositoryRequest([BZ)Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "isRecache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "responseOrError(Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/SliceRacpResponse;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "operand"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "rmcpSeCharCommunication(Z)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "enableNotifications"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "rtmcpCharCommunication(Z)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "enableNotifications"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "setCommunicationLogging(Lc8/g0;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "bleClientChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "sliceRacpCharCommunication(Z)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "enableNotifications"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "sliceRecordCharCommunication(Z)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "enableNotifications"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "t(ZLcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpCommand;Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpResponse;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "match"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "t(ZLcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpCommand;Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpResponse;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "command"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HatServiceOperatorImpl",
+          "shortId": "t(ZLcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpCommand;Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpResponse;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "response"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloader",
+          "shortId": "newRepositoryTransferSession([BLcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Z)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "secureRepoToken"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloader",
+          "shortId": "newRepositoryTransferSession([BLcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Z)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloader",
+          "shortId": "newRepositoryTransferSession([BLcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Z)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "isRecache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloader",
+          "shortId": "resumeTransferSession(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloader",
+          "shortId": "resumeTransferSession(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HatServiceOperator;Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/converters/TransferBlockDataConverter;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/PumpConnectionRssiProvider;Lma/b0;Lcom/medtronic/minimed/data/repository/b;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "operator"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HatServiceOperator;Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/converters/TransferBlockDataConverter;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/PumpConnectionRssiProvider;Lma/b0;Lcom/medtronic/minimed/data/repository/b;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "dataConverter"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HatServiceOperator;Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/converters/TransferBlockDataConverter;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/PumpConnectionRssiProvider;Lma/b0;Lcom/medtronic/minimed/data/repository/b;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "rssi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HatServiceOperator;Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/converters/TransferBlockDataConverter;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/PumpConnectionRssiProvider;Lma/b0;Lcom/medtronic/minimed/data/repository/b;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "repository"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "A(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "B(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "B0(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/NumberOfRecordsResponseOperand;)Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "B0(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/NumberOfRecordsResponseOperand;)Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "operand"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "C(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lio/reactivex/c0;)Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "D(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lio/reactivex/c0;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "E(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Ljava/lang/Throwable;)Lio/reactivex/g;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "F(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RepositoryRequestStatusResponseOperand;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "G(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "G(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "H(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl$TransferBlockDownloadParams;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "I(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RepositoryRequestStatusResponseOperand;)Lvl/b;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "J(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Ljava/lang/Throwable;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "L(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "M(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "P(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Ljava/util/SortedSet;)Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/TransferBlockData;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "Q(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lio/reactivex/c0;)Lma/p;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "S(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "S(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "U(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RepositoryRequestStatusResponseOperand;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "V(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "V(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "W(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "W(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "X(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl$TransferBlockDownloadParams;)Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "a(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Ljava/util/List;)Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "a0(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Ljava/lang/Throwable;)Lio/reactivex/g;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "addDevDiagnosticCode(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DevDiagnosticCode;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "code"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "addDiagnosticCode(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DiagnosticCode;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "code"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "b(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lhj/b;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "b0(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "b0(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "c(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Ljava/util/List;)Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "checkTransferSession(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "checkTransferSession(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "clearAllCaches(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "closeTransferSession(J)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "sessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "createTransferSessionState(Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RepositoryRequestStatusResponseOperand;)Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 2
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "d(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Ljava/lang/Throwable;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "downloadAllTransferBlocks(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 786432
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "downloadAllTransferBlocks(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 851968
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "downloadRepositoryData(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "downloadRepositoryData(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "e(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "e(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "e0(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Ljava/lang/Throwable;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "errorIfPendingSession(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "f(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lio/reactivex/c;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "f0(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "f0(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "g0(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "g0(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "getRepositoryRequestStatus(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "getRepositoryRequestStatus(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "h(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lio/reactivex/j;)Lvl/b;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "h(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lio/reactivex/j;)Lvl/b;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "h0(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Ljava/lang/Integer;)Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "i(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Ljava/lang/Throwable;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "i0(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Ljava/lang/Throwable;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "isValidTransferSession(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "j0(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Ljava/lang/Throwable;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "k0(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "k0(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "k0(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "lambda$downloadRepositoryData$13(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "lambda$downloadRepositoryData$16(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "lambda$downloadRepositoryData$16(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "lambda$downloadRepositoryData$17(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "lambda$downloadRepositoryData$17(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "lambda$downloadRepositoryData$18(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "lambda$downloadRepositoryData$18(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "lambda$downloadRepositoryData$19(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "lambda$downloadTransferBlockAndMetrics$37(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 851968
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "lambda$getRepositoryRequestStatus$25(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lio/reactivex/j;)Lvl/b;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "lambda$getRepositoryRequestStatus$27(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "lambda$handleRepositoryStatus$11(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "lambda$newRepositoryTransferSession$1(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "lambda$newRepositoryTransferSession$2(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Ljava/lang/Throwable;)Lio/reactivex/g;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "lambda$performRepositoryRequest$8(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lio/reactivex/j;)Lvl/b;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "lambda$resumeTransferSession$23(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "lambda$secureRepositoryRequest$6(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "lambda$secureRepositoryRequest$6(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "lambda$storeNumberOfRecords$42(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/NumberOfRecordsResponseOperand;)Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "lambda$storeRssi$61(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Ljava/lang/Integer;)Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "lambda$storeRssi$62(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Ljava/lang/Throwable;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "lambda$storeSliceMetrics$55(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Ljava/util/List;)Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "lambda$storeTransferBlockCreationMetrics$60(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Ljava/util/List;)Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "lambda$storeTransferBlockReadMetrics$56(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Ljava/util/List;)Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "lambda$unsubscribeSliceRacpFinally$64(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "logTransferSession(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "m0(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;)Lio/reactivex/g;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "n(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "n(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "n0(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Ljava/util/List;)Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "newRepositoryTransferSession([BLcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Z)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "secureRepoToken"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "newRepositoryTransferSession([BLcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Z)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "newRepositoryTransferSession([BLcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Z)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "isRecache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "o0(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "p(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Ljava/lang/Throwable;)Lio/reactivex/g;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "p0(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "performRepositoryRequest([BLcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Z)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "secureRepoToken"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "performRepositoryRequest([BLcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Z)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "performRepositoryRequest([BLcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Z)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "isRecache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "q(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Ljava/lang/Throwable;)Lio/reactivex/g;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "r(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "r(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "r(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "r0(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/TransferBlockData;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "requestNextTransferBlock(Lio/reactivex/c0;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;)Lma/p;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "requestNextTransferBlock(Lio/reactivex/c0;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;)Lma/p;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262146
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "resumeTransferSession(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "resumeTransferSession(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "rewriteActiveSession(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "s0(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lio/reactivex/j;)Lvl/b;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "secureRepositoryRequest([BLcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Z)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "secureRepoToken"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "secureRepositoryRequest([BLcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Z)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "secureRepositoryRequest([BLcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Z)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "isRecache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "storeNumberOfRecords(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "storeRssi(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/PumpConnectionRssiProvider;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "storeSliceMetrics(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "storeSliceMetrics(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "storeTransferBlockCreationMetrics(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "storeTransferBlockCreationMetrics(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "storeTransferBlockReadMetrics(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "storeTransferBlockReadMetrics(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "t0(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lio/reactivex/j;)Lvl/b;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "t0(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lio/reactivex/j;)Lvl/b;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "u0(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "u0(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transferSession2"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "v0(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "v0(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "w(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "w(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "downloaderCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "w(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/DownloaderCachesProvider;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "w0(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Ljava/lang/Throwable;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "x(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/TransferBlockGenerationParametersResponse;)Lio/reactivex/g;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "x0(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/CacheHandle;Lma/p;)Lio/reactivex/g;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "y(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "y(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "z(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "downloader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.HistoryAndTraceDownloaderImpl",
+          "shortId": "z(Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/HistoryAndTraceDownloaderImpl;Lcom/medtronic/minimed/data/pump/ble/exchange/historytrace/TransferSessionState;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transferSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.TransferSessionState",
+          "shortId": "\u003cinit\u003e(JIZLcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RepositoryRequestStatus;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "id"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.TransferSessionState",
+          "shortId": "\u003cinit\u003e(JIZLcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RepositoryRequestStatus;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "blockNumber"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.TransferSessionState",
+          "shortId": "\u003cinit\u003e(JIZLcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RepositoryRequestStatus;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "nextBlockAvailable"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.exchange.historytrace.TransferSessionState",
+          "shortId": "\u003cinit\u003e(JIZLcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RepositoryRequestStatus;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "requestStatus"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.battery.BatteryServiceModule$provideBatteryLevelChar$1",
           "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/data/pump/ble/profile/client/battery/converters/BatteryLevelConverter;Ld8/e;Lc8/d;)V"
         },
@@ -8342,6 +11026,42 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.model.EndTransferSessionOperand",
+          "shortId": "\u003cinit\u003e(J)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transferSessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.model.RtmcpCommand",
+          "shortId": "buildEndTransferSessionCommand(J)Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpCommand;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "transferSessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.model.RtmcpOperand",
+          "shortId": "buildEndTransferSessionOperand(J)Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/RtmcpOperand;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "transferSessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.model.RtmcpSecureRepositoryRequest",
           "shortId": "\u003cinit\u003e([BZ)V"
         },
@@ -8350,6 +11070,198 @@
           "index": 262144
         },
         "newName": "forceReCache"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.model.SliceRacpCommand",
+          "shortId": "buildReportNumberOfRecordsCommand(JII)Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/SliceRacpCommand;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 720896
+        },
+        "newName": "transferSessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.model.SliceRacpCommand",
+          "shortId": "buildReportNumberOfRecordsCommand(JII)Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/SliceRacpCommand;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 851968
+        },
+        "newName": "blockSequence"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.model.SliceRacpCommand",
+          "shortId": "buildReportNumberOfRecordsCommand(JII)Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/SliceRacpCommand;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 917504
+        },
+        "newName": "minSliceIndex"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.model.SliceRacpCommand",
+          "shortId": "buildReportRecordsCommand(III)Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/SliceRacpCommand;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "transferSessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.model.SliceRacpCommand",
+          "shortId": "buildReportRecordsCommand(III)Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/SliceRacpCommand;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "blockSequence"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.model.SliceRacpCommand",
+          "shortId": "buildReportRecordsCommand(III)Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/SliceRacpCommand;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "minSliceIndex"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.model.SliceRacpCommand",
+          "shortId": "buildReportRecordsCommand(JIILjava/lang/Integer;)Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/SliceRacpCommand;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 655360
+        },
+        "newName": "transferSessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.model.SliceRacpCommand",
+          "shortId": "buildReportRecordsCommand(JIILjava/lang/Integer;)Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/SliceRacpCommand;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 786432
+        },
+        "newName": "blockSequence"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.model.SliceRacpCommand",
+          "shortId": "buildReportRecordsCommand(JIILjava/lang/Integer;)Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/SliceRacpCommand;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 851968
+        },
+        "newName": "minSliceIndex"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.model.SliceRacpCommand",
+          "shortId": "buildReportRecordsCommand(JIILjava/lang/Integer;)Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/SliceRacpCommand;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 917504
+        },
+        "newName": "maxSliceIndex"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.model.SliceRacpCommand",
+          "shortId": "buildReportRecordsCommand(JIILjava/lang/Integer;)Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/SliceRacpCommand;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 917505
+        },
+        "newName": "maxSliceIndex"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.model.SliceRacpFilterOperand",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/SliceRacpFilterType;JIII)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "filterType"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.model.SliceRacpFilterOperand",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/SliceRacpFilterType;JIII)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "transferSessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.model.SliceRacpFilterOperand",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/SliceRacpFilterType;JIII)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "blockSequence"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.model.SliceRacpFilterOperand",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/SliceRacpFilterType;JIII)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "minSliceIndex"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.pump.ble.profile.client.historytrace.model.SliceRacpFilterOperand",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/minimed/data/pump/ble/profile/client/historytrace/model/SliceRacpFilterType;JIII)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "maxSliceIndex"
       },
       {
         "nodeRef": {

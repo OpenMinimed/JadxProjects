@@ -10317,9 +10317,61 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "io.reactivex.c",
+          "shortId": "A(Lkj/g;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "onSubscribe"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "B(Lkj/a;)Lio/reactivex/c;"
+        },
+        "newName": "doOnTerminate"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "B(Lkj/a;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "onTerminate"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
           "shortId": "C(Ljava/lang/Throwable;)Lio/reactivex/c;"
         },
         "newName": "error"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "D(Ljava/util/concurrent/Callable;)Lio/reactivex/c;"
+        },
+        "newName": "error"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "D(Ljava/util/concurrent/Callable;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "errorSupplier"
       },
       {
         "nodeRef": {
@@ -10333,9 +10385,61 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "io.reactivex.c",
+          "shortId": "E(Lkj/a;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "run"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "F(Ljava/util/concurrent/Callable;)Lio/reactivex/c;"
+        },
+        "newName": "fromCallable"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "G(Lvl/b;)Lio/reactivex/c;"
+        },
+        "newName": "fromPublisher"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "G(Lvl/b;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "publisher"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
           "shortId": "H(Ljava/lang/Runnable;)Lio/reactivex/c;"
         },
         "newName": "fromRunnable"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "H(Ljava/lang/Runnable;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "run"
       },
       {
         "nodeRef": {
@@ -10361,6 +10465,178 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "io.reactivex.c",
+          "shortId": "J(Lio/reactivex/g;)Lio/reactivex/c;"
+        },
+        "newName": "mergeWith"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "J(Lio/reactivex/g;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "other"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "K(Lio/reactivex/b0;)Lio/reactivex/c;"
+        },
+        "newName": "observeOn"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "L()Lio/reactivex/c;"
+        },
+        "newName": "onErrorComplete"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "M(Lkj/q;)Lio/reactivex/c;"
+        },
+        "newName": "onErrorComplete"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "N(Lkj/o;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "errorMapper"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "N(Lkj/o;)Lio/reactivex/c;"
+        },
+        "newName": "onErrorResumeNext"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "O()Lio/reactivex/c;"
+        },
+        "newName": "repeat"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "P(Lkj/q;)Lio/reactivex/c;"
+        },
+        "newName": "retry"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "Q(Lkj/o;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "handler"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "Q(Lkj/o;)Lio/reactivex/c;"
+        },
+        "newName": "retryWhen"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "S(Lkj/a;)Lhj/b;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "onComplete"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "S(Lkj/a;)Lhj/b;"
+        },
+        "newName": "subscribe"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "T(Lkj/a;Lkj/g;)Lhj/b;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "onComplete"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "T(Lkj/a;Lkj/g;)Lhj/b;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "onError"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "T(Lkj/a;Lkj/g;)Lhj/b;"
+        },
+        "newName": "subscribe"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "U(Lio/reactivex/e;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "observer"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "U(Lio/reactivex/e;)V"
+        },
+        "newName": "subscribeActual"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
           "shortId": "V(Lio/reactivex/b0;)Lio/reactivex/c;"
         },
         "newName": "subscribeOn"
@@ -10369,9 +10645,253 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "io.reactivex.c",
+          "shortId": "W(JLjava/util/concurrent/TimeUnit;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "timeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "W(JLjava/util/concurrent/TimeUnit;)Lio/reactivex/c;"
+        },
+        "newName": "timeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "W(JLjava/util/concurrent/TimeUnit;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "unit"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "X(JLjava/util/concurrent/TimeUnit;Lio/reactivex/g;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "timeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "X(JLjava/util/concurrent/TimeUnit;Lio/reactivex/g;)Lio/reactivex/c;"
+        },
+        "newName": "timeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "X(JLjava/util/concurrent/TimeUnit;Lio/reactivex/g;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 655360
+        },
+        "newName": "unit"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "X(JLjava/util/concurrent/TimeUnit;Lio/reactivex/g;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 720896
+        },
+        "newName": "other"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "Y(JLjava/util/concurrent/TimeUnit;Lio/reactivex/b0;Lio/reactivex/g;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "timeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "Y(JLjava/util/concurrent/TimeUnit;Lio/reactivex/b0;Lio/reactivex/g;)Lio/reactivex/c;"
+        },
+        "newName": "timeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "Y(JLjava/util/concurrent/TimeUnit;Lio/reactivex/b0;Lio/reactivex/g;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "unit"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "Y(JLjava/util/concurrent/TimeUnit;Lio/reactivex/b0;Lio/reactivex/g;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "other"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "Z(JLjava/util/concurrent/TimeUnit;Lio/reactivex/b0;Lio/reactivex/g;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "timeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
           "shortId": "Z(JLjava/util/concurrent/TimeUnit;Lio/reactivex/b0;Lio/reactivex/g;)Lio/reactivex/c;"
         },
         "newName": "timeout0"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "Z(JLjava/util/concurrent/TimeUnit;Lio/reactivex/b0;Lio/reactivex/g;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 720896
+        },
+        "newName": "unit"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "Z(JLjava/util/concurrent/TimeUnit;Lio/reactivex/b0;Lio/reactivex/g;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 851968
+        },
+        "newName": "other"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "a0(JLjava/util/concurrent/TimeUnit;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "delay"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "a0(JLjava/util/concurrent/TimeUnit;)Lio/reactivex/c;"
+        },
+        "newName": "timer"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "a0(JLjava/util/concurrent/TimeUnit;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "unit"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "b(Lio/reactivex/e;)V"
+        },
+        "newName": "subscribe"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "b0(JLjava/util/concurrent/TimeUnit;Lio/reactivex/b0;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "delay"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "b0(JLjava/util/concurrent/TimeUnit;Lio/reactivex/b0;)Lio/reactivex/c;"
+        },
+        "newName": "timer"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "b0(JLjava/util/concurrent/TimeUnit;Lio/reactivex/b0;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "unit"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "c0()Lio/reactivex/j;"
+        },
+        "newName": "toFlowable"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "d0()Lio/reactivex/q;"
+        },
+        "newName": "toMaybe"
       },
       {
         "nodeRef": {
@@ -10397,6 +10917,26 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "io.reactivex.c",
+          "shortId": "e0(Ljava/lang/Throwable;)Ljava/lang/NullPointerException;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "ex"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "e0(Ljava/lang/Throwable;)Ljava/lang/NullPointerException;"
+        },
+        "newName": "toNpe"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
           "shortId": "f(Lio/reactivex/g;)Lio/reactivex/c;"
         },
         "newName": "andThen"
@@ -10417,9 +10957,81 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "io.reactivex.c",
+          "shortId": "f0(Ljava/util/concurrent/Callable;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "completionValueSupplier"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "f0(Ljava/util/concurrent/Callable;)Lio/reactivex/c0;"
+        },
+        "newName": "toSingle"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
           "shortId": "g(Lvl/b;)Lio/reactivex/j;"
         },
         "newName": "andThen"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "g(Lvl/b;)Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "next"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "g0(Ljava/lang/Object;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "completionValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "g0(Ljava/lang/Object;)Lio/reactivex/c0;"
+        },
+        "newName": "toSingleDefault"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "h(Lio/reactivex/u;)Lio/reactivex/q;"
+        },
+        "newName": "andThen"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "h(Lio/reactivex/u;)Lio/reactivex/q;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "next"
       },
       {
         "nodeRef": {
@@ -10433,6 +11045,26 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "io.reactivex.c",
+          "shortId": "i(Lio/reactivex/g0;)Lio/reactivex/c0;"
+        },
+        "newName": "andThen"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "i(Lio/reactivex/g0;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "next"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
           "shortId": "i0(Lio/reactivex/g;)Lio/reactivex/c;"
         },
         "newName": "wrap"
@@ -10441,9 +11073,81 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "io.reactivex.c",
+          "shortId": "j()V"
+        },
+        "newName": "blockingAwait"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "k(JLjava/util/concurrent/TimeUnit;)Z"
+        },
+        "newName": "blockinAwait"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "k(JLjava/util/concurrent/TimeUnit;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1
+        },
+        "newName": "observer"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "k(JLjava/util/concurrent/TimeUnit;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "timeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "k(JLjava/util/concurrent/TimeUnit;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "unit"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
           "shortId": "l()Lio/reactivex/c;"
         },
         "newName": "complete"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "m(Lio/reactivex/h;)Lio/reactivex/c;"
+        },
+        "newName": "compose"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "m(Lio/reactivex/h;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "transformer"
       },
       {
         "nodeRef": {
@@ -10477,6 +11181,206 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "io.reactivex.c",
+          "shortId": "p(Lio/reactivex/f;)Lio/reactivex/c;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "p(Lio/reactivex/f;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "source"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "q(Ljava/util/concurrent/Callable;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "completableSupplier"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "q(Ljava/util/concurrent/Callable;)Lio/reactivex/c;"
+        },
+        "newName": "defer"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "r(JLjava/util/concurrent/TimeUnit;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "delay"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "r(JLjava/util/concurrent/TimeUnit;)Lio/reactivex/c;"
+        },
+        "newName": "delay"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "r(JLjava/util/concurrent/TimeUnit;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "unit"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "s(JLjava/util/concurrent/TimeUnit;Lio/reactivex/b0;Z)Lio/reactivex/c;"
+        },
+        "newName": "delay"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "s(JLjava/util/concurrent/TimeUnit;Lio/reactivex/b0;Z)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "delay"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "s(JLjava/util/concurrent/TimeUnit;Lio/reactivex/b0;Z)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 720896
+        },
+        "newName": "unit"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "s(JLjava/util/concurrent/TimeUnit;Lio/reactivex/b0;Z)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 851968
+        },
+        "newName": "delayError"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "t(JLjava/util/concurrent/TimeUnit;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "delay"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "t(JLjava/util/concurrent/TimeUnit;)Lio/reactivex/c;"
+        },
+        "newName": "delaySubscription"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "t(JLjava/util/concurrent/TimeUnit;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "unit"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "u(JLjava/util/concurrent/TimeUnit;Lio/reactivex/b0;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "delay"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "u(JLjava/util/concurrent/TimeUnit;Lio/reactivex/b0;)Lio/reactivex/c;"
+        },
+        "newName": "delaySubscription"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "u(JLjava/util/concurrent/TimeUnit;Lio/reactivex/b0;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "unit"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "v(Lkj/a;)Lio/reactivex/c;"
+        },
+        "newName": "doFinally"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "v(Lkj/a;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "onFinally"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
           "shortId": "w(Lkj/a;)Lio/reactivex/c;"
         },
         "newName": "doOnComplete"
@@ -10492,6 +11396,26 @@
           "index": 524288
         },
         "newName": "onComplete"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "x(Lkj/a;)Lio/reactivex/c;"
+        },
+        "newName": "doOnDispose"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "x(Lkj/a;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "onDispose"
       },
       {
         "nodeRef": {
@@ -10520,6 +11444,78 @@
           "shortId": "z(Lkj/g;Lkj/g;Lkj/a;Lkj/a;Lkj/a;Lkj/a;)Lio/reactivex/c;"
         },
         "newName": "doOnLifecycle"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "z(Lkj/g;Lkj/g;Lkj/a;Lkj/a;Lkj/a;Lkj/a;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 655360
+        },
+        "newName": "onSubscribe"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "z(Lkj/g;Lkj/g;Lkj/a;Lkj/a;Lkj/a;Lkj/a;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 720896
+        },
+        "newName": "onError"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "z(Lkj/g;Lkj/g;Lkj/a;Lkj/a;Lkj/a;Lkj/a;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 786432
+        },
+        "newName": "onComplete"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "z(Lkj/g;Lkj/g;Lkj/a;Lkj/a;Lkj/a;Lkj/a;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 851968
+        },
+        "newName": "onTerminate"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "z(Lkj/g;Lkj/g;Lkj/a;Lkj/a;Lkj/a;Lkj/a;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 917504
+        },
+        "newName": "onAfterTerminate"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.c",
+          "shortId": "z(Lkj/g;Lkj/g;Lkj/a;Lkj/a;Lkj/a;Lkj/a;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 983040
+        },
+        "newName": "onDispose"
       },
       {
         "nodeRef": {
@@ -11616,6 +12612,14 @@
           "index": 131072
         },
         "newName": "mapper"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.h",
+          "shortId": "a(Lio/reactivex/c;)Lio/reactivex/g;"
+        },
+        "newName": "apply"
       },
       {
         "nodeRef": {
@@ -13340,6 +14344,14 @@
           "shortId": "a()Lio/reactivex/x;"
         },
         "newName": "fuseToObservable"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "oj.f",
+          "shortId": "a(JLjava/util/concurrent/TimeUnit;)Z"
+        },
+        "newName": "blockingAwait"
       },
       {
         "nodeRef": {

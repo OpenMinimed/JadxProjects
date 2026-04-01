@@ -831,6 +831,13 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "kj.o"
+        },
+        "newName": "Function"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "m8.c"
         },
         "newName": "BluetoothDeviceBle"
@@ -15562,7 +15569,7 @@
           "declClass": "ak",
           "shortId": ""
         },
-        "newName": "utils"
+        "newName": "io.reactivex.internal.util"
       },
       {
         "nodeRef": {
@@ -15570,7 +15577,15 @@
           "declClass": "hj",
           "shortId": ""
         },
-        "newName": "disposables"
+        "newName": "io.reactivex.disposables"
+      },
+      {
+        "nodeRef": {
+          "refType": "PKG",
+          "declClass": "kj",
+          "shortId": ""
+        },
+        "newName": "io.reactivex.functions"
       }
     ]
   },

@@ -2492,6 +2492,22 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "hj.a",
+          "shortId": "d:Lak/o;"
+        },
+        "newName": "resources"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "hj.a",
+          "shortId": "e:Z"
+        },
+        "newName": "disposed"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "ie.a",
           "shortId": "a:Lie/a$a;"
         },
@@ -10132,6 +10148,162 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "hj.a",
+          "shortId": "b(Lhj/b;)Z"
+        },
+        "newName": "add"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "hj.a",
+          "shortId": "b(Lhj/b;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 3
+        },
+        "newName": "set"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "hj.a",
+          "shortId": "c(Lhj/b;)Z"
+        },
+        "newName": "delete"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "hj.a",
+          "shortId": "c(Lhj/b;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 3
+        },
+        "newName": "set"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "hj.a",
+          "shortId": "d([Lhj/b;)Z"
+        },
+        "newName": "addAll"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "hj.a",
+          "shortId": "d([Lhj/b;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 4
+        },
+        "newName": "set"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "hj.a",
+          "shortId": "d([Lhj/b;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "disposables"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "hj.a",
+          "shortId": "dispose()V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 4
+        },
+        "newName": "set"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "hj.a",
+          "shortId": "e()V"
+        },
+        "newName": "clear"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "hj.a",
+          "shortId": "e()V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 3
+        },
+        "newName": "set"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "hj.a",
+          "shortId": "f(Lak/o;)V"
+        },
+        "newName": "dispose"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "hj.a",
+          "shortId": "f(Lak/o;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "errors"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "hj.a",
+          "shortId": "f(Lak/o;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "set"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "hj.a",
+          "shortId": "g()I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 3
+        },
+        "newName": "set"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "hj.a",
+          "shortId": "g()I"
+        },
+        "newName": "size"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "i8.a",
           "shortId": "a(Li8/b;Lj8/a;)V"
         },
@@ -15300,6 +15472,14 @@
           "shortId": ""
         },
         "newName": "utils"
+      },
+      {
+        "nodeRef": {
+          "refType": "PKG",
+          "declClass": "hj",
+          "shortId": ""
+        },
+        "newName": "disposables"
       }
     ]
   },

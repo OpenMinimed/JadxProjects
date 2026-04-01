@@ -754,6 +754,13 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "io.reactivex.w"
+        },
+        "newName": "Notification"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "j7.a"
         },
         "newName": "MobileSecurityConfigurationsToSecurityStatus"
@@ -2622,6 +2629,22 @@
           "shortId": "d:Ljava/lang/Long;"
         },
         "newName": "passkey"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "io.reactivex.w",
+          "shortId": "a:Ljava/lang/Object;"
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "io.reactivex.w",
+          "shortId": "b:Lio/reactivex/w;"
+        },
+        "newName": "COMPLETE"
       },
       {
         "nodeRef": {
@@ -17418,6 +17441,94 @@
           "shortId": "a(Lio/reactivex/q;)Lio/reactivex/u;"
         },
         "newName": "apply"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.w",
+          "shortId": "a()Lio/reactivex/w;"
+        },
+        "newName": "createOnComplete"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.w",
+          "shortId": "b(Ljava/lang/Throwable;)Lio/reactivex/w;"
+        },
+        "newName": "createOnError"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.w",
+          "shortId": "b(Ljava/lang/Throwable;)Lio/reactivex/w;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "error"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.w",
+          "shortId": "c(Ljava/lang/Object;)Lio/reactivex/w;"
+        },
+        "newName": "createOnNext"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.w",
+          "shortId": "c(Ljava/lang/Object;)Lio/reactivex/w;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.w",
+          "shortId": "d()Ljava/lang/Throwable;"
+        },
+        "newName": "getError"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.w",
+          "shortId": "e()Ljava/lang/Object;"
+        },
+        "newName": "getValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.w",
+          "shortId": "f()Z"
+        },
+        "newName": "isOnComplete"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.w",
+          "shortId": "g()Z"
+        },
+        "newName": "isOnError"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.w",
+          "shortId": "h()Z"
+        },
+        "newName": "isOnNext"
       },
       {
         "nodeRef": {

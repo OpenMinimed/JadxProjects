@@ -551,6 +551,13 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "df.a$a"
+        },
+        "newName": "AuthorityType"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "e8.a"
         },
         "newName": "HasValue"
@@ -596,6 +603,13 @@
           "declClass": "ff.e"
         },
         "newName": "CertificateManagementRequestConverter"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "ff.g$a"
+        },
+        "newName": "Response"
       },
       {
         "nodeRef": {
@@ -2637,6 +2651,46 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "a:Ldf/a;"
+        },
+        "newName": "pumpApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "b:Lsf/a;"
+        },
+        "newName": "teneoApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "c:Lwl/c;"
+        },
+        "newName": "logger"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0$a",
+          "shortId": "a:[I"
+        },
+        "newName": "enumMap2"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0$a",
+          "shortId": "b:[I"
+        },
+        "newName": "enumMap1"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "com.medtronic.minimed.sake.SAKE_SECURE_MESSAGE_S",
           "shortId": "a:J"
         },
@@ -2677,10 +2731,178 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "df.j",
+          "shortId": "a:Ldf/p;"
+        },
+        "newName": "transaction"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "df.j",
+          "shortId": "b:Ljava/lang/Integer;"
+        },
+        "newName": "timeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "df.j$a",
+          "shortId": "a:[I"
+        },
+        "newName": "authorityTypeMap"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "df.n",
+          "shortId": "a:Ldf/l;"
+        },
+        "newName": "pumpApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "df.n",
+          "shortId": "b:Lik/a;"
+        },
+        "newName": "gattStreamWriter"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "df.n",
+          "shortId": "c:Lik/a;"
+        },
+        "newName": "gattDataChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "df.o",
+          "shortId": "a:Ldf/l;"
+        },
+        "newName": "cmPumpApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "df.o",
+          "shortId": "b:Lik/a;"
+        },
+        "newName": "cmcp"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "df.o",
+          "shortId": "c:Lik/a;"
+        },
+        "newName": "gattStreamReader"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "df.o",
+          "shortId": "d:Lik/a;"
+        },
+        "newName": "gattStreamWriter"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "df.o",
+          "shortId": "e:Lik/a;"
+        },
+        "newName": "mtuSize"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "df.o",
+          "shortId": "f:Lik/a;"
+        },
+        "newName": "connectionState"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "df.o",
+          "shortId": "g:Lik/a;"
+        },
+        "newName": "realTime"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "df.s$a",
+          "shortId": "a:[I"
+        },
+        "newName": "opCodeMap"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "ek.a",
           "shortId": "h:Ljava/util/concurrent/atomic/AtomicReference;"
         },
         "newName": "f26894"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ff.d",
+          "shortId": "a:Lff/c;"
+        },
+        "newName": "opCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ff.g",
+          "shortId": "a:Lff/c;"
+        },
+        "newName": "opCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ff.g",
+          "shortId": "b:Lff/c;"
+        },
+        "newName": "requestOpCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ff.g",
+          "shortId": "c:Lff/h;"
+        },
+        "newName": "responseCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ff.g$a",
+          "shortId": "a:Lff/c;"
+        },
+        "newName": "opCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ff.g$a",
+          "shortId": "b:Lff/c;"
+        },
+        "newName": "requestOpCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ff.g$a",
+          "shortId": "c:Lff/h;"
+        },
+        "newName": "responseCode"
       },
       {
         "nodeRef": {
@@ -5605,6 +5827,14 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "cf.a",
+          "shortId": "a(Ljava/lang/Throwable;)Z"
+        },
+        "newName": "isExchangeException"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "com.medtronic.minimed.bl.appsetup.k",
           "shortId": "s()Z"
         },
@@ -5985,6 +6215,450 @@
           "shortId": "d(Z)Lcom/medtronic/minimed/connect/ble/api/gap/k$a;"
         },
         "newName": "setIncludeTxPowerLevel"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransaction",
+          "shortId": "receive(Ljava/lang/Object;JZ)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "request"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransaction",
+          "shortId": "receive(Ljava/lang/Object;JZ)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "timeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransaction",
+          "shortId": "receive(Ljava/lang/Object;JZ)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "retryWithDelayIfDisconnected"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransaction",
+          "shortId": "send(Ljava/lang/Object;[BJZ)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "request"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransaction",
+          "shortId": "send(Ljava/lang/Object;[BJZ)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "data"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransaction",
+          "shortId": "send(Ljava/lang/Object;[BJZ)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "timeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransaction",
+          "shortId": "send(Ljava/lang/Object;[BJZ)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "retryWithDelayIfDisconnected"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransaction",
+          "shortId": "sendWithProgress(Ljava/lang/Object;[BJZ)Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "request"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransaction",
+          "shortId": "sendWithProgress(Ljava/lang/Object;[BJZ)Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "data"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransaction",
+          "shortId": "sendWithProgress(Ljava/lang/Object;[BJZ)Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "timeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransaction",
+          "shortId": "sendWithProgress(Ljava/lang/Object;[BJZ)Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "retryWithDelayIfDisconnected"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "lambda$maintainReaderTimeoutTransformer$32(JLio/reactivex/j;)Lvl/b;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "timeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "lambda$receive$22(Ljava/lang/Object;ZJLjava/lang/Integer;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "retry"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "lambda$receive$22(Ljava/lang/Object;ZJLjava/lang/Integer;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "timeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "lambda$receive$23(Lhj/b;)V"
+        },
+        "newName": "log_startingReceiveTransaction"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "lambda$receive$24(Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamReadResult;)V"
+        },
+        "newName": "log_receiveTransactionCompleted"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "lambda$receive$25(Ljava/lang/Throwable;)V"
+        },
+        "newName": "log_errorDuringReceiveTransaction"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "lambda$sendWithProgress$3([BLjava/lang/Object;ZJLjava/lang/Integer;)Lvl/b;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "data"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "lambda$sendWithProgress$3([BLjava/lang/Object;ZJLjava/lang/Integer;)Lvl/b;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "request"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "lambda$sendWithProgress$3([BLjava/lang/Object;ZJLjava/lang/Integer;)Lvl/b;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "retryWithDelayIfDisconnected"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "lambda$sendWithProgress$3([BLjava/lang/Object;ZJLjava/lang/Integer;)Lvl/b;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "blockSize"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "maintainReaderTimeoutTransformer(J)Lio/reactivex/p;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "timeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "prepareWriter([BI)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "data"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "prepareWriter([BI)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "blockSize"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "receive(Ljava/lang/Object;JZ)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "request"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "receive(Ljava/lang/Object;JZ)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 655360
+        },
+        "newName": "timeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "receive(Ljava/lang/Object;JZ)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 786432
+        },
+        "newName": "retryWithDelayIfDisconnected"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "retryWithDelayIfDisconnectedTransformer(Z)Lio/reactivex/p;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "retry"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "send(Ljava/lang/Object;[BJZ)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "request"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "send(Ljava/lang/Object;[BJZ)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "data"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "send(Ljava/lang/Object;[BJZ)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "timeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "send(Ljava/lang/Object;[BJZ)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "retryWithDelayIfDisconnected"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "sendWithProgress(Ljava/lang/Object;[BJZ)Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "request"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "sendWithProgress(Ljava/lang/Object;[BJZ)Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 655360
+        },
+        "newName": "data"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "sendWithProgress(Ljava/lang/Object;[BJZ)Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 720896
+        },
+        "newName": "timeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "sendWithProgress(Ljava/lang/Object;[BJZ)Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 851968
+        },
+        "newName": "retryWithDelayIfDisconnected"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.GattStreamWriter",
+          "shortId": "prepare([BI)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "data"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.GattStreamWriter",
+          "shortId": "prepare([BI)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "blockSize"
       },
       {
         "nodeRef": {
@@ -13001,6 +13675,282 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "\u003cinit\u003e(Ldf/a;Lsf/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "pumpApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "\u003cinit\u003e(Ldf/a;Lsf/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "teneoApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "E0(Ldf/a$a;)V"
+        },
+        "newName": "log_retrievingAuthorityFromPump"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "F0(Ldf/a$a;[B)V"
+        },
+        "newName": "log_gotAuthorityFromPump"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "G0(Ldf/a$a;Ljava/lang/Throwable;)V"
+        },
+        "newName": "log_errorRetrievingAuthorityFromPump"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "H0(Ldf/a$a;[B)Lcom/medtronic/teneo/models/AuthorityRequest;"
+        },
+        "newName": "createAuthorityRequest"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "I0(Ldf/a$a;)Lvl/b;"
+        },
+        "newName": "retrieveAuthorityFromPump"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "J0(Lcom/medtronic/teneo/models/AuthorityType;[BLhj/b;)V"
+        },
+        "newName": "log_updatingAuthority"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "K0(Lcom/medtronic/teneo/models/AuthorityType;)V"
+        },
+        "newName": "log_authorityUpdatedSuccessfully"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "L0(Lcom/medtronic/teneo/models/AuthorityType;Ljava/lang/Throwable;)V"
+        },
+        "newName": "log_errorUpdatingAuthority"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "M0(Lcom/medtronic/teneo/models/Enrollment;)V"
+        },
+        "newName": "log_enrollmentStatusOnServer"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "R0()Lio/reactivex/c0;"
+        },
+        "newName": "retrieveAuthorityFromPump"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "S0(Lcom/medtronic/teneo/models/AuthorityType;)Ldf/a$a;"
+        },
+        "newName": "fromTeneoType"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "T0(Ldf/a$a;)Lcom/medtronic/teneo/models/AuthorityType;"
+        },
+        "newName": "toTeneoType"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "V0(Lcom/medtronic/teneo/models/AuthorityResponse;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "typeTeneo"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "V0(Lcom/medtronic/teneo/models/AuthorityResponse;)Lio/reactivex/c;"
+        },
+        "newName": "updateAuthorityInPump"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "X([B)V"
+        },
+        "newName": "log_receivedCertFromPump"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "Y(Ljava/lang/Throwable;)V"
+        },
+        "newName": "log_errorReceivingCertFromPump"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "Z(Lcom/medtronic/teneo/models/CertificateStatus;)V"
+        },
+        "newName": "log_certStatus"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "a()Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 3
+        },
+        "newName": "getCertFromPump"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "a()Lio/reactivex/c0;"
+        },
+        "newName": "sendPumpCertificateToTeneo"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "a()Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65538
+        },
+        "newName": "teneoApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "a0(Ljava/lang/Throwable;)V"
+        },
+        "newName": "log_errorCheckCertStatus"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "e0([B)V"
+        },
+        "newName": "log_receivedUpdatedDeviceCertificate"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "f0(Ljava/lang/Throwable;)V"
+        },
+        "newName": "log_failedToGetUpdatedDeviceCertificate"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "g0(Lcom/medtronic/teneo/models/Enrollment;)V"
+        },
+        "newName": "log_completedEnrollment"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "i0(Lcom/medtronic/teneo/models/Enrollment;)Lio/reactivex/g;"
+        },
+        "newName": "setNewEnrollmentInPump"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "m0(Lhj/b;)V"
+        },
+        "newName": "log_waitingForEnrollmentToBeIssued"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "n0(Lcom/medtronic/teneo/models/Enrollment;)V"
+        },
+        "newName": "log_enrollmentIssued"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "o0(Ljava/lang/Throwable;)V"
+        },
+        "newName": "log_failedWhileWaitingForEnrollment"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "q0()V"
+        },
+        "newName": "log_setNewEnrollment"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.x0",
+          "shortId": "r0(Ljava/lang/Throwable;)V"
+        },
+        "newName": "log_failedToSetNewEnrollment"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "com.medtronic.minimed.sake.SAKE_SECURE_MESSAGE_S",
           "shortId": "a()V"
         },
@@ -13489,6 +14439,406 @@
           "index": 327680
         },
         "newName": "data"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.j",
+          "shortId": "\u003cinit\u003e(Ldf/p;Ljava/lang/Integer;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "transaction"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.j",
+          "shortId": "\u003cinit\u003e(Ldf/p;Ljava/lang/Integer;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "timeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.j",
+          "shortId": "a(Ldf/a$a;)Lio/reactivex/c0;"
+        },
+        "newName": "getAuthority"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.j",
+          "shortId": "b([B)Lio/reactivex/c;"
+        },
+        "newName": "setNewEnrollment"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.j",
+          "shortId": "c(Ldf/a$a;[B)Lio/reactivex/c;"
+        },
+        "newName": "setAuthority"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.j",
+          "shortId": "d()Lio/reactivex/c0;"
+        },
+        "newName": "getCertificate"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.j",
+          "shortId": "e()Lio/reactivex/c0;"
+        },
+        "newName": "requestEnrollment"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.j",
+          "shortId": "v(Ldf/a$a;)Lff/c;"
+        },
+        "newName": "getOpCodeForReadRequest"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.j",
+          "shortId": "w(Ldf/a$a;)Lff/c;"
+        },
+        "newName": "getOpCodeForWriteRequest"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.n",
+          "shortId": "\u003cinit\u003e(Ldf/l;Lik/a;Lik/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "pumpApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.n",
+          "shortId": "\u003cinit\u003e(Ldf/l;Lik/a;Lik/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "gattStreamWriter"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.n",
+          "shortId": "\u003cinit\u003e(Ldf/l;Lik/a;Lik/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "gattDataChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.n",
+          "shortId": "a(Ldf/l;Lik/a;Lik/a;)Ldf/n;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "pumpApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.n",
+          "shortId": "a(Ldf/l;Lik/a;Lik/a;)Ldf/n;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "gattStreamWriter"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.n",
+          "shortId": "a(Ldf/l;Lik/a;Lik/a;)Ldf/n;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "gattDataChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.n",
+          "shortId": "c(Ldf/l;Lcom/medtronic/minimed/connect/ble/api/gatt/streaming/GattStreamWriterApi;Lff/b;)Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamWriter;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "api"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.n",
+          "shortId": "c(Ldf/l;Lcom/medtronic/minimed/connect/ble/api/gatt/streaming/GattStreamWriterApi;Lff/b;)Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamWriter;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "gattStreamWriter"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.n",
+          "shortId": "c(Ldf/l;Lcom/medtronic/minimed/connect/ble/api/gatt/streaming/GattStreamWriterApi;Lff/b;)Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamWriter;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "gattDataChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.s",
+          "shortId": "a(Ldf/s;Lff/d;Lff/g;)Lvl/b;"
+        },
+        "newName": "checkSuccessfulResponse"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.s",
+          "shortId": "a(Ldf/s;Lff/d;Lff/g;)Lvl/b;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "transformer"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.s",
+          "shortId": "a(Ldf/s;Lff/d;Lff/g;)Lvl/b;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "request"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.s",
+          "shortId": "a(Ldf/s;Lff/d;Lff/g;)Lvl/b;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "response"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.s",
+          "shortId": "b(Ldf/s;Lff/d;Lff/g;)Lvl/b;"
+        },
+        "newName": "checkExpectedResponseType"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.s",
+          "shortId": "b(Ldf/s;Lff/d;Lff/g;)Lvl/b;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "transformer"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.s",
+          "shortId": "b(Ldf/s;Lff/d;Lff/g;)Lvl/b;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "request"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.s",
+          "shortId": "b(Ldf/s;Lff/d;Lff/g;)Lvl/b;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "response"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.s",
+          "shortId": "c(Lio/reactivex/j;Lff/d;)Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "response"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.s",
+          "shortId": "c(Lio/reactivex/j;Lff/d;)Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "request"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.s",
+          "shortId": "d(Lff/d;Lff/g;)Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 2
+        },
+        "newName": "OPCODE_RESPONSE"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.s",
+          "shortId": "d(Lff/d;Lff/g;)Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65537
+        },
+        "newName": "responseOpCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.s",
+          "shortId": "d(Lff/d;Lff/g;)Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "request"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.s",
+          "shortId": "d(Lff/d;Lff/g;)Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262145
+        },
+        "newName": "requestOpCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.s",
+          "shortId": "d(Lff/d;Lff/g;)Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "response"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.s",
+          "shortId": "e(Lff/d;Lff/g;)Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "request"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.s",
+          "shortId": "e(Lff/d;Lff/g;)Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "response"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.s",
+          "shortId": "f(Lff/d;Lff/g;)Lvl/b;"
+        },
+        "newName": "checkSuccessfulResponse"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.s",
+          "shortId": "g(Lff/d;Lff/g;)Lvl/b;"
+        },
+        "newName": "checkExpectedResponseType"
       },
       {
         "nodeRef": {

@@ -208,6 +208,13 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "com.medtronic.minimed.bl.backend.f"
+        },
+        "newName": "RepoGetter"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "com.medtronic.minimed.bl.configmonitor.b"
         },
         "newName": "DeviceConfigurationMonitorImpl"
@@ -1606,6 +1613,70 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.bl.backend.a",
+          "shortId": "a:Lw5/a;"
+        },
+        "newName": "auth"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.bl.backend.l",
+          "shortId": "a:Lcom/medtronic/minimed/data/carelink/CareLinkApi;"
+        },
+        "newName": "careLinkApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.bl.backend.w6",
+          "shortId": "a:Lbj/a;"
+        },
+        "newName": "gdprManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.bl.backend.w6",
+          "shortId": "b:Lw5/a;"
+        },
+        "newName": "authenticator"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.bl.backend.w6",
+          "shortId": "c:Lwl/c;"
+        },
+        "newName": "logger"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.bl.backend.x",
+          "shortId": "a:Lcom/medtronic/minimed/bl/backend/c;"
+        },
+        "newName": "backend"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.bl.backend.x",
+          "shortId": "b:Lcom/medtronic/minimed/bl/backend/w6;"
+        },
+        "newName": "incompleteUserConsentHandler"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.bl.backend.x",
+          "shortId": "c:Lcom/medtronic/minimed/bl/backend/a;"
+        },
+        "newName": "absentUserProfilePreventer"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "com.medtronic.minimed.bl.configmonitor.b",
           "shortId": "b:Lj7/c;"
         },
@@ -2558,6 +2629,14 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.d1",
+          "shortId": "a:Ljava/lang/String;"
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "com.medtronic.minimed.sake.SAKE_SECURE_MESSAGE_S",
           "shortId": "a:J"
         },
@@ -3446,6 +3525,62 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "q6.a2",
+          "shortId": "e:Lr6/e;"
+        },
+        "newName": "userConsentManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "q6.a2",
+          "shortId": "k:Laa/a;"
+        },
+        "newName": "certRepo"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "q6.a2",
+          "shortId": "p:Lwl/c;"
+        },
+        "newName": "logger"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "r6.y",
+          "shortId": "a:Lcom/medtronic/minimed/data/repository/c;"
+        },
+        "newName": "keyValueRepo"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "r6.y",
+          "shortId": "b:Lcom/medtronic/minimed/bl/backend/w;"
+        },
+        "newName": "backendProxy"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "r6.y",
+          "shortId": "c:Ljava/util/concurrent/atomic/AtomicBoolean;"
+        },
+        "newName": "userConsentsValidationPerformed"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "r6.y",
+          "shortId": "d:Lwl/c;"
+        },
+        "newName": "logger"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "rj.h",
           "shortId": "d:Lrj/h;"
         },
@@ -3466,6 +3601,14 @@
           "shortId": "a:[I"
         },
         "newName": "map"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "w5.m",
+          "shortId": "b:Lcom/medtronic/minimed/data/repository/b;"
+        },
+        "newName": "identityRepo"
       },
       {
         "nodeRef": {
@@ -5466,6 +5609,206 @@
           "shortId": "s()Z"
         },
         "newName": "startup_wizard_step_completed"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.bl.backend.a",
+          "shortId": "a()Lio/reactivex/c;"
+        },
+        "newName": "errorIfNotExist"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.bl.backend.c",
+          "shortId": "h(Ljava/lang/String;Ljava/lang/String;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "secureSessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.bl.backend.c",
+          "shortId": "h(Ljava/lang/String;Ljava/lang/String;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "pumpSerial"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.bl.backend.l",
+          "shortId": "h(Ljava/lang/String;Ljava/lang/String;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "secureSessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.bl.backend.l",
+          "shortId": "h(Ljava/lang/String;Ljava/lang/String;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "pumpSerial"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.bl.backend.w",
+          "shortId": "h(Ljava/lang/String;Ljava/lang/String;)Lio/reactivex/c0;"
+        },
+        "newName": "retrieveSecureRepositoryTokens"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.bl.backend.w",
+          "shortId": "h(Ljava/lang/String;Ljava/lang/String;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "secureSessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.bl.backend.w",
+          "shortId": "h(Ljava/lang/String;Ljava/lang/String;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "pumpSerial"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.bl.backend.w6",
+          "shortId": "b(Lcom/medtronic/minimed/bl/backend/w6;Ljava/lang/Boolean;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "handler"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.bl.backend.w6",
+          "shortId": "b(Lcom/medtronic/minimed/bl/backend/w6;Ljava/lang/Boolean;)Z"
+        },
+        "newName": "isAuthenticated"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.bl.backend.w6",
+          "shortId": "c(Ljava/lang/Boolean;)Lio/reactivex/g;"
+        },
+        "newName": "error"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.bl.backend.w6",
+          "shortId": "d(Ljava/lang/Boolean;)Z"
+        },
+        "newName": "not"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.bl.backend.w6",
+          "shortId": "e()Lio/reactivex/c;"
+        },
+        "newName": "validationPerformed"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.bl.backend.w6",
+          "shortId": "f(Ljava/lang/Boolean;)Z"
+        },
+        "newName": "not_"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.bl.backend.w6",
+          "shortId": "g(Ljava/lang/Boolean;)Z"
+        },
+        "newName": "isAuthenticated_"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.bl.backend.w6",
+          "shortId": "h(Ljava/lang/Boolean;)Lio/reactivex/g;"
+        },
+        "newName": "error_"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.bl.backend.w6",
+          "shortId": "i(Ljava/lang/Boolean;)Lio/reactivex/g;"
+        },
+        "newName": "__consents"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.bl.backend.w6",
+          "shortId": "i(Ljava/lang/Boolean;)Lio/reactivex/g;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "flag"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.bl.backend.x",
+          "shortId": "h(Ljava/lang/String;Ljava/lang/String;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "secureSessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.bl.backend.x",
+          "shortId": "h(Ljava/lang/String;Ljava/lang/String;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "pumpSerial"
       },
       {
         "nodeRef": {
@@ -7730,6 +8073,54 @@
           "shortId": "component3()Z"
         },
         "newName": "isRetrieveRealSakeKeys"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.carelink.CareLinkApi",
+          "shortId": "getSecureSnapshotControlMetadata(Ljava/lang/String;Ljava/lang/String;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "secureSessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.carelink.CareLinkApi",
+          "shortId": "getSecureSnapshotControlMetadata(Ljava/lang/String;Ljava/lang/String;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "pumpSerial"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.carelink.CareLinkApiImpl",
+          "shortId": "getSecureSnapshotControlMetadata(Ljava/lang/String;Ljava/lang/String;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "secureSessionId"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.data.carelink.CareLinkApiImpl",
+          "shortId": "getSecureSnapshotControlMetadata(Ljava/lang/String;Ljava/lang/String;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "pumpSerial"
       },
       {
         "nodeRef": {
@@ -12586,6 +12977,26 @@
           "shortId": "l(Ljf/a;)Lme/g;"
         },
         "newName": "translateError"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.d1",
+          "shortId": "\u003cinit\u003e(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.d1",
+          "shortId": "a()Ljava/lang/String;"
+        },
+        "newName": "getValue"
       },
       {
         "nodeRef": {
@@ -19894,6 +20305,94 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "q6.a2",
+          "shortId": "a()Lio/reactivex/c0;"
+        },
+        "newName": "userConsentsValidationPerformed"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "q6.a2",
+          "shortId": "f()Lio/reactivex/c0;"
+        },
+        "newName": "userConsentsVlidationPerformed_fromDb"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "r6.y",
+          "shortId": "H()V"
+        },
+        "newName": "log_removedAnalyticConsents"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "r6.y",
+          "shortId": "I(Ljava/lang/Throwable;)V"
+        },
+        "newName": "log_cantRemoveAnalyticsConsents"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "r6.y",
+          "shortId": "J()V"
+        },
+        "newName": "setUserConsentsValidationPerformedTrue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "r6.y",
+          "shortId": "K()V"
+        },
+        "newName": "setUserConsentsValidationPerformedFalse"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "r6.y",
+          "shortId": "L()V"
+        },
+        "newName": "setUserConsentsValidationPerformedFalse__"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "r6.y",
+          "shortId": "a()Lio/reactivex/c0;"
+        },
+        "newName": "getUserConsentsValidationPerformed"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "r6.y",
+          "shortId": "b()Lio/reactivex/c;"
+        },
+        "newName": "removeAnalyticsConsent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "r6.y",
+          "shortId": "f()Lio/reactivex/c0;"
+        },
+        "newName": "getUserConsentsValidationPerformed_fromDb"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "r6.y",
+          "shortId": "x()Lio/reactivex/c0;"
+        },
+        "newName": "getRegionSelectedCountryCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "t7.b",
           "shortId": "a()Ljavax/crypto/Cipher;"
         },
@@ -20194,6 +20693,14 @@
           "shortId": "a()Lkj/o;"
         },
         "newName": "toFlowable"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "w5.m",
+          "shortId": "b()Lio/reactivex/q;"
+        },
+        "newName": "getIdentityAnnotationForUserClass"
       },
       {
         "nodeRef": {

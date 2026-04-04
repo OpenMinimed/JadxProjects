@@ -82,6 +82,55 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "af.b$a"
+        },
+        "newName": "_SecureSessionThing"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "af.b$b"
+        },
+        "newName": "_SecureSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "af.b$b$a"
+        },
+        "newName": "_GattClientInternals"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "af.b$b$b"
+        },
+        "newName": "_GattCharFactory"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "af.b$b$c"
+        },
+        "newName": "_CmGattStreamReaderApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "af.b$b$d"
+        },
+        "newName": "_SseGattStreamWriterApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "af.d$a"
+        },
+        "newName": "Stuff"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "ak.k$a"
         },
         "newName": "Termination"
@@ -551,6 +600,13 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "d8.f$a"
+        },
+        "newName": "InstanceHolder"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "dagger.android.a$a"
         },
         "newName": "Factory"
@@ -628,6 +684,13 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "ff.f$a"
+        },
+        "newName": "InstanceHolder"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "ff.g$a"
         },
         "newName": "Response"
@@ -638,6 +701,13 @@
           "declClass": "ff.i"
         },
         "newName": "CertificateManagementResponseConverter"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "ff.j$a"
+        },
+        "newName": "InstanceHolder"
       },
       {
         "nodeRef": {
@@ -659,6 +729,20 @@
           "declClass": "gb.b"
         },
         "newName": "BleConnectApplicationProvider"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "gb.j$a"
+        },
+        "newName": "_IdendityRepository"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "gb.j$b"
+        },
+        "newName": "_MetricsRecorder"
       },
       {
         "nodeRef": {
@@ -1384,6 +1468,406 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "af.b$a",
+          "shortId": "a:Lg8/a;"
+        },
+        "newName": "ble"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$a",
+          "shortId": "b:Lhf/a;"
+        },
+        "newName": "sseTeneoApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$a",
+          "shortId": "c:Lbf/a;"
+        },
+        "newName": "pumpApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$a",
+          "shortId": "d:Lv7/a;"
+        },
+        "newName": "repo"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$a",
+          "shortId": "e:Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;"
+        },
+        "newName": "sseMetricsRecorder"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$a",
+          "shortId": "f:Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;"
+        },
+        "newName": "connectionMtuSize"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$a",
+          "shortId": "g:Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;"
+        },
+        "newName": "connectionState"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "A:Lik/a;"
+        },
+        "newName": "sseDataChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "B:Lik/a;"
+        },
+        "newName": "sseGattStreamReader"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "C:Lik/a;"
+        },
+        "newName": "sseGattStreamWriter"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "D:Lik/a;"
+        },
+        "newName": "sseTransaction"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "E:Lik/a;"
+        },
+        "newName": "ssePumpApiImpl"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "F:Lik/a;"
+        },
+        "newName": "ssePumpApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "G:Lik/a;"
+        },
+        "newName": "sseTeneoApiImpl"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "H:Lik/a;"
+        },
+        "newName": "sseTeneoApiForCarelink"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "I:Lik/a;"
+        },
+        "newName": "sseManagerForCarelink"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "J:Lik/a;"
+        },
+        "newName": "sseTeneoApiForFota"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "K:Lik/a;"
+        },
+        "newName": "sseManagerForFota"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "L:Lik/a;"
+        },
+        "newName": "repo"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "M:Lik/a;"
+        },
+        "newName": "sseMetricsRecorder"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "N:Lik/a;"
+        },
+        "newName": "sseManagerImpl"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "O:Lik/a;"
+        },
+        "newName": "sseManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "P:Lik/a;"
+        },
+        "newName": "sessionConfigImpl"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "Q:Lik/a;"
+        },
+        "newName": "sessionConfig"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "a:Laf/b$b;"
+        },
+        "newName": "secureSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "b:Lik/a;"
+        },
+        "newName": "gattClientInternals"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "c:Lik/a;"
+        },
+        "newName": "cmGattCharFactory"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "d:Lik/a;"
+        },
+        "newName": "cmcpChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "e:Lik/a;"
+        },
+        "newName": "cmGattStreamReaderApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "f:Lik/a;"
+        },
+        "newName": "cmDataChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "g:Lik/a;"
+        },
+        "newName": "cmGattStreamReader"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "h:Lik/a;"
+        },
+        "newName": "sseGattStreamWriterApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "i:Lik/a;"
+        },
+        "newName": "cmGattStreamWriter"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "j:Lik/a;"
+        },
+        "newName": "connectionMtuSize"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "k:Lik/a;"
+        },
+        "newName": "connectionState"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "l:Lik/a;"
+        },
+        "newName": "rtThreadWorker"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "m:Lik/a;"
+        },
+        "newName": "rtScheduler"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "n:Lik/a;"
+        },
+        "newName": "cmTransaction"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "o:Lik/a;"
+        },
+        "newName": "cmTimeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "p:Lik/a;"
+        },
+        "newName": "cmPumpApiImpl"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "q:Lik/a;"
+        },
+        "newName": "cmPumpApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "r:Lik/a;"
+        },
+        "newName": "teneoRequestErrorHandler"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "s:Lik/a;"
+        },
+        "newName": "cmTeneoApiImpl"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "t:Lik/a;"
+        },
+        "newName": "cmTeneoApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "u:Lik/a;"
+        },
+        "newName": "cmManagerImpl"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "v:Lik/a;"
+        },
+        "newName": "cmManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "w:Lik/a;"
+        },
+        "newName": "sseCpChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "x:Lik/a;"
+        },
+        "newName": "sseTimeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "y:Lik/a;"
+        },
+        "newName": "sseCpResponseTransformer"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b",
+          "shortId": "z:Lik/a;"
+        },
+        "newName": "sseCp"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "ak.k",
           "shortId": "a:Ljava/lang/Throwable;"
         },
@@ -1468,6 +1952,22 @@
           "shortId": "b:Z"
         },
         "newName": "isIndicationEnabled"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "bf.a",
+          "shortId": "a:Z"
+        },
+        "newName": "simulate"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "bf.a",
+          "shortId": "b:I"
+        },
+        "newName": "firmwareUpdateTimeout"
       },
       {
         "nodeRef": {
@@ -2744,6 +3244,14 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "d8.f$a",
+          "shortId": "a:Ld8/f;"
+        },
+        "newName": "INSTANCE"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "dagger.android.DaggerApplication",
           "shortId": "d:Ldagger/android/DispatchingAndroidInjector;"
         },
@@ -3016,6 +3524,14 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "ff.f$a",
+          "shortId": "a:Lff/f;"
+        },
+        "newName": "INSTANCE"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "ff.g",
           "shortId": "a:Lff/c;"
         },
@@ -3060,6 +3576,14 @@
           "shortId": "c:Lff/h;"
         },
         "newName": "responseCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ff.j$a",
+          "shortId": "a:Lff/j;"
+        },
+        "newName": "INSTANCE"
       },
       {
         "nodeRef": {
@@ -3904,6 +4428,30 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "p5.b",
+          "shortId": "a:Landroid/content/res/Resources;"
+        },
+        "newName": "resources"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "p5.b",
+          "shortId": "b:Landroid/content/Context;"
+        },
+        "newName": "context"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "p5.b",
+          "shortId": "c:Lwl/c;"
+        },
+        "newName": "logger"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "q6.a2",
           "shortId": "e:Lr6/e;"
         },
@@ -4124,6 +4672,586 @@
           "shortId": "e:Lyd/b;"
         },
         "newName": "Default"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b",
+          "shortId": "a()Laf/d$a;"
+        },
+        "newName": "getThing"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$a",
+          "shortId": "a(Lg8/a;)Laf/d$a;"
+        },
+        "newName": "setBle"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$a",
+          "shortId": "b(Lv7/a;)Laf/d$a;"
+        },
+        "newName": "setRepo"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$a",
+          "shortId": "c(Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;)Laf/d$a;"
+        },
+        "newName": "setConnectionMtuSize"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$a",
+          "shortId": "d(Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)Laf/d$a;"
+        },
+        "newName": "setConnectionState"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$a",
+          "shortId": "e(Lbf/a;)Laf/d$a;"
+        },
+        "newName": "setPumpApiModule"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$a",
+          "shortId": "f(Lhf/a;)Laf/d$a;"
+        },
+        "newName": "setTeneoApiModule"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$a",
+          "shortId": "g(Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;)Laf/d$a;"
+        },
+        "newName": "setMetricsRecorder"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$a",
+          "shortId": "h(Lg8/a;)Laf/b$a;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "ble"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "\u003cinit\u003e(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "sseTeneoApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "\u003cinit\u003e(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "pumpApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "\u003cinit\u003e(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "ssePumpApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "\u003cinit\u003e(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "sseService"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "\u003cinit\u003e(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "cmPumpApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "\u003cinit\u003e(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "cmService"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "\u003cinit\u003e(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "ble"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "\u003cinit\u003e(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "repo"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "\u003cinit\u003e(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "sseMetricsRecorder"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "\u003cinit\u003e(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 655360
+        },
+        "newName": "connectionMtuSize"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "\u003cinit\u003e(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 720896
+        },
+        "newName": "connectionState"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "a(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65538
+        },
+        "newName": "sseTeneoApiForFota"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "a(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65542
+        },
+        "newName": "sseMetricsRecorderFactory"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "a(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65544
+        },
+        "newName": "sseManagerImpl"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "a(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65548
+        },
+        "newName": "sessionConfigImplFactory"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "a(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131076
+        },
+        "newName": "sseTeneoApiImplFactory"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "a(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131078
+        },
+        "newName": "sseTeneoApiForCarelink"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "a(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196610
+        },
+        "newName": "sseTransactionFactory"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "a(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196611
+        },
+        "newName": "ssePumpApiImplFactory"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "a(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262147
+        },
+        "newName": "cmTimeoutFactory"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "a(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262148
+        },
+        "newName": "cmPumpApiImplFactory"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "a(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262154
+        },
+        "newName": "teneoApiFactory"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "a(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262156
+        },
+        "newName": "cmTeneoApiFactory"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "a(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262158
+        },
+        "newName": "cmManagerFactory"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "a(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262163
+        },
+        "newName": "sseTimeoutFactory"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "a(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262164
+        },
+        "newName": "sseCpResponseTransformerFactory"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "a(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262169
+        },
+        "newName": "sseDataCharFactory"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "a(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393222
+        },
+        "newName": "cmDataCharFactory"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "a(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393230
+        },
+        "newName": "sseGattStreamWriterFactory"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "a(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 917504
+        },
+        "newName": "sseTeneoApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "a(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 983040
+        },
+        "newName": "pumpApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "a(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1048576
+        },
+        "newName": "ssePumpApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "a(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1114112
+        },
+        "newName": "sseService"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "a(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1179648
+        },
+        "newName": "cmPumpApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "a(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1245184
+        },
+        "newName": "cmService"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "a(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1310720
+        },
+        "newName": "ble"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "a(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1376256
+        },
+        "newName": "repo"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "a(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1441792
+        },
+        "newName": "sseMetricsRecorder"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "a(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1507328
+        },
+        "newName": "connectionMtuSize"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "a(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1572864
+        },
+        "newName": "connectionState"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "a(Lhf/a;Lbf/a;Lef/w;Lgf/i;Ldf/l;Lff/k;Lg8/a;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;)V"
+        },
+        "newName": "update"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "c()Lcom/medtronic/minimed/ngpsdk/securesession/api/q2;"
+        },
+        "newName": "getSessionManager"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "af.b$b",
+          "shortId": "d()Lcom/medtronic/minimed/ngpsdk/securesession/api/a1;"
+        },
+        "newName": "getSessionConfigurator"
       },
       {
         "nodeRef": {
@@ -5152,6 +6280,198 @@
           "shortId": "i([BI)Lb8/e$a;"
         },
         "newName": "writeBytes"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "bf.a",
+          "shortId": "\u003cinit\u003e(ZI)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "simulate"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "bf.a",
+          "shortId": "\u003cinit\u003e(ZI)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "firmwareUpdateTimeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "bf.a",
+          "shortId": "a()I"
+        },
+        "newName": "getCmDefaultTimeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "bf.a",
+          "shortId": "b(Lbj/a;Lbj/a;)Ldf/a;"
+        },
+        "newName": "getCmPumpApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "bf.a",
+          "shortId": "b(Lbj/a;Lbj/a;)Ldf/a;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "pumpApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "bf.a",
+          "shortId": "b(Lbj/a;Lbj/a;)Ldf/a;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196610
+        },
+        "newName": "api"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "bf.a",
+          "shortId": "b(Lbj/a;Lbj/a;)Ldf/a;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "simulatedApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "bf.a",
+          "shortId": "c()I"
+        },
+        "newName": "getSseDefaultTimeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "bf.a",
+          "shortId": "d(Lbj/a;Lbj/a;)Lef/e;"
+        },
+        "newName": "getSsePumpApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "bf.a",
+          "shortId": "d(Lbj/a;Lbj/a;)Lef/e;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "pumpApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "bf.a",
+          "shortId": "d(Lbj/a;Lbj/a;)Lef/e;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196610
+        },
+        "newName": "api"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "bf.a",
+          "shortId": "d(Lbj/a;Lbj/a;)Lef/e;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "simulatedPumpApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "bf.b",
+          "shortId": "a(Lbf/a;)Lbf/b;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "bf.b",
+          "shortId": "c(Lbf/a;)I"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "bf.c",
+          "shortId": "a(Lbf/a;Lik/a;Lik/a;)Lbf/c;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "bf.c",
+          "shortId": "c(Lbf/a;Lbj/a;Lbj/a;)Ldf/a;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "bf.d",
+          "shortId": "a(Lbf/a;)Lbf/d;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "bf.d",
+          "shortId": "c(Lbf/a;)I"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "bf.e",
+          "shortId": "a(Lbf/a;Lik/a;Lik/a;)Lbf/e;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "bf.e",
+          "shortId": "c(Lbf/a;Lbj/a;Lbj/a;)Lef/e;"
+        },
+        "newName": "newInstance"
       },
       {
         "nodeRef": {
@@ -13848,6 +15168,22 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.c1",
+          "shortId": "a(Lik/a;Lik/a;Lik/a;Lik/a;Lik/a;)Lcom/medtronic/minimed/ngpsdk/securesession/api/c1;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.c1",
+          "shortId": "c(Lsf/a;Lsf/i;Lsf/i;Ldf/a;Lef/e;)Lcom/medtronic/minimed/ngpsdk/securesession/api/b1;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.d1",
           "shortId": "\u003cinit\u003e(Ljava/lang/String;)V"
         },
@@ -13864,6 +15200,102 @@
           "shortId": "a()Ljava/lang/String;"
         },
         "newName": "getValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.l2",
+          "shortId": "a(Lik/a;)Lcom/medtronic/minimed/ngpsdk/securesession/api/l2;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.l2",
+          "shortId": "c(Lcom/medtronic/minimed/ngpsdk/securesession/api/x0;)Lcom/medtronic/minimed/ngpsdk/securesession/api/a;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.m2",
+          "shortId": "a(Lik/a;)Lcom/medtronic/minimed/ngpsdk/securesession/api/m2;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.m2",
+          "shortId": "c(Lcom/medtronic/minimed/ngpsdk/securesession/api/b1;)Lcom/medtronic/minimed/ngpsdk/securesession/api/a1;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.n2",
+          "shortId": "a(Lik/a;Lik/a;)Lcom/medtronic/minimed/ngpsdk/securesession/api/n2;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.n2",
+          "shortId": "c(Lef/e;Lsf/i;)Lcom/medtronic/minimed/ngpsdk/securesession/api/e1;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.n4",
+          "shortId": "a(Lik/a;Lik/a;Lik/a;Lik/a;Lik/a;)Lcom/medtronic/minimed/ngpsdk/securesession/api/n4;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.n4",
+          "shortId": "c(Lcom/medtronic/minimed/ngpsdk/securesession/api/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/e1;Lcom/medtronic/minimed/ngpsdk/securesession/api/e1;Lv7/a;Lcom/medtronic/minimed/ngpsdk/securesession/api/h2;)Lcom/medtronic/minimed/ngpsdk/securesession/api/m4;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.o2",
+          "shortId": "a(Lik/a;Lik/a;)Lcom/medtronic/minimed/ngpsdk/securesession/api/o2;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.o2",
+          "shortId": "c(Lef/e;Lsf/i;)Lcom/medtronic/minimed/ngpsdk/securesession/api/e1;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.p2",
+          "shortId": "a(Lik/a;)Lcom/medtronic/minimed/ngpsdk/securesession/api/p2;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.p2",
+          "shortId": "c(Lcom/medtronic/minimed/ngpsdk/securesession/api/m4;)Lcom/medtronic/minimed/ngpsdk/securesession/api/q2;"
+        },
+        "newName": "newInstance"
       },
       {
         "nodeRef": {
@@ -14140,6 +15572,54 @@
           "shortId": "r0(Ljava/lang/Throwable;)V"
         },
         "newName": "log_failedToSetNewEnrollment"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.y0",
+          "shortId": "a(Lik/a;Lik/a;)Lcom/medtronic/minimed/ngpsdk/securesession/api/y0;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.api.y0",
+          "shortId": "c(Ldf/a;Lsf/a;)Lcom/medtronic/minimed/ngpsdk/securesession/api/x0;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.pump.api.sses.b",
+          "shortId": "a(Lik/a;)Lcom/medtronic/minimed/ngpsdk/securesession/pump/api/sses/b;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.pump.api.sses.b",
+          "shortId": "c(Ljava/lang/Integer;)Lcom/medtronic/minimed/ngpsdk/securesession/pump/api/sses/a;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.pump.api.sses.d",
+          "shortId": "a()Lcom/medtronic/minimed/ngpsdk/securesession/pump/api/sses/d;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.ngpsdk.securesession.pump.api.sses.d",
+          "shortId": "c()Lcom/medtronic/minimed/ngpsdk/securesession/pump/api/sses/c;"
+        },
+        "newName": "newInstance"
       },
       {
         "nodeRef": {
@@ -14636,6 +16116,38 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "d8.b",
+          "shortId": "a()Ld8/b;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "d8.b",
+          "shortId": "c()Ld8/a;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "d8.f",
+          "shortId": "a()Ld8/f;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "d8.f",
+          "shortId": "c()Ld8/e;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "dagger.android.DaggerApplication",
           "shortId": "a()Ldagger/android/a;"
         },
@@ -14868,6 +16380,38 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "df.k",
+          "shortId": "a(Lik/a;Lik/a;)Ldf/k;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.k",
+          "shortId": "c(Ldf/p;Ljava/lang/Integer;)Ldf/j;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.m",
+          "shortId": "a(Ldf/l;Lik/a;Lik/a;)Ldf/m;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.m",
+          "shortId": "c(Ldf/l;Lcom/medtronic/minimed/connect/ble/api/gatt/streaming/GattStreamReaderApi;Lff/b;)Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamReader;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "df.n",
           "shortId": "\u003cinit\u003e(Ldf/l;Lik/a;Lik/a;)V"
         },
@@ -14900,6 +16444,14 @@
           "index": 196608
         },
         "newName": "gattDataChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.n",
+          "shortId": "a(Ldf/l;Lik/a;Lik/a;)Ldf/n;"
+        },
+        "newName": "create"
       },
       {
         "nodeRef": {
@@ -14972,6 +16524,30 @@
           "index": 131072
         },
         "newName": "gattDataChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.n",
+          "shortId": "c(Ldf/l;Lcom/medtronic/minimed/connect/ble/api/gatt/streaming/GattStreamWriterApi;Lff/b;)Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamWriter;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.o",
+          "shortId": "a(Ldf/l;Lik/a;Lik/a;Lik/a;Lik/a;Lik/a;Lik/a;Lik/a;Lik/a;)Ldf/o;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.o",
+          "shortId": "c(Ldf/l;Lff/a;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamReader;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamWriter;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;Lq7/b;Ldf/s;Lx7/b;)Ldf/p;"
+        },
+        "newName": "newInstance"
       },
       {
         "nodeRef": {
@@ -15188,6 +16764,38 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "df.t",
+          "shortId": "a()Ldf/t;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.t",
+          "shortId": "c()Ldf/s;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.v",
+          "shortId": "a()Ldf/v;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.v",
+          "shortId": "c()Ldf/u;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "dk.a",
           "shortId": "l(Lio/reactivex/c;)Lio/reactivex/c;"
         },
@@ -15280,6 +16888,102 @@
           "shortId": "f(I[Le8/a;Le8/a;)Le8/a;"
         },
         "newName": "findByExactIntValue"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ef.a0",
+          "shortId": "a(Lef/w;Lik/a;Lik/a;)Lef/a0;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ef.a0",
+          "shortId": "c(Lef/w;Lcom/medtronic/minimed/connect/ble/api/gatt/streaming/GattStreamWriterApi;Lgf/b;)Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamWriter;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ef.f0",
+          "shortId": "a()Lef/f0;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ef.f0",
+          "shortId": "c()Lef/e0;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ef.v",
+          "shortId": "a(Lik/a;Lik/a;Lik/a;)Lef/v;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ef.v",
+          "shortId": "c(Lef/b;Lef/b0;Ljava/lang/Integer;)Lef/u;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ef.x",
+          "shortId": "a(Lef/w;Lik/a;Lik/a;)Lef/x;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ef.x",
+          "shortId": "c(Lef/w;Lgf/a;Lcom/medtronic/minimed/ngpsdk/securesession/pump/api/sses/a;)Lef/b;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ef.y",
+          "shortId": "a(Lef/w;Lik/a;Lik/a;Lik/a;Lik/a;Lik/a;Lik/a;Lik/a;Lik/a;)Lef/y;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ef.y",
+          "shortId": "c(Lef/w;Lgf/a;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamReader;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamWriter;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;Lq7/b;Lcom/medtronic/minimed/ngpsdk/securesession/pump/api/sses/c;Lx7/b;)Lef/b0;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ef.z",
+          "shortId": "a(Lef/w;Lik/a;Lik/a;)Lef/z;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ef.z",
+          "shortId": "c(Lef/w;Lcom/medtronic/minimed/connect/ble/api/gatt/streaming/GattStreamReaderApi;Lgf/b;)Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamReader;"
+        },
+        "newName": "newInstance"
       },
       {
         "nodeRef": {
@@ -15900,6 +17604,22 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "ff.f",
+          "shortId": "a()Lff/f;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ff.f",
+          "shortId": "c()Lff/e;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "ff.g",
           "shortId": "\u003cinit\u003e(Lff/c;Lff/c;Lff/h;)V"
         },
@@ -16116,10 +17836,106 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "ff.j",
+          "shortId": "a()Lff/j;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ff.j",
+          "shortId": "c()Lff/i;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ff.l",
+          "shortId": "a(Lff/k;Lik/a;Lik/a;Lik/a;Lik/a;Lik/a;)Lff/l;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ff.l",
+          "shortId": "c(Lff/k;Lc8/e;Lb8/d;Ld8/e;Lff/e;Lff/i;)Lff/a;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ff.m",
+          "shortId": "a(Lff/k;Lik/a;Lik/a;Lik/a;Lik/a;)Lff/m;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ff.m",
+          "shortId": "c(Lff/k;Lc8/e;Lb8/d;Ld8/e;Ld8/a;)Lff/b;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "fk.a",
           "shortId": "a()Lio/reactivex/b0;"
         },
         "newName": "computation"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gb.j",
+          "shortId": "a(ILfd/d;Llk/f;Llk/f;Lg8/a;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;Z)Laf/d;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "defaultTimeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gb.j",
+          "shortId": "a(ILfd/d;Llk/f;Llk/f;Lg8/a;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;Z)Laf/d;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "blComponent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gb.j",
+          "shortId": "a(ILfd/d;Llk/f;Llk/f;Lg8/a;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;Z)Laf/d;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "dataComponent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gb.j",
+          "shortId": "a(ILfd/d;Llk/f;Llk/f;Lg8/a;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;Z)Laf/d;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "simulate"
       },
       {
         "nodeRef": {
@@ -16400,6 +18216,70 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "gf.e",
+          "shortId": "a()Lgf/e;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gf.e",
+          "shortId": "c()Lgf/d;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gf.h",
+          "shortId": "a()Lgf/h;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gf.h",
+          "shortId": "c()Lgf/g;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gf.j",
+          "shortId": "a(Lgf/i;Lik/a;Lik/a;Lik/a;Lik/a;Lik/a;)Lgf/j;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gf.j",
+          "shortId": "c(Lgf/i;Lc8/e;Lb8/d;Ld8/e;Lgf/d;Lgf/g;)Lgf/a;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gf.k",
+          "shortId": "a(Lgf/i;Lik/a;Lik/a;Lik/a;Lik/a;)Lgf/k;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gf.k",
+          "shortId": "c(Lgf/i;Lc8/e;Lb8/d;Ld8/e;Ld8/a;)Lgf/b;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "h8.f",
           "shortId": "b(Landroid/content/Context;Lj8/e;)Lk8/a;"
         },
@@ -16444,6 +18324,102 @@
           "shortId": "b()[B"
         },
         "newName": "getPublicKey"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "hf.b",
+          "shortId": "a(Lhf/a;Lik/a;Lik/a;)Lhf/b;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "hf.b",
+          "shortId": "c(Lhf/a;Lbj/a;Lbj/a;)Lsf/a;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "hf.c",
+          "shortId": "a(Lhf/a;Lik/a;Lik/a;)Lhf/c;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "hf.c",
+          "shortId": "c(Lhf/a;Lbj/a;Lbj/a;)Lsf/i;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "hf.d",
+          "shortId": "a(Lhf/a;Lik/a;Lik/a;)Lhf/d;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "hf.d",
+          "shortId": "c(Lhf/a;Lbj/a;Lbj/a;)Lsf/i;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "hf.e",
+          "shortId": "a(Lik/a;)Lhf/e;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "hf.e",
+          "shortId": "c(Lqf/h;)Lqf/o;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "hf.g",
+          "shortId": "a()Lhf/g;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "hf.g",
+          "shortId": "c()Lhf/f;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "hf.i",
+          "shortId": "a()Lhf/i;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "hf.i",
+          "shortId": "c()Lhf/h;"
+        },
+        "newName": "newInstance"
       },
       {
         "nodeRef": {
@@ -22816,6 +24792,70 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "q7.c",
+          "shortId": "a()Lq7/c;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "q7.c",
+          "shortId": "c()Lq7/b;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "qf.i",
+          "shortId": "a()Lqf/i;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "qf.i",
+          "shortId": "c()Lqf/h;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "qf.k",
+          "shortId": "a()Lqf/k;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "qf.k",
+          "shortId": "c()Lcom/medtronic/teneo/client/EnrollmentClient;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "qf.m",
+          "shortId": "a()Lqf/m;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "qf.m",
+          "shortId": "c()Lcom/medtronic/teneo/client/SecureSessionClient;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "r6.y",
           "shortId": "H()V"
         },
@@ -22884,6 +24924,38 @@
           "shortId": "x()Lio/reactivex/c0;"
         },
         "newName": "getRegionSelectedCountryCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "sf.h",
+          "shortId": "a(Lik/a;Lik/a;)Lsf/h;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "sf.h",
+          "shortId": "c(Lcom/medtronic/teneo/client/EnrollmentClient;Lqf/o;)Lsf/g;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "sf.p",
+          "shortId": "a(Lik/a;Lik/a;)Lsf/p;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "sf.p",
+          "shortId": "c(Lcom/medtronic/teneo/client/SecureSessionClient;Lqf/o;)Lsf/o;"
+        },
+        "newName": "newInstance"
       },
       {
         "nodeRef": {
@@ -23196,6 +25268,38 @@
           "shortId": "b()Lio/reactivex/q;"
         },
         "newName": "getIdentityAnnotationForUserClass"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "x7.c",
+          "shortId": "a(Lik/a;Lik/a;)Lx7/c;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "x7.c",
+          "shortId": "c(Lq7/b;Lik/a;)Lx7/b;"
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "x7.f",
+          "shortId": "a(Lik/a;)Lx7/f;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "x7.f",
+          "shortId": "c(Lq7/b;)Lx7/d;"
+        },
+        "newName": "newInstance"
       },
       {
         "nodeRef": {

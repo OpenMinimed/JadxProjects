@@ -15876,6 +15876,246 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "ff.d",
+          "shortId": "\u003cinit\u003e(Lff/c;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "opCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ff.e",
+          "shortId": "a(Lff/d;)Lb8/e;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "request"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ff.g",
+          "shortId": "\u003cinit\u003e(Lff/c;Lff/c;Lff/h;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "opCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ff.g",
+          "shortId": "\u003cinit\u003e(Lff/c;Lff/c;Lff/h;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "requestOpCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ff.g",
+          "shortId": "\u003cinit\u003e(Lff/c;Lff/c;Lff/h;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "responseCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ff.g$a",
+          "shortId": "\u003cinit\u003e(Lff/c;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "opCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ff.g$a",
+          "shortId": "a()Lff/g;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ff.g$a",
+          "shortId": "b(Lff/c;Lff/h;)Lff/g$a;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "requestOpCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ff.g$a",
+          "shortId": "b(Lff/c;Lff/h;)Lff/g$a;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "responseCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ff.g$a",
+          "shortId": "b(Lff/c;Lff/h;)Lff/g$a;"
+        },
+        "newName": "update"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ff.i",
+          "shortId": "a(Lb8/e;)Lff/g;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 2
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ff.i",
+          "shortId": "a(Lb8/e;)Lff/g;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "opCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ff.i",
+          "shortId": "a(Lb8/e;)Lff/g;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196610
+        },
+        "newName": "opCodeObj"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ff.i",
+          "shortId": "b(Lb8/e;ILff/g$a;)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 4
+        },
+        "newName": "reponseCodeObj"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ff.i",
+          "shortId": "b(Lb8/e;ILff/g$a;)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "requestOpCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ff.i",
+          "shortId": "b(Lb8/e;ILff/g$a;)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131075
+        },
+        "newName": "requestOpCodeObj"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ff.i",
+          "shortId": "b(Lb8/e;ILff/g$a;)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458754
+        },
+        "newName": "responseCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ff.i",
+          "shortId": "b(Lb8/e;ILff/g$a;)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ff.i",
+          "shortId": "b(Lb8/e;ILff/g$a;)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524289
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ff.i",
+          "shortId": "b(Lb8/e;ILff/g$a;)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524292
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ff.i",
+          "shortId": "b(Lb8/e;ILff/g$a;)I"
+        },
+        "newName": "unpackOperand"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "fk.a",
           "shortId": "a()Lio/reactivex/b0;"
         },

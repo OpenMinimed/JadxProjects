@@ -621,6 +621,13 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "df.l$b"
+        },
+        "newName": "Transaction"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "e8.a"
         },
         "newName": "HasValue"
@@ -3398,7 +3405,7 @@
           "declClass": "df.o",
           "shortId": "b:Lik/a;"
         },
-        "newName": "cmcp"
+        "newName": "cmCpChar"
       },
       {
         "nodeRef": {
@@ -3439,6 +3446,22 @@
           "shortId": "g:Lik/a;"
         },
         "newName": "realTime"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "df.o",
+          "shortId": "h:Lik/a;"
+        },
+        "newName": "cmResponseTransformer"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "df.o",
+          "shortId": "i:Lik/a;"
+        },
+        "newName": "rtScheduler"
       },
       {
         "nodeRef": {
@@ -6530,6 +6553,14 @@
           "declClass": "bf.a",
           "shortId": "d(Lbj/a;Lbj/a;)Lef/e;"
         },
+        "newName": "getSsePumpApi"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "bf.a",
+          "shortId": "d(Lbj/a;Lbj/a;)Lef/e;"
+        },
         "codeRef": {
           "attachType": "VAR",
           "index": 196608
@@ -6547,14 +6578,6 @@
           "index": 196610
         },
         "newName": "api"
-      },
-      {
-        "nodeRef": {
-          "refType": "METHOD",
-          "declClass": "bf.a",
-          "shortId": "d(Lbj/a;Lbj/a;)Lef/e;"
-        },
-        "newName": "getSsePumpApi"
       },
       {
         "nodeRef": {
@@ -16555,6 +16578,54 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "df.l",
+          "shortId": "a(Lcom/medtronic/minimed/connect/ble/api/gatt/streaming/GattStreamReaderApi;Lff/b;)Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamReader;"
+        },
+        "newName": "createGattStreamReader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.l",
+          "shortId": "b(Lcom/medtronic/minimed/connect/ble/api/gatt/streaming/GattStreamWriterApi;Lff/b;)Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamWriter;"
+        },
+        "newName": "createGattStreamWriter"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.l",
+          "shortId": "c(Lff/a;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamReader;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamWriter;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;Lq7/b;Ldf/s;Lx7/b;)Ldf/p;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 720896
+        },
+        "newName": "controlPointChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.l",
+          "shortId": "c(Lff/a;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamReader;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamWriter;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;Lq7/b;Ldf/s;Lx7/b;)Ldf/p;"
+        },
+        "newName": "createCmTransaction"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.l",
+          "shortId": "c(Lff/a;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamReader;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamWriter;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;Lq7/b;Ldf/s;Lx7/b;)Ldf/p;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1114112
+        },
+        "newName": "responseTransformer"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "df.m",
           "shortId": "a(Ldf/l;Lik/a;Lik/a;)Ldf/m;"
         },
@@ -16698,6 +16769,30 @@
           "declClass": "df.o",
           "shortId": "a(Ldf/l;Lik/a;Lik/a;Lik/a;Lik/a;Lik/a;Lik/a;Lik/a;Lik/a;)Ldf/o;"
         },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 720896
+        },
+        "newName": "cmPumpApiModule"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.o",
+          "shortId": "a(Ldf/l;Lik/a;Lik/a;Lik/a;Lik/a;Lik/a;Lik/a;Lik/a;Lik/a;)Ldf/o;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 786432
+        },
+        "newName": "cmCpChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.o",
+          "shortId": "a(Ldf/l;Lik/a;Lik/a;Lik/a;Lik/a;Lik/a;Lik/a;Lik/a;Lik/a;)Ldf/o;"
+        },
         "newName": "create"
       },
       {
@@ -16706,7 +16801,79 @@
           "declClass": "df.o",
           "shortId": "c(Ldf/l;Lff/a;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamReader;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamWriter;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;Lq7/b;Ldf/s;Lx7/b;)Ldf/p;"
         },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "cmPumpApiModule"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.o",
+          "shortId": "c(Ldf/l;Lff/a;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamReader;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamWriter;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;Lq7/b;Ldf/s;Lx7/b;)Ldf/p;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "cmCpChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.o",
+          "shortId": "c(Ldf/l;Lff/a;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamReader;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamWriter;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;Lq7/b;Ldf/s;Lx7/b;)Ldf/p;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "connectionMtuSize"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.o",
+          "shortId": "c(Ldf/l;Lff/a;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamReader;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamWriter;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;Lq7/b;Ldf/s;Lx7/b;)Ldf/p;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "connectionState"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.o",
+          "shortId": "c(Ldf/l;Lff/a;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamReader;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamWriter;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;Lq7/b;Ldf/s;Lx7/b;)Ldf/p;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "cmResponseTransformer"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.o",
+          "shortId": "c(Ldf/l;Lff/a;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamReader;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamWriter;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;Lq7/b;Ldf/s;Lx7/b;)Ldf/p;"
+        },
         "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "df.o",
+          "shortId": "c(Ldf/l;Lff/a;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamReader;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/GattStreamWriter;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionMtuSizeProvider;Lcom/medtronic/minimed/connect/ble/api/gatt/client/exchange/streaming/ConnectionStateProvider;Lq7/b;Ldf/s;Lx7/b;)Ldf/p;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "rtScheduler"
       },
       {
         "nodeRef": {
@@ -17698,6 +17865,10 @@
           "declClass": "ej.i",
           "shortId": "a(Lik/a;)Lik/a;"
         },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
         "newName": "provider"
       },
       {
@@ -17705,10 +17876,6 @@
           "refType": "METHOD",
           "declClass": "ej.i",
           "shortId": "a(Lik/a;)Lik/a;"
-        },
-        "codeRef": {
-          "attachType": "VAR",
-          "index": 65536
         },
         "newName": "provider"
       },
@@ -20886,10 +21053,6 @@
           "declClass": "io.reactivex.c0",
           "shortId": "W(JLjava/util/concurrent/TimeUnit;Lio/reactivex/g0;)Lio/reactivex/c0;"
         },
-        "codeRef": {
-          "attachType": "VAR",
-          "index": 524288
-        },
         "newName": "timeout"
       },
       {
@@ -20897,6 +21060,10 @@
           "refType": "METHOD",
           "declClass": "io.reactivex.c0",
           "shortId": "W(JLjava/util/concurrent/TimeUnit;Lio/reactivex/g0;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
         },
         "newName": "timeout"
       },
@@ -22578,6 +22745,10 @@
           "declClass": "io.reactivex.q",
           "shortId": "l(JLjava/util/concurrent/TimeUnit;Lio/reactivex/b0;)Lio/reactivex/q;"
         },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
         "newName": "delay"
       },
       {
@@ -22585,10 +22756,6 @@
           "refType": "METHOD",
           "declClass": "io.reactivex.q",
           "shortId": "l(JLjava/util/concurrent/TimeUnit;Lio/reactivex/b0;)Lio/reactivex/q;"
-        },
-        "codeRef": {
-          "attachType": "VAR",
-          "index": 524288
         },
         "newName": "delay"
       },
@@ -23550,6 +23717,18 @@
           "declClass": "j8.e",
           "shortId": "e(Lh8/d;IILj8/c;)V"
         },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "descriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "e(Lh8/d;IILj8/c;)V"
+        },
         "newName": "onDescriptorReadRequest"
       },
       {
@@ -23575,18 +23754,6 @@
           "index": 196608
         },
         "newName": "offset"
-      },
-      {
-        "nodeRef": {
-          "refType": "METHOD",
-          "declClass": "j8.e",
-          "shortId": "e(Lh8/d;IILj8/c;)V"
-        },
-        "codeRef": {
-          "attachType": "VAR",
-          "index": 262144
-        },
-        "newName": "descriptor"
       },
       {
         "nodeRef": {

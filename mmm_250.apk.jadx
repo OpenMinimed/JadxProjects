@@ -733,6 +733,62 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "gb.b$a"
+        },
+        "newName": "_BlComponent"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "gb.b$b"
+        },
+        "newName": "_DataComponent"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "gb.b$c"
+        },
+        "newName": "_ConnectionStateProvider"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "gb.b$d"
+        },
+        "newName": "_BlComponent2"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "gb.b$e"
+        },
+        "newName": "_DataComponent2"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "gb.b$f"
+        },
+        "newName": "_NgpSecureSessionConfigurator"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "gb.b$g"
+        },
+        "newName": "_NgpFirmwareUpdateConfigurator"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "gb.b$h"
+        },
+        "newName": "_NotifierProxy"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "gb.j$a"
         },
         "newName": "_IdendityRepository"
@@ -1177,6 +1233,13 @@
           "declClass": "s7.a"
         },
         "newName": "DestroyableSecretKey"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "sb.b"
+        },
+        "newName": "FotaBlComponent"
       },
       {
         "nodeRef": {
@@ -3584,6 +3647,102 @@
           "shortId": "a:Lff/j;"
         },
         "newName": "INSTANCE"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "g8.b",
+          "shortId": "a:Landroid/content/Context;"
+        },
+        "newName": "context"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "g8.b",
+          "shortId": "b:Z"
+        },
+        "newName": "useBleOverTcpSimulation"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gb.b",
+          "shortId": "a:Lgb/b;"
+        },
+        "newName": "bleConnectApplicationProvider"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gb.b",
+          "shortId": "b:Lma/x;"
+        },
+        "newName": "applicationResources"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gb.b",
+          "shortId": "c:Lcom/medtronic/minimed/data/ParametersForTesting;"
+        },
+        "newName": "parametersForTesting"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gb.b",
+          "shortId": "d:Lr9/f;"
+        },
+        "newName": "dataComponent"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gb.b",
+          "shortId": "e:Lsa/r2;"
+        },
+        "newName": "uiComponent"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gb.b",
+          "shortId": "f:Ln6/c;"
+        },
+        "newName": "blComponent"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gb.b",
+          "shortId": "g:Lsb/b;"
+        },
+        "newName": "fotaBlComponent"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gb.b",
+          "shortId": "h:Laf/d;"
+        },
+        "newName": "ngpSecureSessionComponent"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gb.b",
+          "shortId": "i:Ln7/a;"
+        },
+        "newName": "apiLoggerConfigurator"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "gb.b",
+          "shortId": "j:Lt5/c;"
+        },
+        "newName": "carelinkAnalyticsConfigurator"
       },
       {
         "nodeRef": {
@@ -6371,14 +6530,6 @@
           "declClass": "bf.a",
           "shortId": "d(Lbj/a;Lbj/a;)Lef/e;"
         },
-        "newName": "getSsePumpApi"
-      },
-      {
-        "nodeRef": {
-          "refType": "METHOD",
-          "declClass": "bf.a",
-          "shortId": "d(Lbj/a;Lbj/a;)Lef/e;"
-        },
         "codeRef": {
           "attachType": "VAR",
           "index": 196608
@@ -6396,6 +6547,14 @@
           "index": 196610
         },
         "newName": "api"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "bf.a",
+          "shortId": "d(Lbj/a;Lbj/a;)Lef/e;"
+        },
+        "newName": "getSsePumpApi"
       },
       {
         "nodeRef": {
@@ -6715,18 +6874,6 @@
           "declClass": "c8.b0$f",
           "shortId": "b(Li8/b;II)V"
         },
-        "codeRef": {
-          "attachType": "VAR",
-          "index": 458752
-        },
-        "newName": "newState"
-      },
-      {
-        "nodeRef": {
-          "refType": "METHOD",
-          "declClass": "c8.b0$f",
-          "shortId": "b(Li8/b;II)V"
-        },
         "newName": "onConnectionStateChange"
       },
       {
@@ -6740,6 +6887,18 @@
           "index": 393216
         },
         "newName": "status"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "c8.b0$f",
+          "shortId": "b(Li8/b;II)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "newState"
       },
       {
         "nodeRef": {
@@ -17539,10 +17698,6 @@
           "declClass": "ej.i",
           "shortId": "a(Lik/a;)Lik/a;"
         },
-        "codeRef": {
-          "attachType": "VAR",
-          "index": 65536
-        },
         "newName": "provider"
       },
       {
@@ -17550,6 +17705,10 @@
           "refType": "METHOD",
           "declClass": "ej.i",
           "shortId": "a(Lik/a;)Lik/a;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
         },
         "newName": "provider"
       },
@@ -17888,6 +18047,230 @@
           "shortId": "a()Lio/reactivex/b0;"
         },
         "newName": "computation"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "g8.b",
+          "shortId": "\u003cinit\u003e(Landroid/content/Context;Z)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "useBleOverTcpSimulation"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "g8.b",
+          "shortId": "n()Landroid/content/Context;"
+        },
+        "newName": "getContext"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "g8.b",
+          "shortId": "o()Lcom/medtronic/minimed/connect/ble/api/gatt/streaming/GattStreamReaderApi;"
+        },
+        "newName": "getStreamReader"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "g8.b",
+          "shortId": "p()Lcom/medtronic/minimed/connect/ble/api/gatt/streaming/GattStreamWriterApi;"
+        },
+        "newName": "getStreamWriter"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "g8.b",
+          "shortId": "q()Landroid/os/Handler;"
+        },
+        "newName": "createAndStartThread"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gb.b",
+          "shortId": "b()Lio/reactivex/b0;"
+        },
+        "newName": "getScheduler"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gb.b",
+          "shortId": "d()Ln7/a;"
+        },
+        "newName": "getApiLoggerConfigurator"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gb.b",
+          "shortId": "e()Ln6/c;"
+        },
+        "newName": "getBlComponent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gb.b",
+          "shortId": "f()Lt5/c;"
+        },
+        "newName": "getCarelinkAnalyticsConfigurator"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gb.b",
+          "shortId": "g()Lr9/f;"
+        },
+        "newName": "getDataComponent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gb.b",
+          "shortId": "h()Lsb/b;"
+        },
+        "newName": "getFotaBlComponent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gb.b",
+          "shortId": "i()Lsa/r2;"
+        },
+        "newName": "getUiComponent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gb.b",
+          "shortId": "k(Ln6/c;)V"
+        },
+        "newName": "setBlComponent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gb.b",
+          "shortId": "l(Lr9/f;)V"
+        },
+        "newName": "setDataComponent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gb.b",
+          "shortId": "m(Lsb/b;)V"
+        },
+        "newName": "setFotaBlComponent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gb.b",
+          "shortId": "n(Lsa/r2;)V"
+        },
+        "newName": "setUiComponent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gb.g",
+          "shortId": "e(Lj8/a;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "bleChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gb.g",
+          "shortId": "e(Lj8/a;)Z"
+        },
+        "newName": "isCmServiceDataChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gb.g",
+          "shortId": "f(Lj8/a;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "bleChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gb.g",
+          "shortId": "f(Lj8/a;)Z"
+        },
+        "newName": "isSseServiceDataChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gb.g",
+          "shortId": "g(Lj8/a;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "bleChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gb.g",
+          "shortId": "g(Lj8/a;)Z"
+        },
+        "newName": "isHatServiceSliceRecordChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gb.g",
+          "shortId": "h(Landroid/app/Application;Lio/reactivex/b0;Z)Lg8/a;"
+        },
+        "newName": "build"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gb.g",
+          "shortId": "h(Landroid/app/Application;Lio/reactivex/b0;Z)Lg8/a;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262146
+        },
+        "newName": "logger"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "gb.g",
+          "shortId": "h(Landroid/app/Application;Lio/reactivex/b0;Z)Lg8/a;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "useBleOverTcpSimulation"
       },
       {
         "nodeRef": {
@@ -19271,10 +19654,6 @@
           "declClass": "io.reactivex.c",
           "shortId": "W(JLjava/util/concurrent/TimeUnit;)Lio/reactivex/c;"
         },
-        "codeRef": {
-          "attachType": "VAR",
-          "index": 458752
-        },
         "newName": "timeout"
       },
       {
@@ -19282,6 +19661,10 @@
           "refType": "METHOD",
           "declClass": "io.reactivex.c",
           "shortId": "W(JLjava/util/concurrent/TimeUnit;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
         },
         "newName": "timeout"
       },
@@ -19303,10 +19686,6 @@
           "declClass": "io.reactivex.c",
           "shortId": "X(JLjava/util/concurrent/TimeUnit;Lio/reactivex/g;)Lio/reactivex/c;"
         },
-        "codeRef": {
-          "attachType": "VAR",
-          "index": 524288
-        },
         "newName": "timeout"
       },
       {
@@ -19314,6 +19693,10 @@
           "refType": "METHOD",
           "declClass": "io.reactivex.c",
           "shortId": "X(JLjava/util/concurrent/TimeUnit;Lio/reactivex/g;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
         },
         "newName": "timeout"
       },
@@ -19347,10 +19730,6 @@
           "declClass": "io.reactivex.c",
           "shortId": "Y(JLjava/util/concurrent/TimeUnit;Lio/reactivex/b0;Lio/reactivex/g;)Lio/reactivex/c;"
         },
-        "codeRef": {
-          "attachType": "VAR",
-          "index": 131072
-        },
         "newName": "timeout"
       },
       {
@@ -19358,6 +19737,10 @@
           "refType": "METHOD",
           "declClass": "io.reactivex.c",
           "shortId": "Y(JLjava/util/concurrent/TimeUnit;Lio/reactivex/b0;Lio/reactivex/g;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
         },
         "newName": "timeout"
       },
@@ -19847,10 +20230,6 @@
           "declClass": "io.reactivex.c",
           "shortId": "r(JLjava/util/concurrent/TimeUnit;)Lio/reactivex/c;"
         },
-        "codeRef": {
-          "attachType": "VAR",
-          "index": 458752
-        },
         "newName": "delay"
       },
       {
@@ -19858,6 +20237,10 @@
           "refType": "METHOD",
           "declClass": "io.reactivex.c",
           "shortId": "r(JLjava/util/concurrent/TimeUnit;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
         },
         "newName": "delay"
       },
@@ -22071,10 +22454,6 @@
           "declClass": "io.reactivex.q",
           "shortId": "k(JLjava/util/concurrent/TimeUnit;)Lio/reactivex/q;"
         },
-        "codeRef": {
-          "attachType": "VAR",
-          "index": 131072
-        },
         "newName": "delay"
       },
       {
@@ -22082,6 +22461,10 @@
           "refType": "METHOD",
           "declClass": "io.reactivex.q",
           "shortId": "k(JLjava/util/concurrent/TimeUnit;)Lio/reactivex/q;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
         },
         "newName": "delay"
       },
@@ -22195,10 +22578,6 @@
           "declClass": "io.reactivex.q",
           "shortId": "l(JLjava/util/concurrent/TimeUnit;Lio/reactivex/b0;)Lio/reactivex/q;"
         },
-        "codeRef": {
-          "attachType": "VAR",
-          "index": 524288
-        },
         "newName": "delay"
       },
       {
@@ -22206,6 +22585,10 @@
           "refType": "METHOD",
           "declClass": "io.reactivex.q",
           "shortId": "l(JLjava/util/concurrent/TimeUnit;Lio/reactivex/b0;)Lio/reactivex/q;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
         },
         "newName": "delay"
       },
@@ -25333,6 +25716,14 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "xk.n",
+          "shortId": "e(Ljava/lang/Object;Ljava/lang/String;)V"
+        },
+        "newName": "throwIfNull"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "xk.n",
           "shortId": "f(Ljava/lang/Object;Ljava/lang/String;)V"
         },
         "newName": "checkNotNullParameter"
@@ -25420,6 +25811,62 @@
           "shortId": "c(Lj8/c;)Ljava/lang/String;"
         },
         "newName": "format"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "z7.b",
+          "shortId": "g(Lj8/a;Ljava/lang/String;Ljava/lang/String;)Z"
+        },
+        "newName": "matchesUuids"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "z7.b",
+          "shortId": "g(Lj8/a;Ljava/lang/String;Ljava/lang/String;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "service"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "z7.b",
+          "shortId": "g(Lj8/a;Ljava/lang/String;Ljava/lang/String;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "charProxy"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "z7.b",
+          "shortId": "g(Lj8/a;Ljava/lang/String;Ljava/lang/String;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "serverUuid"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "z7.b",
+          "shortId": "g(Lj8/a;Ljava/lang/String;Ljava/lang/String;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "charUuid"
       },
       {
         "nodeRef": {

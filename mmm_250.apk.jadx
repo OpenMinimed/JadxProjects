@@ -593,6 +593,20 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "ej.g"
+        },
+        "newName": "Preconditions"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "ej.h$b"
+        },
+        "newName": "Builder"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "ek.a"
         },
         "newName": "BehaviourProcessor"
@@ -2839,6 +2853,126 @@
           "shortId": "a:[I"
         },
         "newName": "opCodeMap"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ej.b",
+          "shortId": "a:Lik/a;"
+        },
+        "newName": "delegate"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ej.c",
+          "shortId": "a:Lik/a;"
+        },
+        "newName": "provider"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ej.c",
+          "shortId": "b:Ljava/lang/Object;"
+        },
+        "newName": "instance"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ej.c",
+          "shortId": "c:Ljava/lang/Object;"
+        },
+        "newName": "UNINITIALIZED"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ej.e",
+          "shortId": "a:Ljava/lang/Object;"
+        },
+        "newName": "instance"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ej.e",
+          "shortId": "b:Lej/e;"
+        },
+        "newName": "NULL_INSTANCE_FACTORY"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ej.f",
+          "shortId": "a:Ljava/util/Map;"
+        },
+        "newName": "contributions"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ej.h",
+          "shortId": "a:Ljava/util/List;"
+        },
+        "newName": "individualProviders"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ej.h",
+          "shortId": "b:Ljava/util/List;"
+        },
+        "newName": "collectionProviders"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ej.h",
+          "shortId": "c:Lej/d;"
+        },
+        "newName": "EMPTY_FACTORY"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ej.h$b",
+          "shortId": "a:Ljava/util/List;"
+        },
+        "newName": "individualProviders"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ej.h$b",
+          "shortId": "b:Ljava/util/List;"
+        },
+        "newName": "collectionProviders"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ej.i",
+          "shortId": "a:Lik/a;"
+        },
+        "newName": "provider"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ej.i",
+          "shortId": "b:Ljava/lang/Object;"
+        },
+        "newName": "instance"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "ej.i",
+          "shortId": "c:Ljava/lang/Object;"
+        },
+        "newName": "UNINITIALIZED"
       },
       {
         "nodeRef": {
@@ -14939,6 +15073,574 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "ej.a",
+          "shortId": "a(I)I"
+        },
+        "newName": "calculateInitialCapacity"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.a",
+          "shortId": "a(I)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "expectedSize"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.a",
+          "shortId": "b(I)Ljava/util/HashSet;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "expectedSize"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.a",
+          "shortId": "b(I)Ljava/util/HashSet;"
+        },
+        "newName": "newHashSetWithExpectedSize"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.a",
+          "shortId": "c(I)Ljava/util/LinkedHashMap;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "expectedSize"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.a",
+          "shortId": "c(I)Ljava/util/LinkedHashMap;"
+        },
+        "newName": "newLinkedHashMapWithExpectedSize"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.a",
+          "shortId": "d(I)Ljava/util/List;"
+        },
+        "newName": "presizedList"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.a",
+          "shortId": "d(I)Ljava/util/List;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "size"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.b",
+          "shortId": "a(Lik/a;Lik/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "delegateFactory"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.b",
+          "shortId": "a(Lik/a;Lik/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "delegate"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.b",
+          "shortId": "a(Lik/a;Lik/a;)V"
+        },
+        "newName": "setDelegate"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.b",
+          "shortId": "get()Ljava/lang/Object;"
+        },
+        "newName": "get"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.c",
+          "shortId": "a(Lik/a;)Lbj/a;"
+        },
+        "newName": "lazy"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.c",
+          "shortId": "a(Lik/a;)Lbj/a;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "provider"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.c",
+          "shortId": "b(Lik/a;)Lik/a;"
+        },
+        "newName": "provider"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.c",
+          "shortId": "c(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "currentInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.c",
+          "shortId": "c(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "newInstance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.c",
+          "shortId": "c(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        "newName": "reentrantCheck"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.c",
+          "shortId": "get()Ljava/lang/Object;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "result"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.e",
+          "shortId": "\u003cinit\u003e(Ljava/lang/Object;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "instance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.e",
+          "shortId": "a(Ljava/lang/Object;)Lej/d;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.e",
+          "shortId": "a(Ljava/lang/Object;)Lej/d;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "instance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.f",
+          "shortId": "\u003cinit\u003e(I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "size"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.f",
+          "shortId": "a()Ljava/util/Map;"
+        },
+        "newName": "build"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.f",
+          "shortId": "b(I)Lej/f;"
+        },
+        "newName": "newMapBuilder"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.f",
+          "shortId": "b(I)Lej/f;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "size"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.f",
+          "shortId": "c(Ljava/lang/Object;Ljava/lang/Object;)Lej/f;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "key"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.f",
+          "shortId": "c(Ljava/lang/Object;Ljava/lang/Object;)Lej/f;"
+        },
+        "newName": "put"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.f",
+          "shortId": "c(Ljava/lang/Object;Ljava/lang/Object;)Lej/f;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.g",
+          "shortId": "a(Ljava/lang/Object;Ljava/lang/Class;)V"
+        },
+        "newName": "checkBuilderRequirement"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.g",
+          "shortId": "a(Ljava/lang/Object;Ljava/lang/Class;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "requirement"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.g",
+          "shortId": "b(Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        "newName": "checkNotNull"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.g",
+          "shortId": "c(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;"
+        },
+        "newName": "checkNotNull"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.g",
+          "shortId": "c(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "reference"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.g",
+          "shortId": "c(Ljava/lang/Object;Ljava/lang/String;)Ljava/lang/Object;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "errorMessage"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.g",
+          "shortId": "d(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        "newName": "checkNotNull"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.g",
+          "shortId": "d(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "reference"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.g",
+          "shortId": "d(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "errorMessageTemplate"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.g",
+          "shortId": "d(Ljava/lang/Object;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "errorMessageArg"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.g",
+          "shortId": "e(Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        "newName": "checkNotNullFromComponent"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.g",
+          "shortId": "e(Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "reference"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.g",
+          "shortId": "f(Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        "newName": "checkNotNullFromProvides"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.g",
+          "shortId": "f(Ljava/lang/Object;)Ljava/lang/Object;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "reference"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.h",
+          "shortId": "\u003cinit\u003e(Ljava/util/List;Ljava/util/List;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "individualProviders"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.h",
+          "shortId": "\u003cinit\u003e(Ljava/util/List;Ljava/util/List;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "collectionProviders"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.h",
+          "shortId": "a(II)Lej/h$b;"
+        },
+        "newName": "builder"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.h",
+          "shortId": "a(II)Lej/h$b;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "individualProviderSize"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.h",
+          "shortId": "a(II)Lej/h$b;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "collectionProviderSize"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.h$b",
+          "shortId": "\u003cinit\u003e(II)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "individualProviderSize"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.h$b",
+          "shortId": "\u003cinit\u003e(II)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "collectionProviderSize"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.h$b",
+          "shortId": "a(Lik/a;)Lej/h$b;"
+        },
+        "newName": "addProvider"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.h$b",
+          "shortId": "a(Lik/a;)Lej/h$b;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "individualProvider"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.h$b",
+          "shortId": "b()Lej/h;"
+        },
+        "newName": "build"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.i",
+          "shortId": "a(Lik/a;)Lik/a;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "provider"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ej.i",
+          "shortId": "a(Lik/a;)Lik/a;"
+        },
+        "newName": "provider"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "ek.a",
           "shortId": "h(Ljava/lang/Object;)Lek/a;"
         },
@@ -15799,14 +16501,6 @@
           "shortId": "b(Ljava/lang/Throwable;)V"
         },
         "newName": "throwIfFatal"
-      },
-      {
-        "nodeRef": {
-          "refType": "METHOD",
-          "declClass": "ik.a",
-          "shortId": "get()Ljava/lang/Object;"
-        },
-        "newName": "get"
       },
       {
         "nodeRef": {
@@ -22187,6 +22881,14 @@
           "shortId": ""
         },
         "newName": "io.reactivex.internal.util"
+      },
+      {
+        "nodeRef": {
+          "refType": "PKG",
+          "declClass": "ej",
+          "shortId": ""
+        },
+        "newName": "dagger.internal"
       },
       {
         "nodeRef": {

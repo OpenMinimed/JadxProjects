@@ -551,6 +551,13 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "dagger.android.a$a"
+        },
+        "newName": "Factory"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "df.a$a"
         },
         "newName": "AuthorityType"
@@ -2733,6 +2740,22 @@
           "shortId": "b:Z"
         },
         "newName": "is_valid"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dagger.android.DaggerApplication",
+          "shortId": "d:Ldagger/android/DispatchingAndroidInjector;"
+        },
+        "newName": "androidInjector"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "dagger.android.DispatchingAndroidInjector",
+          "shortId": "a:Ljava/util/Map;"
+        },
+        "newName": "injectorFactories"
       },
       {
         "nodeRef": {
@@ -5965,6 +5988,42 @@
           "shortId": "a(Ljava/lang/Throwable;)Z"
         },
         "newName": "isExchangeException"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "cj.a",
+          "shortId": "a(Landroid/app/Activity;)V"
+        },
+        "newName": "inject"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "cj.a",
+          "shortId": "b(Ljava/lang/Object;Lcj/b;)V"
+        },
+        "newName": "inject"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "cj.a",
+          "shortId": "b(Ljava/lang/Object;Lcj/b;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "target"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "cj.b",
+          "shortId": "m()Ldagger/android/a;"
+        },
+        "newName": "androidInjector"
       },
       {
         "nodeRef": {
@@ -14573,6 +14632,158 @@
           "index": 327680
         },
         "newName": "data"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dagger.android.DaggerApplication",
+          "shortId": "a()Ldagger/android/a;"
+        },
+        "newName": "applicationInjector"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dagger.android.DaggerApplication",
+          "shortId": "b()V"
+        },
+        "newName": "injectIfNecessary"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dagger.android.DispatchingAndroidInjector",
+          "shortId": "\u003cinit\u003e(Ljava/util/Map;Ljava/util/Map;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "injectorFactoriesWithClassKeys"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dagger.android.DispatchingAndroidInjector",
+          "shortId": "\u003cinit\u003e(Ljava/util/Map;Ljava/util/Map;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "injectorFactoriesWithStringKeys"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dagger.android.DispatchingAndroidInjector",
+          "shortId": "b(Ljava/lang/Object;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "instance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dagger.android.DispatchingAndroidInjector",
+          "shortId": "e(Ljava/lang/Object;)Ljava/lang/String;"
+        },
+        "newName": "errorMessageSuggestions"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dagger.android.DispatchingAndroidInjector",
+          "shortId": "e(Ljava/lang/Object;)Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "instance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dagger.android.DispatchingAndroidInjector",
+          "shortId": "f(Ljava/lang/Object;)Z"
+        },
+        "newName": "maybeInject"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dagger.android.DispatchingAndroidInjector",
+          "shortId": "g(Ljava/util/Map;Ljava/util/Map;)Ljava/util/Map;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "classKeyedMap"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dagger.android.DispatchingAndroidInjector",
+          "shortId": "g(Ljava/util/Map;Ljava/util/Map;)Ljava/util/Map;"
+        },
+        "newName": "merge"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dagger.android.DispatchingAndroidInjector",
+          "shortId": "g(Ljava/util/Map;Ljava/util/Map;)Ljava/util/Map;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "stringKeyedMap"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dagger.android.a",
+          "shortId": "b(Ljava/lang/Object;)V"
+        },
+        "newName": "inject"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dagger.android.a",
+          "shortId": "b(Ljava/lang/Object;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "instance"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dagger.android.a$a",
+          "shortId": "a(Ljava/lang/Object;)Ldagger/android/a;"
+        },
+        "newName": "create"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "dagger.android.a$a",
+          "shortId": "a(Ljava/lang/Object;)Ldagger/android/a;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "instance"
       },
       {
         "nodeRef": {

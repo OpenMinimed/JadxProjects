@@ -1,7 +1,7 @@
 {
   "projectVersion": 2,
   "files": [
-    "uploader.jar"
+    "uploader_3.13.0.jar"
   ],
   "treeExpansionsV2": [
     "p:com.medtronic.diabetes.solar.uploader.wizard.desktop",

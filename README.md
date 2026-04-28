@@ -13,7 +13,7 @@ Unless noted otherwise, the .jadx project files were created using jadx 1.5.3.
 
 A Windows desktop app that lets you upload pump data to CareLink. It is usually used together with a _Blue Adapter_ that handles the local Blueooth LE connection to the pump.
 
-### uploader.jar.jadx
+### uploader_3.13.0.jar.jadx
 
 - CareLinkUploader-ACC-7350-3.13.0-windows-installer.exe
 - sha256sum of the .jar: fc82272146e165b52a54c2bd51758a01d3478da4278f48a2d63e4b8a17deffe8

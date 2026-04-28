@@ -64,6 +64,20 @@
       },
       {
         "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "n.n.n.n.IIIIiiiiiiIIIi"
+        },
+        "newName": "Resources"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "n.n.n.n.iiIiIiiiiiIiii"
+        },
+        "newName": "Main"
+      },
+      {
+        "nodeRef": {
           "refType": "FIELD",
           "declClass": "com.medtronic.diabetes.solar.dataupload.api.model.operations.ngp.NgpPackedKeyResponse",
           "shortId": "iiiIIiiiiiIIii:Ljava/lang/String;"
@@ -253,6 +267,14 @@
           "shortId": "IiiIIiiiiiiIII(Ljava/lang/String;)V"
         },
         "newName": "set_key_maybe"
+      },
+      {
+        "nodeRef": {
+          "refType": "PKG",
+          "declClass": "n.n.n.n",
+          "shortId": ""
+        },
+        "newName": "sun.security.tools.jarsigner"
       }
     ]
   },

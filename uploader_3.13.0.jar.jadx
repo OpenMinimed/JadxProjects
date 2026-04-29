@@ -54,6 +54,97 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "com.medtronic.n.x.c.iiiIIiiiiIIiII"
+        },
+        "newName": "maybe_SliceRacpFilterType"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.n.x.f.IIIiIiiiiIiIIi"
+        },
+        "newName": "maybe_SecureSessionStatus"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.n.x.g.IIIiIiiiiIiIIi"
+        },
+        "newName": "RepositoryRequestType"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.n.x.g.IIiiiiiiiiiiIi"
+        },
+        "newName": "RtmcpResponseCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.n.x.g.IiiIiiiiiIiiiI"
+        },
+        "newName": "RequestControlFlags"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.n.x.g.IiiiiiiiiiiIII"
+        },
+        "newName": "RepositoryRequestStatus"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.n.x.g.iIIiiiiiiIIiiI"
+        },
+        "newName": "RtmcpOpCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.n.x.g.iIiIiiiiiIIIiI"
+        },
+        "newName": "ParameterType"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.n.x.g.iiIiIiiiiiIiii"
+        },
+        "newName": "TokenType"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.n.x.g.iiIiIiiiiiiiII"
+        },
+        "newName": "CompressionSetting"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.n.x.g.iiiIIiiiiIIiII"
+        },
+        "newName": "RepositoryStatusFlags"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.n.x.g.iiiIiiiiiiIIII"
+        },
+        "newName": "EncryptionSetting"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.n.x.i.IIIIiiiiiiIIIi"
+        },
+        "newName": "TimeAdjustReason"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI"
         },
         "newName": "GattPayload"
@@ -64,6 +155,13 @@
           "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI$iIIiiiiiiIiIii"
         },
         "newName": "Builder"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.n.x.t.iiIiIiiiiiIiii"
+        },
+        "newName": "maybe_CertificateManagementOpCode"
       },
       {
         "nodeRef": {

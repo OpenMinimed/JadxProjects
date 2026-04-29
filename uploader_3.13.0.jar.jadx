@@ -54,6 +54,20 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI"
+        },
+        "newName": "GattPayload"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI$iIIiiiiiiIiIii"
+        },
+        "newName": "Builder"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "n.n.n.n.IIIIiiiiiiIIIi"
         },
         "newName": "Resources"
@@ -112,6 +126,22 @@
           "shortId": "iiIIiiiiiiiIII:Ljava/lang/String;"
         },
         "newName": "maybe_key_backup"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIiiiiiIIIiI:[B"
+        },
+        "newName": "bytes"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI$iIIiiiiiiIiIii",
+          "shortId": "iiiIIiiiiiIIii:[B"
+        },
+        "newName": "bytes"
       },
       {
         "nodeRef": {
@@ -256,6 +286,722 @@
           "shortId": "IiiIIiiiiiiIII(Ljava/lang/String;)V"
         },
         "newName": "set_key_maybe"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "\u003cinit\u003e([B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "arr"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII()[B"
+        },
+        "newName": "toByteArray"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(B)I"
+        },
+        "newName": "u8"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(BB)F"
+        },
+        "newName": "medfloat16"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(BB)I"
+        },
+        "newName": "u16"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(BBB)I"
+        },
+        "newName": "u24"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(BBBB)F"
+        },
+        "newName": "medfloat32"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(BBBB)I"
+        },
+        "newName": "u32"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(I)I"
+        },
+        "newName": "getFormatLength"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(I)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "x"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(I)Ljava/lang/IllegalArgumentException;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "i10"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(I)Ljava/lang/IllegalArgumentException;"
+        },
+        "newName": "unsupportedFormat"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(I)Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "i10"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(I)Ljava/lang/String;"
+        },
+        "newName": "readString"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(II)I"
+        },
+        "newName": "readInt_"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(II)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "type"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(II)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(II)J"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "i10"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(II)J"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "i11"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(II)J"
+        },
+        "newName": "readU32"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(II)Ljava/lang/Float;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(II)Ljava/lang/Float;"
+        },
+        "newName": "readFloat"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(II)Ljava/lang/Float;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "type"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(II)Ljava/lang/Integer;"
+        },
+        "newName": "readInt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(II)Ljava/lang/Integer;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "type"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(II)Ljava/lang/Integer;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(II)Ljava/lang/Long;"
+        },
+        "newName": "readU32_"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(II)Ljava/lang/Long;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "type"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(II)Ljava/lang/Long;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(Lcom/medtronic/n/x/n/IiiIiiiiiIiiiI;II)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "payload"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(Lcom/medtronic/n/x/n/IiiIiiiiiIiiiI;II)I"
+        },
+        "newName": "readInt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(Lcom/medtronic/n/x/n/IiiIiiiiiIiiiI;II)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "type"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(Lcom/medtronic/n/x/n/IiiIiiiiiIiiiI;II)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 655360
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(Lcom/medtronic/n/x/n/IiiIiiiiiIiiiI;II)J"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "payload"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(Lcom/medtronic/n/x/n/IiiIiiiiiIiiiI;II)J"
+        },
+        "newName": "readU32"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(Lcom/medtronic/n/x/n/IiiIiiiiiIiiiI;II)J"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "type"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(Lcom/medtronic/n/x/n/IiiIiiiiiIiiiI;II)J"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(Ljava/lang/Object;)Ljava/lang/String;"
+        },
+        "newName": "decodeString"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "IiiIIiiiiiiIII(Ljava/lang/Object;)Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "obj"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "equals(Ljava/lang/Object;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "obj"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "iIIIIiiiiiIiIi(II)I"
+        },
+        "newName": "signExtend"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "iIIIIiiiiiIiIi(II)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "iIIIIiiiiiIiIi(II)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458753
+        },
+        "newName": "v"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI",
+          "shortId": "iIIIIiiiiiIiIi(II)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "bits"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI$iIIiiiiiiIiIii",
+          "shortId": "IiiIIiiiiiiIII()Lcom/medtronic/n/x/n/IiiIiiiiiIiiiI;"
+        },
+        "newName": "build"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI$iIIiiiiiiIiIii",
+          "shortId": "IiiIIiiiiiiIII(I)V"
+        },
+        "newName": "ensureCapacity"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI$iIIiiiiiiIiIii",
+          "shortId": "IiiIIiiiiiiIII(I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "size"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI$iIIiiiiiiIiIii",
+          "shortId": "IiiIIiiiiiiIII(II)I"
+        },
+        "newName": "decodeTwosComplement"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI$iIIiiiiiiIiIii",
+          "shortId": "IiiIIiiiiiiIII(II)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI$iIIiiiiiiIiIii",
+          "shortId": "IiiIIiiiiiiIII(II)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393217
+        },
+        "newName": "v"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI$iIIiiiiiiIiIii",
+          "shortId": "IiiIIiiiiiiIII(II)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "bits"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI$iIIiiiiiiIiIii",
+          "shortId": "IiiIIiiiiiiIII(III)Lcom/medtronic/n/x/n/IiiIiiiiiIiiiI$iIIiiiiiiIiIii;"
+        },
+        "newName": "writeInt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI$iIIiiiiiiIiIii",
+          "shortId": "IiiIIiiiiiiIII(IIII)Lcom/medtronic/n/x/n/IiiIiiiiiIiiiI$iIIiiiiiiIiIii;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 4
+        },
+        "newName": "pos"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI$iIIiiiiiiIiIii",
+          "shortId": "IiiIIiiiiiiIII(IIII)Lcom/medtronic/n/x/n/IiiIiiiiiIiiiI$iIIiiiiiiIiIii;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 655360
+        },
+        "newName": "i10"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI$iIIiiiiiiIiIii",
+          "shortId": "IiiIIiiiiiiIII(IIII)Lcom/medtronic/n/x/n/IiiIiiiiiIiiiI$iIIiiiiiiIiIii;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 720896
+        },
+        "newName": "i11"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI$iIIiiiiiiIiIii",
+          "shortId": "IiiIIiiiiiiIII(IIII)Lcom/medtronic/n/x/n/IiiIiiiiiIiiiI$iIIiiiiiiIiIii;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 786432
+        },
+        "newName": "type"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI$iIIiiiiiiIiIii",
+          "shortId": "IiiIIiiiiiiIII(IIII)Lcom/medtronic/n/x/n/IiiIiiiiiIiiiI$iIIiiiiiiIiIii;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 851968
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI$iIIiiiiiiIiIii",
+          "shortId": "IiiIIiiiiiiIII(IIII)Lcom/medtronic/n/x/n/IiiIiiiiiIiiiI$iIIiiiiiiIiIii;"
+        },
+        "newName": "writeMedfloat"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI$iIIiiiiiiIiIii",
+          "shortId": "IiiIIiiiiiiIII(JII)Lcom/medtronic/n/x/n/IiiIiiiiiIiiiI$iIIiiiiiiIiIii;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI$iIIiiiiiiIiIii",
+          "shortId": "IiiIIiiiiiiIII(JII)Lcom/medtronic/n/x/n/IiiIiiiiiIiiiI$iIIiiiiiiIiIii;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "type"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI$iIIiiiiiiIiIii",
+          "shortId": "IiiIIiiiiiiIII(JII)Lcom/medtronic/n/x/n/IiiIiiiiiIiiiI$iIIiiiiiiIiIii;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 655360
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI$iIIiiiiiiIiIii",
+          "shortId": "IiiIIiiiiiiIII(JII)Lcom/medtronic/n/x/n/IiiIiiiiiIiiiI$iIIiiiiiiIiIii;"
+        },
+        "newName": "writeInt"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI$iIIiiiiiiIiIii",
+          "shortId": "IiiIIiiiiiiIII(Ljava/lang/String;)Lcom/medtronic/n/x/n/IiiIiiiiiIiiiI$iIIiiiiiiIiIii;"
+        },
+        "newName": "setFromString"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI$iIIiiiiiiIiIii",
+          "shortId": "IiiIIiiiiiiIII(Ljava/lang/String;)Lcom/medtronic/n/x/n/IiiIiiiiiIiiiI$iIIiiiiiiIiIii;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "str"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI$iIIiiiiiiIiIii",
+          "shortId": "IiiIIiiiiiiIII([B)Lcom/medtronic/n/x/n/IiiIiiiiiIiiiI$iIIiiiiiiIiIii;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "arr"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI$iIIiiiiiiIiIii",
+          "shortId": "IiiIIiiiiiiIII([B)Lcom/medtronic/n/x/n/IiiIiiiiiIiiiI$iIIiiiiiiIiIii;"
+        },
+        "newName": "setFromBytes"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI$iIIiiiiiiIiIii",
+          "shortId": "IiiIIiiiiiiIII([BI)Lcom/medtronic/n/x/n/IiiIiiiiiIiiiI$iIIiiiiiiIiIii;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "arr"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI$iIIiiiiiiIiIii",
+          "shortId": "IiiIIiiiiiiIII([BI)Lcom/medtronic/n/x/n/IiiIiiiiiIiiiI$iIIiiiiiiIiIii;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI$iIIiiiiiiIiIii",
+          "shortId": "IiiIIiiiiiiIII([BI)Lcom/medtronic/n/x/n/IiiIiiiiiIiiiI$iIIiiiiiiIiIii;"
+        },
+        "newName": "writeBytes"
       },
       {
         "nodeRef": {

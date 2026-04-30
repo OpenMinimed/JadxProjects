@@ -326,6 +326,38 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.device.Manufacturer",
+          "shortId": "IiIiiiiiiiiIIi:Ljava/lang/String;"
+        },
+        "newName": "name"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.device.Manufacturer",
+          "shortId": "iiIIIiiiiIIIiI:Ljava/util/HashMap;"
+        },
+        "newName": "idToManufacturerMap"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.device.Manufacturer",
+          "shortId": "iiIIiiiiiiiIII:[B"
+        },
+        "newName": "imageBytes"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.device.Manufacturer",
+          "shortId": "iiiIIiiiiiIIii:Ljava/lang/String;"
+        },
+        "newName": "id"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "com.medtronic.diabetes.solar.uploader.Selection",
           "shortId": "iiiIIiiiiiIIii:Lcom/medtronic/n/n/n/IIIIiiiiiiIIIi;"
         },
@@ -570,6 +602,54 @@
           "index": 262144
         },
         "newName": "arg"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.device.Manufacturer",
+          "shortId": "\u003cinit\u003e(Ljava/lang/String;Ljava/lang/String;[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "id"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.device.Manufacturer",
+          "shortId": "\u003cinit\u003e(Ljava/lang/String;Ljava/lang/String;[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 655360
+        },
+        "newName": "name"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.device.Manufacturer",
+          "shortId": "\u003cinit\u003e(Ljava/lang/String;Ljava/lang/String;[B)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 720896
+        },
+        "newName": "imageBytes"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.device.Manufacturer",
+          "shortId": "search(Ljava/lang/String;)Lcom/medtronic/diabetes/solar/device/Manufacturer;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "id"
       },
       {
         "nodeRef": {

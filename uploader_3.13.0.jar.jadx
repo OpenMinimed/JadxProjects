@@ -518,6 +518,30 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.device.medtronic.ble.BleDeviceFactoryService",
+          "shortId": "IiIiiiiiiiiIIi:Ljava/util/List;"
+        },
+        "newName": "seriesList"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.device.medtronic.ble.BleDeviceFactoryService",
+          "shortId": "iiIIIiiiiIIIiI:Ljava/util/Map;"
+        },
+        "newName": "modelNumberToSeriesMap"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.device.medtronic.ble.BleDeviceFactoryService",
+          "shortId": "iiiIIiiiiiIIii:Lcom/medtronic/diabetes/solar/device/DeviceDescriptor;"
+        },
+        "newName": "devDescriptor"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "com.medtronic.diabetes.solar.uploader.Selection",
           "shortId": "iiiIIiiiiiIIii:Lcom/medtronic/n/n/n/IIIIiiiiiiIIIi;"
         },
@@ -1022,6 +1046,86 @@
           "index": 196608
         },
         "newName": "id"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.device.medtronic.ble.BleDeviceFactoryService",
+          "shortId": "IiiIIiiiiiiIII(Ljava/lang/String;)V"
+        },
+        "newName": "buildModelMap"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.device.medtronic.ble.BleDeviceFactoryService",
+          "shortId": "IiiIIiiiiiiIII(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 4
+        },
+        "newName": "tokenizer"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.device.medtronic.ble.BleDeviceFactoryService",
+          "shortId": "IiiIIiiiiiiIII(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 8
+        },
+        "newName": "token"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.device.medtronic.ble.BleDeviceFactoryService",
+          "shortId": "IiiIIiiiiiiIII(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 10
+        },
+        "newName": "series"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.device.medtronic.ble.BleDeviceFactoryService",
+          "shortId": "IiiIIiiiiiiIII(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65543
+        },
+        "newName": "colonIndex"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.device.medtronic.ble.BleDeviceFactoryService",
+          "shortId": "IiiIIiiiiiiIII(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "modelString"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.device.medtronic.ble.BleDeviceFactoryService",
+          "shortId": "createDevice(Ljava/lang/String;)Lcom/medtronic/diabetes/solar/device/SolarVirtualDevice;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "deviceType"
       },
       {
         "nodeRef": {

@@ -238,6 +238,46 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.SolarVersion",
+          "shortId": "IiIiiiiiiiiIIi:Z"
+        },
+        "newName": "someBool"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.SolarVersion",
+          "shortId": "IiiIIiiiiiIiII:Ljava/lang/String;"
+        },
+        "newName": "someStr"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.SolarVersion",
+          "shortId": "iiIIIiiiiIIIiI:I"
+        },
+        "newName": "minor"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.SolarVersion",
+          "shortId": "iiIIiiiiiiiIII:I"
+        },
+        "newName": "major"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.SolarVersion",
+          "shortId": "iiiIIiiiiiIIii:I"
+        },
+        "newName": "patch"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "com.medtronic.diabetes.solar.dataupload.api.model.VersionResponse",
           "shortId": "IiIiiiiiiiiIIi:Ljava/lang/String;"
         },
@@ -434,6 +474,30 @@
           "shortId": "iiiIIiiiiiIIii:Ljava/math/BigDecimal;"
         },
         "newName": "MGDL_TO_KGL_RATIO"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.SolarVersion",
+          "shortId": "compareTo(Lcom/medtronic/diabetes/solar/SolarVersion;)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "version"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.SolarVersion",
+          "shortId": "parse(Ljava/lang/String;)Lcom/medtronic/diabetes/solar/SolarVersion;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "str"
       },
       {
         "nodeRef": {

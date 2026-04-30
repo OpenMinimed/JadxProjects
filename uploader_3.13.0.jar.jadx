@@ -69,6 +69,20 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi"
+        },
+        "newName": "xx_PumpDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.n.n.IIiiIiiiiiIIiI"
+        },
+        "newName": "ErrorType"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "com.medtronic.n.n.c.IIIIIiiiiIiiIi"
         },
         "newName": "SomeException3"
@@ -251,9 +265,30 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "com.medtronic.n.n.iIIIiiiiiIiIii"
+        },
+        "newName": "xx_PumpCommsState"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.n.n.iIIiiiiiiIiIii$IiIIiiiiiiiiii"
+        },
+        "newName": "Builder"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "com.medtronic.n.n.n.IIIIiiiiiiIIIi"
         },
         "newName": "ISakeKeySelector"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.n.n.v.n.iIIiiiiiiIiIii$IiIIiiiiiiiiii"
+        },
+        "newName": "Builder"
       },
       {
         "nodeRef": {
@@ -407,7 +442,7 @@
           "refType": "CLASS",
           "declClass": "com.medtronic.n.x.n.IiIIiiiiiiiiii"
         },
-        "newName": "SomeEnum"
+        "newName": "HistoryType"
       },
       {
         "nodeRef": {
@@ -450,6 +485,13 @@
           "declClass": "com.medtronic.n.x.x.IIiiiiiiiiiiIi"
         },
         "newName": "CrcCcit"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.n.y.IIIIiiiiiiIIIi"
+        },
+        "newName": "xx_ConversionTools"
       },
       {
         "nodeRef": {
@@ -972,6 +1014,46 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi",
+          "shortId": "IIiIiiiiiiIIIi:Lcom/medtronic/n/n/iIIIiiiiiIiIii;"
+        },
+        "newName": "state2"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi",
+          "shortId": "IiiIIiiiiiiiIi:Lcom/medtronic/n/n/iIIIiiiiiIiIii;"
+        },
+        "newName": "state3"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi",
+          "shortId": "iIIiIiiiiiiIII:Lorg/slf4j/Logger;"
+        },
+        "newName": "logger"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi",
+          "shortId": "iIiiIiiiiIIiiI:Lcom/medtronic/n/n/iIIIiiiiiIiIii;"
+        },
+        "newName": "state"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi",
+          "shortId": "iiIiIiiiiIIiiI:Ljava/util/Map;"
+        },
+        "newName": "timeoutMap"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "com.medtronic.n.n.a.iiIiIiiiiiIiii",
           "shortId": "iiiIIiiiiiIIii:Lorg/slf4j/Logger;"
         },
@@ -1068,6 +1150,38 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "com.medtronic.n.n.iIIiiiiiiIiIii",
+          "shortId": "IiiIiiiiiIiIii:Lcom/medtronic/n/n/n/IIIIiiiiiiIIIi;"
+        },
+        "newName": "sakeKeySelector"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.n.n.iIIiiiiiiIiIii",
+          "shortId": "iiIIIiiiiIIIiI:Lorg/apache/hc/client5/http/impl/classic/CloseableHttpClient;"
+        },
+        "newName": "httpClient"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.n.n.iIIiiiiiiIiIii$IiIIiiiiiiiiii",
+          "shortId": "iiIIIiiiiIIIiI:Lorg/apache/hc/client5/http/impl/classic/CloseableHttpClient;"
+        },
+        "newName": "httpClient"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.n.n.iIIiiiiiiIiIii$IiIIiiiiiiiiii",
+          "shortId": "iiiIIiiiiiIIii:Lcom/medtronic/n/n/n/IIIIiiiiiiIIIi;"
+        },
+        "newName": "sakeKeySelector"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "com.medtronic.n.n.n.IIiiiiiiiiiiIi",
           "shortId": "iiIIiiiiiiiIII:Ljava/lang/String;"
         },
@@ -1112,6 +1226,54 @@
           "shortId": "iiiiIiiiiiiIii:Ljava/lang/String;"
         },
         "newName": "portName"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.n.n.v.n.iIIiiiiiiIiIii",
+          "shortId": "iiiIIiiiiiIIii:Lcom/medtronic/n/n/v/n/iIIiiiiiiIiIii$IiIIiiiiiiiiii;"
+        },
+        "newName": "builder"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.n.n.v.n.iIIiiiiiiIiIii$IiIIiiiiiiiiii",
+          "shortId": "IiIiiiiiiiiIIi:Lcom/medtronic/n/x/i/iIiIiiiiiIiIii;"
+        },
+        "newName": "dateTime"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.n.n.v.n.iIIiiiiiiIiIii$IiIIiiiiiiiiii",
+          "shortId": "IiiIIiiiiiIiII:Ljava/lang/String;"
+        },
+        "newName": "productCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.n.n.v.n.iIIiiiiiiIiIii$IiIIiiiiiiiiii",
+          "shortId": "iiIIIiiiiIIIiI:Ljava/lang/String;"
+        },
+        "newName": "firmwareVersion"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.n.n.v.n.iIIiiiiiiIiIii$IiIIiiiiiiiiii",
+          "shortId": "iiIiiiiiiIIIii:Ljava/lang/String;"
+        },
+        "newName": "serialNumber"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.n.n.v.n.iIIiiiiiiIiIii$IiIIiiiiiiiiii",
+          "shortId": "iiiIIiiiiiIIii:Ljava/lang/String;"
+        },
+        "newName": "deviceModel"
       },
       {
         "nodeRef": {
@@ -1349,6 +1511,30 @@
         "nodeRef": {
           "refType": "FIELD",
           "declClass": "mdt.common.device.driver.bluetooth.BluetoothNGP",
+          "shortId": "IiiIIiiiiiIiii:Ljava/lang/String;"
+        },
+        "newName": "serialNumber"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "mdt.common.device.driver.bluetooth.BluetoothNGP",
+          "shortId": "IiiIiiiiiIIIiI:Lcom/medtronic/n/n/IIiIIiiiiiiIIi;"
+        },
+        "newName": "pumpDevice"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "mdt.common.device.driver.bluetooth.BluetoothNGP",
+          "shortId": "IiiIiiiiiIiIii:Lmdt/common/device/driver/bluetooth/BleApiRequestsListener;"
+        },
+        "newName": "bleRequestListener"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "mdt.common.device.driver.bluetooth.BluetoothNGP",
           "shortId": "iIIiIiiiiiiIII:Lmdt/common/device/driver/DeviceConnectionInfo;"
         },
         "newName": "deviceConnectionInfo"
@@ -1360,6 +1546,30 @@
           "shortId": "iIiIiiiiiIIIIi:Lorg/slf4j/Logger;"
         },
         "newName": "logger"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "mdt.common.device.driver.bluetooth.BluetoothNGP",
+          "shortId": "iiIIIiiiiIIIiI:Lcom/medtronic/n/n/IIiiIiiiiiIIiI;"
+        },
+        "newName": "errorType"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "mdt.common.device.driver.bluetooth.BluetoothNGP",
+          "shortId": "iiIIiiiiiiiIII:Ljava/lang/Exception;"
+        },
+        "newName": "exception"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "mdt.common.device.driver.bluetooth.BluetoothNGP",
+          "shortId": "iiIiiiiiiIIIii:Ljava/lang/String;"
+        },
+        "newName": "secureSessionID"
       },
       {
         "nodeRef": {
@@ -2329,6 +2539,142 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi",
+          "shortId": "IIIiIiiiiIIiiI()V"
+        },
+        "newName": "disconnectTemporarily"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi",
+          "shortId": "IIiIiiiiiIIIII()V"
+        },
+        "newName": "certEnroll"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi",
+          "shortId": "IIiiIiiiiiiiIi()V"
+        },
+        "newName": "readDeviceInfo"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi",
+          "shortId": "IiIiIiiiiiiiII()V"
+        },
+        "newName": "readMetadataToken"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi",
+          "shortId": "IiIiiiiiiIiiII()V"
+        },
+        "newName": "readRepositoryList"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi",
+          "shortId": "IiiIIiiiiiiIII(Lcom/medtronic/n/n/v/n/iIIiiiiiiIiIii$IiIIiiiiiiiiii;Lcom/medtronic/n/n/g/iiIiIiiiiiiiII;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 4
+        },
+        "newName": "data"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi",
+          "shortId": "IiiIIiiiiiiIII(Lcom/medtronic/n/n/v/n/iIIiiiiiiIiIii$IiIIiiiiiiiiii;Lcom/medtronic/n/n/g/iiIiIiiiiiiiII;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 10
+        },
+        "newName": "currentTime"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi",
+          "shortId": "IiiIIiiiiiiIII(Lcom/medtronic/n/n/v/n/iIIiiiiiiIiIii$IiIIiiiiiiiiii;Lcom/medtronic/n/n/g/iiIiIiiiiiiiII;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 17
+        },
+        "newName": "number"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi",
+          "shortId": "IiiIIiiiiiiIII(Lcom/medtronic/n/n/v/n/iIIiiiiiiIiIii$IiIIiiiiiiiiii;Lcom/medtronic/n/n/g/iiIiIiiiiiiiII;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 27
+        },
+        "newName": "deviceModel"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi",
+          "shortId": "IiiIIiiiiiiIII(Lcom/medtronic/n/n/v/n/iIIiiiiiiIiIii$IiIIiiiiiiiiii;Lcom/medtronic/n/n/g/iiIiIiiiiiiiII;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 34
+        },
+        "newName": "firmwareVersion"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi",
+          "shortId": "IiiIIiiiiiiIII(Lcom/medtronic/n/n/v/n/iIIiiiiiiIiIii$IiIIiiiiiiiiii;Lcom/medtronic/n/n/g/iiIiIiiiiiiiII;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 41
+        },
+        "newName": "serialNumber"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi",
+          "shortId": "IiiIIiiiiiiIII(Lcom/medtronic/n/n/v/n/iIIiiiiiiIiIii$IiIIiiiiiiiiii;Lcom/medtronic/n/n/g/iiIiIiiiiiiiII;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "builder"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi",
+          "shortId": "IiiIIiiiiiiIII(Lcom/medtronic/n/x/a/n/iIiIiiiiiIiIii;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 13
+        },
+        "newName": "timeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi",
           "shortId": "IiiIIiiiiiiIII(Ljava/lang/String;)V"
         },
         "codeRef": {
@@ -2344,6 +2690,54 @@
           "shortId": "IiiIIiiiiiiIII(Ljava/lang/String;)V"
         },
         "newName": "setConfirmationCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi",
+          "shortId": "IiiIIiiiiiiIII(Ljava/util/List;)Ljava/util/List;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 33
+        },
+        "newName": "timeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi",
+          "shortId": "IiiIiiiiiIIIiI()V"
+        },
+        "newName": "doNothing"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi",
+          "shortId": "IiiIiiiiiIiiII()V"
+        },
+        "newName": "readDataRepositories"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi",
+          "shortId": "iIIIIiiiiiIiIi(Lcom/medtronic/n/n/iIIIiiiiiIiIii;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "state"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi",
+          "shortId": "iIIIIiiiiiiiIi()V"
+        },
+        "newName": "getRepositoryRequestTokens"
       },
       {
         "nodeRef": {
@@ -2369,9 +2763,65 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi",
+          "shortId": "iIiIIiiiiiIiii()V"
+        },
+        "newName": "init"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi",
+          "shortId": "iIiiIiiiiIIIII()V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 0
+        },
+        "newName": "obj"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi",
+          "shortId": "iiIIiiiiiIIIIi(I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 4
+        },
+        "newName": "device"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi",
           "shortId": "iiIIiiiiiIIIIi(Ljava/lang/String;)V"
         },
         "newName": "setPortName"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi",
+          "shortId": "iiIiIiiiiiIiIi()V"
+        },
+        "newName": "establishSecureSession"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi",
+          "shortId": "iiIiiiiiiIIIiI()V"
+        },
+        "newName": "advertise"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.IIiIIiiiiiiIIi",
+          "shortId": "iiiiiiiiiiiiii()V"
+        },
+        "newName": "disconnect"
       },
       {
         "nodeRef": {
@@ -2604,6 +3054,14 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.g.iiIiIiiiiiiiII",
+          "shortId": "IiiIIiiiiiiIII()Lcom/medtronic/n/x/n/IIiIIiiiiiiIIi;"
+        },
+        "newName": "getCharacteristic"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "com.medtronic.n.n.g.iiiiIiiiiIiiII",
           "shortId": "\u003cinit\u003e(Lcom/medtronic/n/n/g/iiiiIiiiiIiiII$IiiiiiiiiiiIII;)V"
         },
@@ -2764,6 +3222,18 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.iIIiiiiiiIiIii",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/n/n/iIIiiiiiiIiIii$IiIIiiiiiiiiii;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1900544
+        },
+        "newName": "builder"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "com.medtronic.n.n.n.IIiiiiiiiiiiIi",
           "shortId": "IiiIIiiiiiiIII(Ljava/lang/String;)V"
         },
@@ -2820,6 +3290,78 @@
           "shortId": "iIIIIiiiiiIiIi(Ljava/lang/String;)V"
         },
         "newName": "setPortName"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.v.n.iIIiiiiiiIiIii",
+          "shortId": "IiiIIiiiiiiIII()Ljava/lang/String;"
+        },
+        "newName": "getSerialNumber"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.v.n.iIIiiiiiiIiIii",
+          "shortId": "IiiIIiiiiiiIII()Ljava/util/Date;"
+        },
+        "newName": "getDeviceTime"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.v.n.iIIiiiiiiIiIii",
+          "shortId": "iIIIIiiiiiiiIi()Ljava/lang/String;"
+        },
+        "newName": "getDeviceModel"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.v.n.iIIiiiiiiIiIii",
+          "shortId": "iIIiIiiiiiIIiI()Ljava/lang/String;"
+        },
+        "newName": "getProductCode"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.v.n.iIIiiiiiiIiIii",
+          "shortId": "iiIiIiiiiiIiIi()Ljava/lang/String;"
+        },
+        "newName": "getFirmwareVersion"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.v.n.iIIiiiiiiIiIii$IiIIiiiiiiiiii",
+          "shortId": "IiiIIiiiiiiIII(Lcom/medtronic/n/x/i/iIiIiiiiiIiIii;)Lcom/medtronic/n/n/v/n/iIIiiiiiiIiIii$IiIIiiiiiiiiii;"
+        },
+        "newName": "setDateTime"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.v.n.iIIiiiiiiIiIii$IiIIiiiiiiiiii",
+          "shortId": "IiiIIiiiiiiIII(Ljava/lang/String;)Lcom/medtronic/n/n/v/n/iIIiiiiiiIiIii$IiIIiiiiiiiiii;"
+        },
+        "newName": "setSerialNumber"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.v.n.iIIiiiiiiIiIii$IiIIiiiiiiiiii",
+          "shortId": "iiIIiiiiiIIIIi(Ljava/lang/String;)Lcom/medtronic/n/n/v/n/iIIiiiiiiIiIii$IiIIiiiiiiiiii;"
+        },
+        "newName": "setFirmwareVersion"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.n.v.n.iIIiiiiiiIiIii$IiIIiiiiiiiiii",
+          "shortId": "iiIiIiiiiiIiIi(Ljava/lang/String;)Lcom/medtronic/n/n/v/n/iIIiiiiiiIiIii$IiIIiiiiiiiiii;"
+        },
+        "newName": "getDeviceModel"
       },
       {
         "nodeRef": {
@@ -2952,6 +3494,14 @@
           "shortId": "iiIIiiiiiIIIIi()Z"
         },
         "newName": "isExternalReferenceTimeUpdate"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.i.IIiiiiiiiiiiIi",
+          "shortId": "IiiIIiiiiiiIII()Lcom/medtronic/n/x/i/iIiIiiiiiIiIii;"
+        },
+        "newName": "getDateTime"
       },
       {
         "nodeRef": {
@@ -4232,6 +4782,226 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "com.medtronic.n.y.IIIIiiiiiiIIIi",
+          "shortId": "IiiIIiiiiiiIII(FI)F"
+        },
+        "newName": "setNumFractionalDigits"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.y.IIIIiiiiiiIIIi",
+          "shortId": "IiiIIiiiiiiIII(FI)F"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.y.IIIIiiiiiiIIIi",
+          "shortId": "IiiIIiiiiiiIII(FI)F"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "numDigits"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.y.IIIIiiiiiiIIIi",
+          "shortId": "IiiIIiiiiiiIII(J)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1
+        },
+        "newName": "buf"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.y.IIIIiiiiiiIIIi",
+          "shortId": "IiiIIiiiiiiIII(J)[B"
+        },
+        "newName": "toBytes"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.y.IIIIiiiiiiIIIi",
+          "shortId": "IiiIIiiiiiiIII(J)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "x"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.y.IIIIiiiiiiIIIi",
+          "shortId": "IiiIIiiiiiiIII(Lcom/medtronic/minimed/bril/J;)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 3
+        },
+        "newName": "buf"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.y.IIIIiiiiiiIIIi",
+          "shortId": "IiiIIiiiiiiIII([B)J"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65542
+        },
+        "newName": "b"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.y.IIIIiiiiiiIIIi",
+          "shortId": "IiiIIiiiiiiIII([B)J"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "data"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.y.IIIIiiiiiiIIIi",
+          "shortId": "IiiIIiiiiiiIII([B)J"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327681
+        },
+        "newName": "ii"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.y.IIIIiiiiiiIIIi",
+          "shortId": "IiiIIiiiiiiIII([B)J"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "ret"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.y.IIIIiiiiiiIIIi",
+          "shortId": "IiiIIiiiiiiIII([B)J"
+        },
+        "newName": "toLong"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.y.IIIIiiiiiiIIIi",
+          "shortId": "IiiIIiiiiiiIII([B)Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "data"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.y.IIIIiiiiiiIIIi",
+          "shortId": "IiiIIiiiiiiIII([B)Ljava/lang/String;"
+        },
+        "newName": "toHexString"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.y.IIIIiiiiiiIIIi",
+          "shortId": "IiiIIiiiiiiIII([BI)Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "data"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.y.IIIIiiiiiiIIIi",
+          "shortId": "IiiIIiiiiiiIII([S)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 5
+        },
+        "newName": "dst"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.y.IIIIiiiiiiIIIi",
+          "shortId": "IiiIIiiiiiiIII([S)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "iii"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.y.IIIIiiiiiiIIIi",
+          "shortId": "IiiIIiiiiiiIII([S)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "data"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.y.IIIIiiiiiiIIIi",
+          "shortId": "IiiIIiiiiiiIII([S)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "ii"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.y.IIIIiiiiiiIIIi",
+          "shortId": "IiiIIiiiiiiIII([S)[B"
+        },
+        "newName": "toBytes"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "mdt.common.device.driver.AbstractSerialDeviceDriver",
           "shortId": "IiiIIiiiiiiIII()I"
         },
@@ -4637,6 +5407,54 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "mdt.common.device.driver.bluetooth.BluetoothNGP",
+          "shortId": "initialize(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/apache/hc/client5/http/impl/classic/CloseableHttpClient;Lcom/medtronic/n/n/n/IIIIiiiiiiIIIi;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 851968
+        },
+        "newName": "httpClient"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.bluetooth.BluetoothNGP",
+          "shortId": "initialize(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/apache/hc/client5/http/impl/classic/CloseableHttpClient;Lcom/medtronic/n/n/n/IIIIiiiiiiIIIi;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 917504
+        },
+        "newName": "sakeKeySelector"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.bluetooth.BluetoothNGP",
+          "shortId": "initialize(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/apache/hc/client5/http/impl/classic/CloseableHttpClient;Lcom/medtronic/n/n/n/IIIIiiiiiiIIIi;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 917504
+        },
+        "newName": "httpClient"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.bluetooth.BluetoothNGP",
+          "shortId": "initialize(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Lorg/apache/hc/client5/http/impl/classic/CloseableHttpClient;Lcom/medtronic/n/n/n/IIIIiiiiiiIIIi;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 983040
+        },
+        "newName": "sakeKeySelector"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.bluetooth.BluetoothNGP",
           "shortId": "setConfirmationCode(Ljava/lang/String;)V"
         },
         "codeRef": {
@@ -4656,6 +5474,18 @@
           "index": 262144
         },
         "newName": "portName"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.bluetooth.BluetoothNGP$iiIiIiiiiiIiii",
+          "shortId": "IiiIIiiiiiiIII(Lcom/medtronic/n/n/v/n/iIIiiiiiiIiIii;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "device"
       },
       {
         "nodeRef": {

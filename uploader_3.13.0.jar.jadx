@@ -238,6 +238,46 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.dataupload.api.model.VersionResponse",
+          "shortId": "IiIiiiiiiiiIIi:Ljava/lang/String;"
+        },
+        "newName": "urlMac"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.dataupload.api.model.VersionResponse",
+          "shortId": "IiiIIiiiiiIiII:Ljava/lang/String;"
+        },
+        "newName": "urlWin"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.dataupload.api.model.VersionResponse",
+          "shortId": "iiIIIiiiiIIIiI:Ljava/lang/String;"
+        },
+        "newName": "urlMsi"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.dataupload.api.model.VersionResponse",
+          "shortId": "iiIIiiiiiiiIII:Ljava/lang/Boolean;"
+        },
+        "newName": "required"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.dataupload.api.model.VersionResponse",
+          "shortId": "iiiIIiiiiiIIii:Ljava/lang/String;"
+        },
+        "newName": "version"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "com.medtronic.diabetes.solar.dataupload.api.model.operations.ngp.NgpPackedKeyResponse",
           "shortId": "iiiIIiiiiiIIii:Ljava/lang/String;"
         },
@@ -394,6 +434,66 @@
           "shortId": "iiiIIiiiiiIIii:Ljava/math/BigDecimal;"
         },
         "newName": "MGDL_TO_KGL_RATIO"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.dataupload.api.model.VersionResponse",
+          "shortId": "setRequired(Ljava/lang/Boolean;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "required"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.dataupload.api.model.VersionResponse",
+          "shortId": "setUrlmac(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "url"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.dataupload.api.model.VersionResponse",
+          "shortId": "setUrlmsi(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "url"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.dataupload.api.model.VersionResponse",
+          "shortId": "setUrlwin(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "url"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.dataupload.api.model.VersionResponse",
+          "shortId": "setVersion(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "version"
       },
       {
         "nodeRef": {

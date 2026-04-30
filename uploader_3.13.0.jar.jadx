@@ -7,7 +7,16 @@
     "t:JSources"
   ],
   "codeData": {
-    "comments": [],
+    "comments": [
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.n.x.i.IIiiiiiiiiiiIi"
+        },
+        "comment": "Standard CurrentTime but without day of the week",
+        "style": "BLOCK"
+      }
+    ],
     "renames": [
       {
         "nodeRef": {
@@ -145,6 +154,27 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "com.medtronic.n.x.i.IIiiiiiiiiiiIi"
+        },
+        "newName": "maybe_CurrentTime"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.n.x.i.iIiIiiiiiIiIii"
+        },
+        "newName": "maybe_DateTime"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.n.x.i.iiIiIiiiiiIiii"
+        },
+        "newName": "maybe_DateTimeConverter"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "com.medtronic.n.x.n.IiiIiiiiiIiiiI"
         },
         "newName": "GattPayload"
@@ -239,6 +269,62 @@
           "shortId": "iiIIiiiiiiiIII:Ljava/lang/String;"
         },
         "newName": "maybe_key_backup"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.n.x.i.IIIIiiiiiiIIIi",
+          "shortId": "iiiIIiiiiiIIii:I"
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.n.x.i.iIiIiiiiiIiIii",
+          "shortId": "IiIiiiiiiiiIIi:I"
+        },
+        "newName": "i15"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.n.x.i.iIiIiiiiiIiIii",
+          "shortId": "IiiIIiiiiiIiII:I"
+        },
+        "newName": "i12"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.n.x.i.iIiIiiiiiIiIii",
+          "shortId": "IiiIiiiiiIIIiI:I"
+        },
+        "newName": "i13"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.n.x.i.iIiIiiiiiIiIii",
+          "shortId": "iiIIIiiiiIIIiI:I"
+        },
+        "newName": "i14"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.n.x.i.iIiIiiiiiIiIii",
+          "shortId": "iiIIiiiiiiiIII:I"
+        },
+        "newName": "i11"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.n.x.i.iIiIiiiiiIiIii",
+          "shortId": "iiiIIiiiiiIIii:I"
+        },
+        "newName": "i10"
       },
       {
         "nodeRef": {
@@ -527,6 +613,230 @@
           "shortId": "IiiIIiiiiiiIII(Ljava/lang/String;)V"
         },
         "newName": "set_key_maybe"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.i.IIIIiiiiiiIIIi",
+          "shortId": "\u003cinit\u003e(I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "value"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.i.IIIIiiiiiiIIIi",
+          "shortId": "IiiIIiiiiiiIII()Z"
+        },
+        "newName": "isManualTimeUpdate"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.i.IIIIiiiiiiIIIi",
+          "shortId": "iIIIIiiiiiIiIi()Z"
+        },
+        "newName": "isChangeOfTimezone"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.i.IIIIiiiiiiIIIi",
+          "shortId": "iIIIIiiiiiiiIi()Z"
+        },
+        "newName": "isChangeOfDst"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.i.IIIIiiiiiiIIIi",
+          "shortId": "iiIIiiiiiIIIIi()Z"
+        },
+        "newName": "isExternalReferenceTimeUpdate"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.i.iIiIiiiiiIiIii",
+          "shortId": "\u003cinit\u003e(IIIIII)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 983040
+        },
+        "newName": "i10"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.i.iIiIiiiiiIiIii",
+          "shortId": "\u003cinit\u003e(IIIIII)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1048576
+        },
+        "newName": "i11"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.i.iIiIiiiiiIiIii",
+          "shortId": "\u003cinit\u003e(IIIIII)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1114112
+        },
+        "newName": "i12"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.i.iIiIiiiiiIiIii",
+          "shortId": "\u003cinit\u003e(IIIIII)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1179648
+        },
+        "newName": "i13"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.i.iIiIiiiiiIiIii",
+          "shortId": "\u003cinit\u003e(IIIIII)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1245184
+        },
+        "newName": "i14"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.i.iIiIiiiiiIiIii",
+          "shortId": "\u003cinit\u003e(IIIIII)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1310720
+        },
+        "newName": "i15"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.i.iIiIiiiiiIiIii",
+          "shortId": "equals(Ljava/lang/Object;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "obj"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.i.iiIiIiiiiiIiii",
+          "shortId": "IiiIIiiiiiiIII(Lcom/medtronic/n/x/n/IiiIiiiiiIiiiI;)Lcom/medtronic/n/x/i/iIiIiiiiiIiIii;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "payload"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.i.iiIiIiiiiiIiii",
+          "shortId": "IiiIIiiiiiiIII(Lcom/medtronic/n/x/n/IiiIiiiiiIiiiI;)Lcom/medtronic/n/x/i/iIiIiiiiiIiIii;"
+        },
+        "newName": "unpackDateTime"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.i.iiIiIiiiiiIiii",
+          "shortId": "IiiIIiiiiiiIII([B)Lcom/medtronic/n/x/i/IIiiiiiiiiiiIi;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1
+        },
+        "newName": "payload"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.i.iiIiIiiiiiIiii",
+          "shortId": "IiiIIiiiiiiIII([B)Lcom/medtronic/n/x/i/IIiiiiiiiiiiIi;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65538
+        },
+        "newName": "datetime"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.i.iiIiIiiiiiIiii",
+          "shortId": "IiiIIiiiiiiIII([B)Lcom/medtronic/n/x/i/IIiiiiiiiiiiIi;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "buf"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.i.iiIiIiiiiiIiii",
+          "shortId": "IiiIIiiiiiiIII([B)Lcom/medtronic/n/x/i/IIiiiiiiiiiiIi;"
+        },
+        "newName": "unpackCurrentTime"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.i.iiIiIiiiiiIiii",
+          "shortId": "IiiIIiiiiiiIII([B)[B"
+        },
+        "newName": "copy"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.i.iiIiIiiiiiIiii",
+          "shortId": "IiiIIiiiiiiIII([B)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 2
+        },
+        "newName": "dst"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.i.iiIiIiiiiiIiii",
+          "shortId": "IiiIIiiiiiiIII([B)[B"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "src"
       },
       {
         "nodeRef": {

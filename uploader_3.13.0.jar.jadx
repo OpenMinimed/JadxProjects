@@ -203,6 +203,14 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "com.medtronic.dll_loader.DllLoader",
+          "shortId": "IiIiiiiiiiiIIi:Ljava/lang/String;"
+        },
+        "newName": "workingDirectory"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "com.medtronic.n.n.f.IIiiiiiiiiiiIi",
           "shortId": "IiIiiiiiiiiIIi:Lorg/slf4j/Logger;"
         },
@@ -259,6 +267,134 @@
           "index": 262144
         },
         "newName": "arg"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.dll_loader.DllLoader",
+          "shortId": "IiiIIiiiiiiIII(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 3
+        },
+        "newName": "dir"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.dll_loader.DllLoader",
+          "shortId": "IiiIIiiiiiiIII(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "libName"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.dll_loader.DllLoader",
+          "shortId": "IiiIIiiiiiiIII(Ljava/lang/String;)V"
+        },
+        "newName": "loadSO"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.dll_loader.DllLoader",
+          "shortId": "iIIIIiiiiiIiIi(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 3
+        },
+        "newName": "dir"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.dll_loader.DllLoader",
+          "shortId": "iIIIIiiiiiIiIi(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "libName"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.dll_loader.DllLoader",
+          "shortId": "iIIIIiiiiiIiIi(Ljava/lang/String;)V"
+        },
+        "newName": "loadDYLIB"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.dll_loader.DllLoader",
+          "shortId": "iiIIiiiiiIIIIi(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 3
+        },
+        "newName": "dir"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.dll_loader.DllLoader",
+          "shortId": "iiIIiiiiiIIIIi(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "libName"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.dll_loader.DllLoader",
+          "shortId": "iiIIiiiiiIIIIi(Ljava/lang/String;)V"
+        },
+        "newName": "loadDLL"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.dll_loader.DllLoader",
+          "shortId": "loadLibrary(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "libName"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.dll_loader.DllLoader",
+          "shortId": "loadLibrary(Ljava/lang/String;)V"
+        },
+        "newName": "loadLibrary"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.dll_loader.DllLoader",
+          "shortId": "setWorkingDirectory(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "dir"
       },
       {
         "nodeRef": {

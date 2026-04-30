@@ -166,6 +166,13 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "com.medtronic.n.x.x.IIiiiiiiiiiiIi"
+        },
+        "newName": "CrcCcit"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "n.n.n.n.IIIIiiiiiiIIIi"
         },
         "newName": "Resources"
@@ -1100,6 +1107,22 @@
           "shortId": "IiiIIiiiiiiIII([BI)Lcom/medtronic/n/x/n/IiiIiiiiiIiiiI$iIIiiiiiiIiIii;"
         },
         "newName": "writeBytes"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.x.IIiiiiiiiiiiIi",
+          "shortId": "IiiIIiiiiiiIII([B)I"
+        },
+        "newName": "crc32"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.n.x.x.IIiiiiiiiiiiIi",
+          "shortId": "iIIIIiiiiiIiIi([B)I"
+        },
+        "newName": "crc16"
       },
       {
         "nodeRef": {

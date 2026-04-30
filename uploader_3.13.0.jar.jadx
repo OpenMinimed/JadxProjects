@@ -15,9 +15,29 @@
         },
         "comment": "Standard CurrentTime but without day of the week",
         "style": "BLOCK"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.bluetooth.BluetoothAdapter",
+          "shortId": "IiiIIiiiiiiIII()V"
+        },
+        "codeRef": {
+          "attachType": "INSN",
+          "index": 84
+        },
+        "comment": "Silicon Labs CP210x: VID 0x10c4 PID 0xea60 (used in the Blue Adapter)",
+        "style": "BLOCK"
       }
     ],
     "renames": [
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "com.medtronic.diabetes.device.n.iiiiIiiiiIiiII"
+        },
+        "newName": "xx_SerialPortException"
+      },
       {
         "nodeRef": {
           "refType": "CLASS",
@@ -234,6 +254,38 @@
           "declClass": "n.n.n.n.iiIiIiiiiiIiii"
         },
         "newName": "Main"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.device.common.SerialPort",
+          "shortId": "IiIiIiiiiiIIiI:LSerialio/SerialConfig;"
+        },
+        "newName": "serialConfig"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.device.common.SerialPort",
+          "shortId": "IiiIIiiiiiIiII:LSerialio/SerialPort;"
+        },
+        "newName": "serialPort"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.device.common.SerialPort",
+          "shortId": "IiiIIiiiiiiIII:Lorg/slf4j/Logger;"
+        },
+        "newName": "logger"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.device.common.SerialPort",
+          "shortId": "iiIIIiiiiIIIiI:J"
+        },
+        "newName": "currentTimeMillis"
       },
       {
         "nodeRef": {
@@ -690,6 +742,330 @@
           "shortId": "iiiIIiiiiiIIii:Ljava/math/BigDecimal;"
         },
         "newName": "MGDL_TO_KGL_RATIO"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "mdt.common.device.driver.SerialPortImpl",
+          "shortId": "IiIiiiiiiiiIIi:LSerialio/SerialConfig;"
+        },
+        "newName": "serialConfig"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "mdt.common.device.driver.SerialPortImpl",
+          "shortId": "IiiIIiiiiIIiII:I"
+        },
+        "newName": "ioDelay"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "mdt.common.device.driver.SerialPortImpl",
+          "shortId": "IiiIIiiiiiiIII:LSerialio/SerialPort;"
+        },
+        "newName": "serialPort"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "mdt.common.device.driver.SerialPortImpl",
+          "shortId": "IiiIiiiiiIiIii:J"
+        },
+        "newName": "currentTimeMillis"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "mdt.common.device.driver.SerialPortImpl",
+          "shortId": "iIIiIiiiiiiIII:Lorg/slf4j/Logger;"
+        },
+        "newName": "logger"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "mdt.common.device.driver.SerialPortImpl",
+          "shortId": "iIiIIiiiiIiIii:Ljava/lang/String;"
+        },
+        "newName": "portName"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "mdt.common.device.driver.SerialPortImpl",
+          "shortId": "iiIIiiiiiiiIII:I"
+        },
+        "newName": "rxTimeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "mdt.common.device.driver.bluetooth.BluetoothAdapter",
+          "shortId": "IiiIIiiiiiiIII:Z"
+        },
+        "newName": "foundSilabsDriver"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "mdt.common.device.driver.bluetooth.BluetoothAdapter",
+          "shortId": "IiiIiiiiiIIIiI:Z"
+        },
+        "newName": "foundFtdiDriver"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "mdt.common.device.driver.bluetooth.BluetoothAdapter",
+          "shortId": "iiIIiiiiiiiIII:Ljava/lang/String;"
+        },
+        "newName": "comPortId"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "mdt.common.device.driver.bluetooth.BluetoothNGP",
+          "shortId": "iIIiIiiiiiiIII:Lmdt/common/device/driver/DeviceConnectionInfo;"
+        },
+        "newName": "deviceConnectionInfo"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "mdt.common.device.driver.bluetooth.BluetoothNGP",
+          "shortId": "iIiIiiiiiIIIIi:Lorg/slf4j/Logger;"
+        },
+        "newName": "logger"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.device.common.SerialPort",
+          "shortId": "IiiIIiiiiiiIII()Z"
+        },
+        "newName": "isOpen"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.device.common.SerialPort",
+          "shortId": "IiiIIiiiiiiIII()[I"
+        },
+        "newName": "read__"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.device.common.SerialPort",
+          "shortId": "IiiIIiiiiiiIII(C)V"
+        },
+        "newName": "write"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.device.common.SerialPort",
+          "shortId": "IiiIIiiiiiiIII(I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "len"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.device.common.SerialPort",
+          "shortId": "IiiIIiiiiiiIII(I)V"
+        },
+        "newName": "setTxLen"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.device.common.SerialPort",
+          "shortId": "IiiIIiiiiiiIII([B)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "dst"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.device.common.SerialPort",
+          "shortId": "IiiIIiiiiiiIII([B)I"
+        },
+        "newName": "read"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.device.common.SerialPort",
+          "shortId": "IiiIIiiiiiiIII([I)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "dst"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.device.common.SerialPort",
+          "shortId": "IiiIIiiiiiiIII([I)I"
+        },
+        "newName": "read"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.device.common.SerialPort",
+          "shortId": "IiiIIiiiiiiIII([I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "msg"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.device.common.SerialPort",
+          "shortId": "IiiIIiiiiiiIII([I)V"
+        },
+        "newName": "write"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.device.common.SerialPort",
+          "shortId": "IiiIIiiiiiiIII([III)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "dst"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.device.common.SerialPort",
+          "shortId": "IiiIIiiiiiiIII([III)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.device.common.SerialPort",
+          "shortId": "IiiIIiiiiiiIII([III)I"
+        },
+        "newName": "read"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.device.common.SerialPort",
+          "shortId": "IiiIIiiiiiiIII([III)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 655360
+        },
+        "newName": "size"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.device.common.SerialPort",
+          "shortId": "iIIIIiiiiiIiIi(I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "len"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.device.common.SerialPort",
+          "shortId": "iIIIIiiiiiIiIi(I)V"
+        },
+        "newName": "setRxLen"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.device.common.SerialPort",
+          "shortId": "iiIIiiiiiIIIIi(I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 786432
+        },
+        "newName": "baudRate"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.device.common.SerialPort",
+          "shortId": "setBaudRate(I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "baudRate"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.device.common.SerialPort",
+          "shortId": "setReadTimeOut(I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "timeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.device.common.SerialPort",
+          "shortId": "write(I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "msg"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.device.common.SerialPort",
+          "shortId": "write(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "msg"
       },
       {
         "nodeRef": {
@@ -2670,6 +3046,426 @@
           "shortId": "iIIIIiiiiiIiIi([B)I"
         },
         "newName": "crc16"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.AbstractSerialDeviceDriver",
+          "shortId": "IiiIIiiiiiiIII()I"
+        },
+        "newName": "getParity"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.AbstractSerialDeviceDriver",
+          "shortId": "IiiIIiiiiiiIII([Ljava/lang/String;Ljava/lang/StringBuilder;I)Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "strings"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.AbstractSerialDeviceDriver",
+          "shortId": "IiiIIiiiiiiIII([Ljava/lang/String;Ljava/lang/StringBuilder;I)Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "sb"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.AbstractSerialDeviceDriver",
+          "shortId": "IiiIIiiiiiiIII([Ljava/lang/String;Ljava/lang/StringBuilder;I)Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "i10"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.AbstractSerialDeviceDriver",
+          "shortId": "setCommPortID(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "portID"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.SerialPortImpl",
+          "shortId": "\u003cinit\u003e(Ljava/lang/String;II)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1048576
+        },
+        "newName": "portName"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.SerialPortImpl",
+          "shortId": "\u003cinit\u003e(Ljava/lang/String;II)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1114112
+        },
+        "newName": "baudRate"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.SerialPortImpl",
+          "shortId": "\u003cinit\u003e(Ljava/lang/String;II)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1179648
+        },
+        "newName": "parity"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.SerialPortImpl",
+          "shortId": "IiiIIiiiiiiIII(ZLjava/lang/StringBuilder;[C)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 3
+        },
+        "newName": "i"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.SerialPortImpl",
+          "shortId": "IiiIIiiiiiiIII(ZLjava/lang/StringBuilder;[C)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262145
+        },
+        "newName": "ii"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.SerialPortImpl",
+          "shortId": "IiiIIiiiiiiIII(ZLjava/lang/StringBuilder;[C)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "str"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.SerialPortImpl",
+          "shortId": "IiiIIiiiiiiIII(ZLjava/lang/StringBuilder;[C)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "buf"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.SerialPortImpl",
+          "shortId": "IiiIIiiiiiiIII(ZLjava/lang/StringBuilder;[C)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "ret"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.SerialPortImpl",
+          "shortId": "IiiIIiiiiiiIII(ZLjava/lang/StringBuilder;[C)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "j"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.SerialPortImpl",
+          "shortId": "IiiIIiiiiiiIII(ZLjava/lang/StringBuilder;[C)Z"
+        },
+        "newName": "strEqualsBuf"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.SerialPortImpl",
+          "shortId": "read([B)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "dst"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.SerialPortImpl",
+          "shortId": "read([I)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "dst"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.SerialPortImpl",
+          "shortId": "read([III)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 589824
+        },
+        "newName": "dst"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.SerialPortImpl",
+          "shortId": "read([III)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 655360
+        },
+        "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.SerialPortImpl",
+          "shortId": "read([III)I"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 720896
+        },
+        "newName": "size"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.SerialPortImpl",
+          "shortId": "readTo([CI)Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "timeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.SerialPortImpl",
+          "shortId": "readTo([[CI)Ljava/lang/String;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "timeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.SerialPortImpl",
+          "shortId": "setBaudRate(I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "baudRate"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.SerialPortImpl",
+          "shortId": "setIODelay(I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "delay"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.SerialPortImpl",
+          "shortId": "setReadTimeOut(I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "timeout"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.SerialPortImpl",
+          "shortId": "write(I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "msg"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.SerialPortImpl",
+          "shortId": "write(Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "msg"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.SerialPortImpl",
+          "shortId": "write([I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "msg"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.bluetooth.BluetoothAdapter",
+          "shortId": "IiiIIiiiiiiIII()V"
+        },
+        "newName": "findDriver"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.bluetooth.BluetoothAdapter",
+          "shortId": "IiiIIiiiiiiIII()V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 4
+        },
+        "newName": "silabsVCPDriverInfo"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.bluetooth.BluetoothAdapter",
+          "shortId": "IiiIIiiiiiiIII()V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 15
+        },
+        "newName": "ftdiDriverInfo"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.bluetooth.BluetoothAdapter",
+          "shortId": "detectAdapter()Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 11
+        },
+        "newName": "portNames"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.driver.bluetooth.BluetoothAdapter",
+          "shortId": "detectAdapter()Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
+        },
+        "newName": "portName"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.usb.WinUSB",
+          "shortId": "driverListMatches(Lmdt/common/device/usb/WinUSB$DeviceDriverInfo;Ljava/lang/String;Ljava/lang/String;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "driverInfo"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.usb.WinUSB",
+          "shortId": "driverListMatches(Lmdt/common/device/usb/WinUSB$DeviceDriverInfo;Ljava/lang/String;Ljava/lang/String;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "str"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "mdt.common.device.usb.WinUSB",
+          "shortId": "driverListMatches(Lmdt/common/device/usb/WinUSB$DeviceDriverInfo;Ljava/lang/String;Ljava/lang/String;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "driverVersion"
       },
       {
         "nodeRef": {

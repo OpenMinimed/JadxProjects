@@ -326,6 +326,166 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor",
+          "shortId": "IiiIIiiiiIIiII:[B"
+        },
+        "newName": "imageBytes"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor",
+          "shortId": "IiiIIiiiiiIiII:[Lcom/medtronic/diabetes/solar/device/LinkDevice;"
+        },
+        "newName": "linkDevices"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor",
+          "shortId": "IiiIIiiiiiIiii:Ljava/lang/String;"
+        },
+        "newName": "id"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor",
+          "shortId": "IiiIiiiiiIiIii:Ljava/lang/String;"
+        },
+        "newName": "name"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor",
+          "shortId": "iIIiIiiiiiiIII:Ljava/lang/String;"
+        },
+        "newName": "deviceInfo"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor",
+          "shortId": "iIiIiiiiiIiiiI:Lcom/medtronic/diabetes/solar/device/DeviceDescriptor$SupportPolicy;"
+        },
+        "newName": "supportPolicy"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor",
+          "shortId": "iiIIIiiiiIIIiI:Lcom/medtronic/diabetes/solar/device/Manufacturer;"
+        },
+        "newName": "manufacturer"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor",
+          "shortId": "iiIIiiiiiiiIII:[Ljava/lang/String;"
+        },
+        "newName": "models"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor",
+          "shortId": "iiIiiiiiiIIIii:Lcom/medtronic/diabetes/solar/device/DeviceDescriptor$DeviceType;"
+        },
+        "newName": "type"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor",
+          "shortId": "iiiIIiiiiiIIii:Lcom/medtronic/diabetes/solar/device/base/DeviceVerificator;"
+        },
+        "newName": "deviceVerificator"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor$DeviceDescriptorBuilder",
+          "shortId": "IiIiiiiiiiiIIi:Ljava/lang/String;"
+        },
+        "newName": "deviceName"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor$DeviceDescriptorBuilder",
+          "shortId": "IiiIIiiiiiIiII:Ljava/lang/String;"
+        },
+        "newName": "deviceInfo"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor$DeviceDescriptorBuilder",
+          "shortId": "IiiIIiiiiiiIII:Lcom/medtronic/diabetes/solar/device/DeviceDescriptor$SupportPolicy;"
+        },
+        "newName": "supportPolicy"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor$DeviceDescriptorBuilder",
+          "shortId": "IiiIiiiiiIIIiI:Lcom/medtronic/diabetes/solar/device/Manufacturer;"
+        },
+        "newName": "manufacturer"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor$DeviceDescriptorBuilder",
+          "shortId": "IiiIiiiiiIiIii:[B"
+        },
+        "newName": "imageBytes"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor$DeviceDescriptorBuilder",
+          "shortId": "iIiIiiiiiIIIIi:[Ljava/lang/String;"
+        },
+        "newName": "models"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor$DeviceDescriptorBuilder",
+          "shortId": "iiIIIiiiiIIIiI:Lcom/medtronic/diabetes/solar/device/DeviceDescriptor$DeviceType;"
+        },
+        "newName": "type"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor$DeviceDescriptorBuilder",
+          "shortId": "iiIIiiiiiiiIII:[Lcom/medtronic/diabetes/solar/device/LinkDevice;"
+        },
+        "newName": "linkDevices"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor$DeviceDescriptorBuilder",
+          "shortId": "iiIiiiiiiIIIii:Lcom/medtronic/diabetes/solar/device/base/DeviceVerificator;"
+        },
+        "newName": "deviceVerificator"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor$DeviceDescriptorBuilder",
+          "shortId": "iiiIIiiiiiIIii:Ljava/lang/String;"
+        },
+        "newName": "id"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "com.medtronic.diabetes.solar.device.Manufacturer",
           "shortId": "IiIiiiiiiiiIIi:Ljava/lang/String;"
         },
@@ -602,6 +762,218 @@
           "index": 262144
         },
         "newName": "arg"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor",
+          "shortId": "\u003cinit\u003e(Lcom/medtronic/diabetes/solar/device/DeviceDescriptor$DeviceDescriptorBuilder;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1507328
+        },
+        "newName": "builder"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor",
+          "shortId": "isModelSupported(Ljava/lang/String;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 2
+        },
+        "newName": "models"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor",
+          "shortId": "isModelSupported(Ljava/lang/String;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "model"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor",
+          "shortId": "setDeviceVerificator(Lcom/medtronic/diabetes/solar/device/base/DeviceVerificator;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "deviceVerificator"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor",
+          "shortId": "setModels([Ljava/lang/String;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "models"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor",
+          "shortId": "setSupportPolicy(Lcom/medtronic/diabetes/solar/device/DeviceDescriptor$SupportPolicy;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "policy"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor$DeviceDescriptorBuilder",
+          "shortId": "deviceImageBytes([B)Lcom/medtronic/diabetes/solar/device/DeviceDescriptor$DeviceDescriptorBuilder;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "imagesBytes"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor$DeviceDescriptorBuilder",
+          "shortId": "deviceInfo(Ljava/lang/String;)Lcom/medtronic/diabetes/solar/device/DeviceDescriptor$DeviceDescriptorBuilder;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "deviceInfo"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor$DeviceDescriptorBuilder",
+          "shortId": "deviceName(Ljava/lang/String;)Lcom/medtronic/diabetes/solar/device/DeviceDescriptor$DeviceDescriptorBuilder;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "name"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor$DeviceDescriptorBuilder",
+          "shortId": "deviceVerificator(Lcom/medtronic/diabetes/solar/device/base/DeviceVerificator;)Lcom/medtronic/diabetes/solar/device/DeviceDescriptor$DeviceDescriptorBuilder;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "verificator"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor$DeviceDescriptorBuilder",
+          "shortId": "id(Ljava/lang/String;)Lcom/medtronic/diabetes/solar/device/DeviceDescriptor$DeviceDescriptorBuilder;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "id"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor$DeviceDescriptorBuilder",
+          "shortId": "linkDevices([Lcom/medtronic/diabetes/solar/device/LinkDevice;)Lcom/medtronic/diabetes/solar/device/DeviceDescriptor$DeviceDescriptorBuilder;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "devices"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor$DeviceDescriptorBuilder",
+          "shortId": "manufacturer(Lcom/medtronic/diabetes/solar/device/Manufacturer;)Lcom/medtronic/diabetes/solar/device/DeviceDescriptor$DeviceDescriptorBuilder;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "manufacturer"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor$DeviceDescriptorBuilder",
+          "shortId": "models([Ljava/lang/String;)Lcom/medtronic/diabetes/solar/device/DeviceDescriptor$DeviceDescriptorBuilder;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "models"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor$DeviceDescriptorBuilder",
+          "shortId": "supportPolicy(Lcom/medtronic/diabetes/solar/device/DeviceDescriptor$SupportPolicy;)Lcom/medtronic/diabetes/solar/device/DeviceDescriptor$DeviceDescriptorBuilder;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "supportPolicy"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor$DeviceDescriptorBuilder",
+          "shortId": "type(Lcom/medtronic/diabetes/solar/device/DeviceDescriptor$DeviceType;)Lcom/medtronic/diabetes/solar/device/DeviceDescriptor$DeviceDescriptorBuilder;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 327680
+        },
+        "newName": "type"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor$DeviceType",
+          "shortId": "IiiIIiiiiiiIII(Ljava/lang/String;)Z"
+        },
+        "newName": "nameIs"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.diabetes.solar.device.DeviceDescriptor$DeviceType",
+          "shortId": "IiiIIiiiiiiIII(Ljava/lang/String;)Z"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "str"
       },
       {
         "nodeRef": {

@@ -719,6 +719,20 @@
       {
         "nodeRef": {
           "refType": "CLASS",
+          "declClass": "ff.k$b"
+        },
+        "newName": "_CMCP"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
+          "declClass": "ff.k$c"
+        },
+        "newName": "_CMData"
+      },
+      {
+        "nodeRef": {
+          "refType": "CLASS",
           "declClass": "g6.a"
         },
         "newName": "CurrentMobileConfiguration"
@@ -1934,6 +1948,14 @@
           "shortId": "z:Lik/a;"
         },
         "newName": "sseCp"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "af.b$b$c",
+          "shortId": "a:Lg8/a;"
+        },
+        "newName": "ble"
       },
       {
         "nodeRef": {
@@ -3690,6 +3712,22 @@
       {
         "nodeRef": {
           "refType": "FIELD",
+          "declClass": "g8.w$b",
+          "shortId": "a:Lio/reactivex/b0;"
+        },
+        "newName": "scheduler"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
+          "declClass": "g8.w$b",
+          "shortId": "b:Lg8/b;"
+        },
+        "newName": "ble"
+      },
+      {
+        "nodeRef": {
+          "refType": "FIELD",
           "declClass": "gb.b",
           "shortId": "a:Lgb/b;"
         },
@@ -5438,6 +5476,18 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "af.b$b$c",
+          "shortId": "\u003cinit\u003e(Lg8/a;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "ble"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "ak.k",
           "shortId": "a(Ljava/util/concurrent/atomic/AtomicReference;Ljava/lang/Throwable;)Z"
         },
@@ -6501,6 +6551,18 @@
           "declClass": "bf.a",
           "shortId": "b(Lbj/a;Lbj/a;)Ldf/a;"
         },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196610
+        },
+        "newName": "api"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "bf.a",
+          "shortId": "b(Lbj/a;Lbj/a;)Ldf/a;"
+        },
         "newName": "getCmPumpApi"
       },
       {
@@ -6514,18 +6576,6 @@
           "index": 196608
         },
         "newName": "pumpApi"
-      },
-      {
-        "nodeRef": {
-          "refType": "METHOD",
-          "declClass": "bf.a",
-          "shortId": "b(Lbj/a;Lbj/a;)Ldf/a;"
-        },
-        "codeRef": {
-          "attachType": "VAR",
-          "index": 196610
-        },
-        "newName": "api"
       },
       {
         "nodeRef": {
@@ -8059,6 +8109,30 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "lambda$receive$21(Ljava/lang/Object;Ljava/lang/Boolean;)Lvl/b;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
+        },
+        "newName": "request"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "lambda$receive$22(Ljava/lang/Object;ZJLjava/lang/Integer;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "request"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
           "shortId": "lambda$receive$22(Ljava/lang/Object;ZJLjava/lang/Integer;)Lio/reactivex/g0;"
         },
         "codeRef": {
@@ -8083,6 +8157,18 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "lambda$receive$22(Ljava/lang/Object;ZJLjava/lang/Integer;)Lio/reactivex/g0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
+        "newName": "bufferSize"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
           "shortId": "lambda$receive$23(Lhj/b;)V"
         },
         "newName": "log_startingReceiveTransaction"
@@ -8102,6 +8188,18 @@
           "shortId": "lambda$receive$25(Ljava/lang/Throwable;)V"
         },
         "newName": "log_errorDuringReceiveTransaction"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "lambda$receiveResponse$50(Ljava/lang/Object;Lio/reactivex/j;)Lvl/b;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "request"
       },
       {
         "nodeRef": {
@@ -8167,6 +8265,18 @@
         "nodeRef": {
           "refType": "METHOD",
           "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "prepareReader(I)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "bufferSize"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
           "shortId": "prepareWriter([BI)Lio/reactivex/c;"
         },
         "codeRef": {
@@ -8186,6 +8296,18 @@
           "index": 262144
         },
         "newName": "blockSize"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "readDataAndWaitForResponse(Ljava/lang/Object;)Lio/reactivex/j;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "request"
       },
       {
         "nodeRef": {
@@ -8222,6 +8344,18 @@
           "index": 786432
         },
         "newName": "retryWithDelayIfDisconnected"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "receiveResponse(Ljava/lang/Object;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "request"
       },
       {
         "nodeRef": {
@@ -8330,6 +8464,78 @@
           "index": 851968
         },
         "newName": "retryWithDelayIfDisconnected"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.BleGattStreamClientTransactionImpl",
+          "shortId": "writeRequest(Ljava/lang/Object;)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "request"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.GattStreamReader",
+          "shortId": "lambda$finalizeReader$24()V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1
+        },
+        "newName": "success"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.GattStreamReader",
+          "shortId": "lambda$prepareReader$19(I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 1
+        },
+        "newName": "success"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.GattStreamReader",
+          "shortId": "lambda$prepareReader$19(I)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 393216
+        },
+        "newName": "bufferSize"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.GattStreamReader",
+          "shortId": "prepare(I)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 196608
+        },
+        "newName": "bufferSize"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "com.medtronic.minimed.connect.ble.api.gatt.client.exchange.streaming.GattStreamReader",
+          "shortId": "prepareReader(I)Lio/reactivex/c;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 131072
+        },
+        "newName": "bufferSize"
       },
       {
         "nodeRef": {
@@ -17865,10 +18071,6 @@
           "declClass": "ej.i",
           "shortId": "a(Lik/a;)Lik/a;"
         },
-        "codeRef": {
-          "attachType": "VAR",
-          "index": 65536
-        },
         "newName": "provider"
       },
       {
@@ -17876,6 +18078,10 @@
           "refType": "METHOD",
           "declClass": "ej.i",
           "shortId": "a(Lik/a;)Lik/a;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 65536
         },
         "newName": "provider"
       },
@@ -18178,6 +18384,22 @@
       {
         "nodeRef": {
           "refType": "METHOD",
+          "declClass": "ff.k",
+          "shortId": "a(Lc8/e;Lb8/d;Ld8/e;Lff/e;Lff/i;)Lff/a;"
+        },
+        "newName": "createControlPointChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "ff.k",
+          "shortId": "b(Lc8/e;Lb8/d;Ld8/e;Ld8/a;)Lff/b;"
+        },
+        "newName": "createDataChar"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
           "declClass": "ff.l",
           "shortId": "a(Lff/k;Lik/a;Lik/a;Lik/a;Lik/a;Lik/a;)Lff/l;"
         },
@@ -18214,6 +18436,14 @@
           "shortId": "a()Lio/reactivex/b0;"
         },
         "newName": "computation"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "g8.a",
+          "shortId": "p()Lcom/medtronic/minimed/connect/ble/api/gatt/streaming/GattStreamReaderApi;"
+        },
+        "newName": "getGattStreamReaderApi"
       },
       {
         "nodeRef": {
@@ -18258,6 +18488,22 @@
           "shortId": "q()Landroid/os/Handler;"
         },
         "newName": "createAndStartThread"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "g8.w$b",
+          "shortId": "a(Lio/reactivex/b0;)Lg8/a$a;"
+        },
+        "newName": "setScheduler"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "g8.w$b",
+          "shortId": "b(Lg8/b;)Lg8/a$a;"
+        },
+        "newName": "setBle"
       },
       {
         "nodeRef": {
@@ -19821,6 +20067,10 @@
           "declClass": "io.reactivex.c",
           "shortId": "W(JLjava/util/concurrent/TimeUnit;)Lio/reactivex/c;"
         },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
+        },
         "newName": "timeout"
       },
       {
@@ -19828,10 +20078,6 @@
           "refType": "METHOD",
           "declClass": "io.reactivex.c",
           "shortId": "W(JLjava/util/concurrent/TimeUnit;)Lio/reactivex/c;"
-        },
-        "codeRef": {
-          "attachType": "VAR",
-          "index": 458752
         },
         "newName": "timeout"
       },
@@ -21021,10 +21267,6 @@
           "declClass": "io.reactivex.c0",
           "shortId": "V(JLjava/util/concurrent/TimeUnit;)Lio/reactivex/c0;"
         },
-        "codeRef": {
-          "attachType": "VAR",
-          "index": 458752
-        },
         "newName": "timeout"
       },
       {
@@ -21032,6 +21274,10 @@
           "refType": "METHOD",
           "declClass": "io.reactivex.c0",
           "shortId": "V(JLjava/util/concurrent/TimeUnit;)Lio/reactivex/c0;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 458752
         },
         "newName": "timeout"
       },
@@ -21786,6 +22032,14 @@
           "index": 131072
         },
         "newName": "mapper"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "io.reactivex.d",
+          "shortId": "a(Lkj/f;)V"
+        },
+        "newName": "setCancellable"
       },
       {
         "nodeRef": {
@@ -22745,10 +22999,6 @@
           "declClass": "io.reactivex.q",
           "shortId": "l(JLjava/util/concurrent/TimeUnit;Lio/reactivex/b0;)Lio/reactivex/q;"
         },
-        "codeRef": {
-          "attachType": "VAR",
-          "index": 524288
-        },
         "newName": "delay"
       },
       {
@@ -22756,6 +23006,10 @@
           "refType": "METHOD",
           "declClass": "io.reactivex.q",
           "shortId": "l(JLjava/util/concurrent/TimeUnit;Lio/reactivex/b0;)Lio/reactivex/q;"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 524288
         },
         "newName": "delay"
       },
@@ -23717,18 +23971,6 @@
           "declClass": "j8.e",
           "shortId": "e(Lh8/d;IILj8/c;)V"
         },
-        "codeRef": {
-          "attachType": "VAR",
-          "index": 262144
-        },
-        "newName": "descriptor"
-      },
-      {
-        "nodeRef": {
-          "refType": "METHOD",
-          "declClass": "j8.e",
-          "shortId": "e(Lh8/d;IILj8/c;)V"
-        },
         "newName": "onDescriptorReadRequest"
       },
       {
@@ -23754,6 +23996,18 @@
           "index": 196608
         },
         "newName": "offset"
+      },
+      {
+        "nodeRef": {
+          "refType": "METHOD",
+          "declClass": "j8.e",
+          "shortId": "e(Lh8/d;IILj8/c;)V"
+        },
+        "codeRef": {
+          "attachType": "VAR",
+          "index": 262144
+        },
+        "newName": "descriptor"
       },
       {
         "nodeRef": {
